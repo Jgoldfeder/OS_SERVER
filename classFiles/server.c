@@ -66,6 +66,8 @@ void logger(int type, char *s1, char *s2, int socket_fd)
 /* this is a child web server process, so we can exit on errors */
 void web(int fd, int hit)
 {
+	logger(LOG,"WEB",0,hit);
+
 	int j, file_fd, buflen;
 	long i, ret, len;
 	char * fstr;
@@ -132,7 +134,6 @@ void web(int fd, int hit)
 	}
 	sleep(1);	/* allow socket to drain before signalling the socket is closed */
 	close(fd);
-	exit(1);
 }
 
 int main(int argc, char **argv)
@@ -203,11 +204,14 @@ int main(int argc, char **argv)
 
     for(hit=1; ;hit++) {
 		length = sizeof(cli_addr);
+		logger(LOG,"waiting...",argv[1],getpid());
 		if((socketfd = accept(listenfd, (struct sockaddr *)&cli_addr, &length)) < 0)
-			logger(ERROR,"system call","accept",0);
+			  logger(ERROR,"system call","accept",0);
         int info = socketfd;
         sem_wait(&empty);
         pthread_mutex_lock(&mutex);
+				logger(LOG,"adding to buffer",argv[1],getpid());
+
         add(b,info);
         pthread_mutex_unlock(&mutex);
         sem_post(&full);

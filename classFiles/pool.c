@@ -2,6 +2,10 @@
 #include <stdlib.h>
 #include "pool.h"
 #include <stdio.h>
+#define LOG        44
+
+void logger(int type, char *s1, char *s2, int socket_fd);
+
 pthread_mutex_t mutex= PTHREAD_MUTEX_INITIALIZER;
 void* workerThread(void* b);
 
@@ -22,14 +26,20 @@ void createPool(int size,buffer* b){
 
 
 void* workerThread(void* v){
+  logger(LOG,"thread starting....",0,getpid());
     buffer* b = (buffer*) v;
     while(1){
+        logger(LOG,"thread waiting ...",0,getpid());
         sem_wait(&full);
         pthread_mutex_lock(&mutex);
+        logger(LOG,"reading from buffer",0,getpid());
         int info = get(b);
-        pthread_mutex_lock(&mutex);
+        pthread_mutex_unlock(&mutex);
         sem_post(&empty);
         //do something
+        logger(LOG,"processing request",0,getpid());
+      //  logger(LOG,itoa(info),0,getpid());
+
         web(info, 0);//this should not be zero, change later
     }
 
