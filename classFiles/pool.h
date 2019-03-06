@@ -6,7 +6,7 @@
 #include <semaphore.h>
 #include "buffer.h"
 
-pthread_mutex_t mutex;
+pthread_mutex_t mutex= PTHREAD_MUTEX_INITIALIZER;
 sem_t full;
 sem_t empty;
 
