@@ -9,6 +9,8 @@
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <arpa/inet.h>
+#include "buffer.h"
+#include "pool.h"
 #define VERSION 23
 #define BUFSIZE 8096
 #define ERROR      42
@@ -140,7 +142,7 @@ int main(int argc, char **argv)
 	static struct sockaddr_in cli_addr; /* static = initialised to zeros */
 	static struct sockaddr_in serv_addr; /* static = initialised to zeros */
 
-	if( argc < 3  || argc > 3 || !strcmp(argv[1], "-?") ) {
+	if( argc < 6  || argc > 6 || !strcmp(argv[1], "-?") ) {
 		(void)printf("hint: nweb Port-Number Top-Directory\t\tversion %d\n\n"
 	"\tnweb is a small and very safe mini web server\n"
 	"\tnweb only servers out file/web pages with extensions named below\n"
@@ -189,20 +191,26 @@ int main(int argc, char **argv)
 		logger(ERROR,"system call","bind",0);
 	if( listen(listenfd,64) <0)
 		logger(ERROR,"system call","listen",0);
-	for(hit=1; ;hit++) {
+	
+    
+    //read in other cmdline args:
+    int threadNum = atoi(argv[3]);
+    int buffSize = atoi(argv[4]);
+    char* schedAlg = argv[5];
+    
+    buffer* b = createBuffer(buffSize);
+    createPool(threadNum,b);
+    
+    for(hit=1; ;hit++) {
 		length = sizeof(cli_addr);
 		if((socketfd = accept(listenfd, (struct sockaddr *)&cli_addr, &length)) < 0)
 			logger(ERROR,"system call","accept",0);
-		if((pid = fork()) < 0) {
-			logger(ERROR,"system call","fork",0);
-		}
-		else {
-			if(pid == 0) { 	/* child */
-				(void)close(listenfd);
-				web(socketfd,hit); /* never returns */
-			} else { 	/* parent */
-				(void)close(socketfd);
-			}
-		}
+        int info = socketfd;
+        sem_wait(&empty);
+        pthread_mutex_lock(&mutex); 
+        add(b,info);
+        pthread_mutex_unlock(&mutex); 
+        sem_post(&full);
+        
 	}
 }
