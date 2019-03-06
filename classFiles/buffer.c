@@ -1,7 +1,7 @@
 #include "buffer.h"
 #include <stdlib.h>
 buffer* createBuffer(int capacity,int policy){
-    int* buff = malloc(sizeof(int)*capacity);
+    entry** buff = malloc(sizeof(entry*)*capacity);
     int size = 0;
     int top = 0;
     int bottom = 0;
@@ -14,9 +14,12 @@ buffer* createBuffer(int capacity,int policy){
     return b;
 }
 
-int add(buffer* b, int element){
+int add(buffer* b, int info,int priority){
     if(b->cap==b->size) return -1;
-    b->buff[b->bottom] = element;
+    entry* e = malloc(sizeof(entry));
+    e->info=info;
+    e->priority = priority;
+    b->buff[b->bottom] = e;
     b->bottom++;
     b->bottom = b->bottom%b->cap;
     b->size++;
@@ -25,7 +28,7 @@ int add(buffer* b, int element){
 
 int get(buffer* b){
     if(b->size==0) return -1;
-    int ret = b->buff[b->top];
+    int ret = b->buff[b->top]->info;
     b->top++;
         b->top = b->top%b->cap;
     b->size--;

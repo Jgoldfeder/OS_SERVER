@@ -4,8 +4,15 @@
 #define HPIC 30
 #define HPHC 40
 
+
+typedef struct e{
+    int info;
+    int priority;
+}entry;
+
+
 typedef struct b{
-    int* buff;
+    entry** buff;
     int cap;
     int size;
     int top;
@@ -15,7 +22,7 @@ typedef struct b{
 buffer* createBuffer(int capacity,int policy);
 
 //return -1 if full
-int add(buffer* b, int element);
+int add(buffer* b, int element,int priority);
 
 //return -1 if empty
 int get(buffer* b);

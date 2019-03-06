@@ -220,7 +220,7 @@ int main(int argc, char **argv)
         pthread_mutex_lock(&mutex);
 				logger(LOG,"adding to buffer",argv[1],getpid());
 
-        add(b,info);
+        add(b,info,0);
         pthread_mutex_unlock(&mutex);
         sem_post(&full);
 
