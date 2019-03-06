@@ -1,6 +1,6 @@
 #include "buffer.h"
 #include <stdlib.h>
-buffer* createBuffer(int capacity){
+buffer* createBuffer(int capacity,int policy){
     int* buff = malloc(sizeof(int)*capacity);
     int size = 0;
     int top = 0;

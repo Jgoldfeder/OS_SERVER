@@ -74,3 +74,31 @@ Content-Type: image/jpg
 :0
  INFO: thread waiting ...:(null):19620
  INFO: thread waiting ...:(null):19620
+ INFO: nweb starting:8080:19857
+ERROR: Error: Invalid scheduling policy:8080 Errno=9 exiting pid=19857
+ INFO: nweb starting:8080:19865
+ERROR: Error: Invalid scheduling policy:8080 Errno=9 exiting pid=19865
+ INFO: nweb starting:8080:19873
+ERROR: Error: Invalid scheduling policy:8080 Errno=9 exiting pid=19873
+ INFO: nweb starting:8080:19878
+ INFO: waiting...:8080:19878
+ INFO: thread starting....:(null):19878
+ INFO: thread waiting ...:(null):19878
+ INFO: thread starting....:(null):19878
+ INFO: thread waiting ...:(null):19878
+ INFO: thread starting....:(null):19878
+ INFO: thread waiting ...:(null):19878
+ INFO: thread starting....:(null):19878
+ INFO: thread waiting ...:(null):19878
+ INFO: thread starting....:(null):19878
+ INFO: thread waiting ...:(null):19878
+ INFO: thread starting....:(null):19878
+ INFO: thread waiting ...:(null):19878
+ INFO: thread starting....:(null):19878
+ INFO: thread waiting ...:(null):19878
+ INFO: thread starting....:(null):19878
+ INFO: thread waiting ...:(null):19878
+ INFO: thread starting....:(null):19878
+ INFO: thread waiting ...:(null):19878
+ INFO: thread starting....:(null):19878
+ INFO: thread waiting ...:(null):19878

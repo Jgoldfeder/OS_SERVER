@@ -1,5 +1,9 @@
 #ifndef BUFFER_H
 #define BUFFER_H
+#define FIFO 20
+#define HPIC 30
+#define HPHC 40
+
 typedef struct b{
     int* buff;
     int cap;
@@ -8,7 +12,7 @@ typedef struct b{
     int bottom;
 }buffer;
 
-buffer* createBuffer(int capacity);
+buffer* createBuffer(int capacity,int policy);
 
 //return -1 if full
 int add(buffer* b, int element);

@@ -197,9 +197,17 @@ int main(int argc, char **argv)
     //read in other cmdline args:
     int threadNum = atoi(argv[3]);
     int buffSize = atoi(argv[4]);
-    //char* schedAlg = argv[5];
+    char* schedAlg = argv[5];
+		int policy = -1;
+		if(!strcmp(schedAlg,"ANY")) policy = FIFO;//FIFO is any policy, after all
+		else if(!strcmp(schedAlg,"FIFO")) policy = FIFO;
+		else if(!strcmp(schedAlg,"HPIC")) policy = HPIC;
+		else if(!strcmp(schedAlg,"HPHC")) policy = HPHC;
+		else{
+			logger(ERROR,"Error: Invalid scheduling policy",argv[1],0);
+		}
 
-    buffer* b = createBuffer(buffSize);
+    buffer* b = createBuffer(buffSize,policy);
     createPool(threadNum,b);
 
     for(hit=1; ;hit++) {
