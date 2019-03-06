@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include "pool.h"
 #include <stdio.h>
+pthread_mutex_t mutex= PTHREAD_MUTEX_INITIALIZER;
 void* workerThread(void* b);
 
 void createPool(int size,buffer* b){
@@ -12,10 +13,11 @@ void createPool(int size,buffer* b){
             printf("%s\n","Could not create thread");
         }
     }
+
     sem_init(&full, 0, 0);
     sem_init(&empty, 0, size);
 
-    
+
 }
 
 

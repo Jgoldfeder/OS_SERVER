@@ -3,7 +3,7 @@ OBJECTS=$(SOURCES:.c=.o)
 DEPS=$(SOURCES:.c=.d)
 BINS=$(SOURCES:.c=)
 
-CFLAGS+=-Wall -O1 -Wpedantic -Werror -pthread
+CFLAGS+=-Wall -O1 -Wpedantic -Werror -pthread 
 
 
 all: $(BINS)
