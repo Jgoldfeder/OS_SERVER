@@ -63,6 +63,60 @@ void logger(int type, char *s1, char *s2, int socket_fd)
 	if(type == ERROR || type == NOTFOUND || type == FORBIDDEN) exit(3);
 }
 
+
+
+int priority(int fd, int hit)
+{
+	int j, file_fd, buflen;
+	long i, ret, len;
+	char * fstr;
+	static char buffer[BUFSIZE+1]; /* static so zero filled */
+
+	ret =read(fd,buffer,BUFSIZE); 	/* read Web request in one go */
+	if(ret == 0 || ret == -1) {	/* read failure stop now */
+		logger(FORBIDDEN,"failed to read browser request","",fd);
+	}
+
+	if(ret > 0 && ret < BUFSIZE)	/* return code is valid chars */
+		buffer[ret]=0;		/* terminate the buffer */
+	else buffer[0]=0;
+
+	for(i=4;i<BUFSIZE;i++) { /* null terminate after the second space to ignore extra stuff */
+		if(buffer[i] == ' ') { /* string is "GET URL " +lots of other stuff */
+			buffer[i] = 0;
+			break;
+		}
+	}
+	for(j=0;j<i-1;j++) 	/* check for illegal parent directory use .. */
+		if(buffer[j] == '.' && buffer[j+1] == '.') {
+			logger(FORBIDDEN,"Parent directory (..) path names not supported",buffer,fd);
+		}
+	if( !strncmp(&buffer[0],"GET /\0",6) || !strncmp(&buffer[0],"get /\0",6) ) /* convert no filename to index file */
+		(void)strcpy(buffer,"GET /index.html");
+
+	/* work out the file type and check we support it */
+	buflen=strlen(buffer);
+	fstr = (char *)0;
+	for(i=0;extensions[i].ext != 0;i++) {
+		len = strlen(extensions[i].ext);
+		if( !strncmp(&buffer[buflen-len], extensions[i].ext, len)) {
+			fstr =extensions[i].filetype;
+			break;
+		}
+	}
+
+	if(fstr != 0) logger(LOG,fstr,0,fd);
+	lseek(fd,0,SEEK_SET);
+    return 0;
+}
+
+
+
+
+
+
+
+
 /* this is a child web server process, so we can exit on errors */
 void web(int fd, int hit)
 {
@@ -216,7 +270,8 @@ int main(int argc, char **argv)
 		if((socketfd = accept(listenfd, (struct sockaddr *)&cli_addr, &length)) < 0)
 			  logger(ERROR,"system call","accept",0);
         int info = socketfd;
-        sem_wait(&empty);
+				priority(info,hit);
+				sem_wait(&empty);
         pthread_mutex_lock(&mutex);
 				logger(LOG,"adding to buffer",argv[1],getpid());
 

@@ -1,104 +1,66 @@
 
- INFO: adding to buffer:8080:19620
- INFO: waiting...:8080:19620
- INFO: reading from buffer:(null):19620
- INFO: processing request:(null):19620
+ INFO: text/html:(null):1
+ INFO: adding to buffer:8080:20928
+ INFO: waiting...:8080:20928
+ INFO: reading from buffer:(null):20928
+ INFO: processing request:(null):20928
  INFO: WEB:(null):0
- INFO: request:GET /index.html HTTP/1.0****:0
- INFO: SEND:index.html:0
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 248
-Connection: close
-Content-Type: text/html
-
-:0
- INFO: thread waiting ...:(null):19620
- INFO: adding to buffer:8080:19620
- INFO: waiting...:8080:19620
- INFO: reading from buffer:(null):19620
- INFO: processing request:(null):19620
+FORBIDDEN: failed to read browser request:
+ INFO: nweb starting:8080:20964
+ INFO: waiting...:8080:20964
+ INFO: thread starting....:(null):20964
+ INFO: thread waiting ...:(null):20964
+ INFO: thread starting....:(null):20964
+ INFO: thread waiting ...:(null):20964
+ INFO: thread starting....:(null):20964
+ INFO: thread waiting ...:(null):20964
+ INFO: thread starting....:(null):20964
+ INFO: thread waiting ...:(null):20964
+ INFO: thread starting....:(null):20964
+ INFO: thread waiting ...:(null):20964
+ INFO: thread starting....:(null):20964
+ INFO: thread waiting ...:(null):20964
+ INFO: thread starting....:(null):20964
+ INFO: thread waiting ...:(null):20964
+ INFO: thread starting....:(null):20964
+ INFO: thread waiting ...:(null):20964
+ INFO: thread starting....:(null):20964
+ INFO: thread waiting ...:(null):20964
+ INFO: thread starting....:(null):20964
+ INFO: thread waiting ...:(null):20964
+ INFO: text/html:(null):1
+ INFO: adding to buffer:8080:20964
+ INFO: waiting...:8080:20964
+ INFO: reading from buffer:(null):20964
+ INFO: processing request:(null):20964
  INFO: WEB:(null):0
- INFO: request:GET /nigel.jpg HTTP/1.0****:0
- INFO: SEND:nigel.jpg:0
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 10184
-Connection: close
-Content-Type: image/jpg
-
-:0
- INFO: thread waiting ...:(null):19620
- INFO: adding to buffer:8080:19620
- INFO: waiting...:8080:19620
- INFO: reading from buffer:(null):19620
- INFO: processing request:(null):19620
+FORBIDDEN: failed to read browser request:
+ INFO: nweb starting:8080:21066
+ INFO: waiting...:8080:21066
+ INFO: thread starting....:(null):21066
+ INFO: thread waiting ...:(null):21066
+ INFO: thread starting....:(null):21066
+ INFO: thread waiting ...:(null):21066
+ INFO: thread starting....:(null):21066
+ INFO: thread waiting ...:(null):21066
+ INFO: thread starting....:(null):21066
+ INFO: thread waiting ...:(null):21066
+ INFO: thread starting....:(null):21066
+ INFO: thread waiting ...:(null):21066
+ INFO: thread starting....:(null):21066
+ INFO: thread waiting ...:(null):21066
+ INFO: thread starting....:(null):21066
+ INFO: thread waiting ...:(null):21066
+ INFO: thread starting....:(null):21066
+ INFO: thread waiting ...:(null):21066
+ INFO: thread starting....:(null):21066
+ INFO: thread waiting ...:(null):21066
+ INFO: thread starting....:(null):21066
+ INFO: thread waiting ...:(null):21066
+ INFO: text/html:(null):1
+ INFO: adding to buffer:8080:21066
+ INFO: waiting...:8080:21066
+ INFO: reading from buffer:(null):21066
+ INFO: processing request:(null):21066
  INFO: WEB:(null):0
- INFO: request:GET /nigel.jpg HTTP/1.0****:0
- INFO: SEND:nigel.jpg:0
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 10184
-Connection: close
-Content-Type: image/jpg
-
-:0
- INFO: thread waiting ...:(null):19620
- INFO: adding to buffer:8080:19620
- INFO: waiting...:8080:19620
- INFO: reading from buffer:(null):19620
- INFO: processing request:(null):19620
- INFO: WEB:(null):0
- INFO: request:GET /nigel.jpg HTTP/1.0****:0
- INFO: SEND:nigel.jpg:0
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 10184
-Connection: close
-Content-Type: image/jpg
-
-:0
- INFO: adding to buffer:8080:19620
- INFO: waiting...:8080:19620
- INFO: reading from buffer:(null):19620
- INFO: processing request:(null):19620
- INFO: WEB:(null):0
- INFO: request:GET /nigel.jpg HTTP/1.0****:0
- INFO: SEND:nigel.jpg:0
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 10184
-Connection: close
-Content-Type: image/jpg
-
-:0
- INFO: thread waiting ...:(null):19620
- INFO: thread waiting ...:(null):19620
- INFO: nweb starting:8080:19857
-ERROR: Error: Invalid scheduling policy:8080 Errno=9 exiting pid=19857
- INFO: nweb starting:8080:19865
-ERROR: Error: Invalid scheduling policy:8080 Errno=9 exiting pid=19865
- INFO: nweb starting:8080:19873
-ERROR: Error: Invalid scheduling policy:8080 Errno=9 exiting pid=19873
- INFO: nweb starting:8080:19878
- INFO: waiting...:8080:19878
- INFO: thread starting....:(null):19878
- INFO: thread waiting ...:(null):19878
- INFO: thread starting....:(null):19878
- INFO: thread waiting ...:(null):19878
- INFO: thread starting....:(null):19878
- INFO: thread waiting ...:(null):19878
- INFO: thread starting....:(null):19878
- INFO: thread waiting ...:(null):19878
- INFO: thread starting....:(null):19878
- INFO: thread waiting ...:(null):19878
- INFO: thread starting....:(null):19878
- INFO: thread waiting ...:(null):19878
- INFO: thread starting....:(null):19878
- INFO: thread waiting ...:(null):19878
- INFO: thread starting....:(null):19878
- INFO: thread waiting ...:(null):19878
- INFO: thread starting....:(null):19878
- INFO: thread waiting ...:(null):19878
- INFO: thread starting....:(null):19878
- INFO: thread waiting ...:(null):19878
+FORBIDDEN: failed to read browser request:
