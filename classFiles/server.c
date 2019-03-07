@@ -95,8 +95,9 @@ entry* getEntry(int fd, int hit){
 
 
 /* this is a child web server process, so we can exit on errors */
-void web(entry* e, int hit)
+void web(entry* e)
 {
+	int hit = e->hit;
 	logger(LOG,"WEB",0,hit);
 
 	int j, file_fd, buflen;
@@ -148,11 +149,11 @@ void web(entry* e, int hit)
 	logger(LOG,"Header",buffer,hit);
 	dummy = write(fd,buffer,strlen(buffer));
 
-    /* Send the statistical headers described in the paper, example below
+    // Send the statistical headers described in the paper, example below
 
-    (void)sprintf(buffer,"X-stat-req-arrival-count: %d\r\n", xStatReqArrivalCount);
+    (void)sprintf(buffer,"X-stat-req-arrival-count: %d\r\n", 300);
 	dummy = write(fd,buffer,strlen(buffer));
-    */
+
 
     /* send file in 8KB block - last block may be smaller */
 	while (	(ret = read(file_fd, buffer, BUFSIZE)) > 0 ) {
@@ -160,6 +161,7 @@ void web(entry* e, int hit)
 	}
 	sleep(1);	/* allow socket to drain before signalling the socket is closed */
 	close(fd);
+	freeEntry(e);
 }
 
 int main(int argc, char **argv)
@@ -237,19 +239,19 @@ int main(int argc, char **argv)
     createPool(threadNum,b);
 
     for(hit=1; ;hit++) {
-		length = sizeof(cli_addr);
-		logger(LOG,"waiting...",argv[1],getpid());
-		if((socketfd = accept(listenfd, (struct sockaddr *)&cli_addr, &length)) < 0)
-			  logger(ERROR,"system call","accept",0);
-        int info = socketfd;
-				entry* e = getEntry(info,hit);
-				sem_wait(&empty);
-        pthread_mutex_lock(&mutex);
-				logger(LOG,"adding to buffer",argv[1],getpid());
+			length = sizeof(cli_addr);
+			logger(LOG,"waiting...",argv[1],getpid());
+			if((socketfd = accept(listenfd, (struct sockaddr *)&cli_addr, &length)) < 0)
+				  logger(ERROR,"system call","accept",0);
 
-        add(b,e);
-        pthread_mutex_unlock(&mutex);
-        sem_post(&full);
+			entry* e = getEntry(socketfd,hit);
+			sem_wait(&empty);
+      pthread_mutex_lock(&mutex);
+			logger(LOG,"adding to buffer",argv[1],getpid());
 
-	}
+      add(b,e);
+      pthread_mutex_unlock(&mutex);
+      sem_post(&full);
+
+		}
 }

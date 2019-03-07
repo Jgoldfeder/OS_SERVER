@@ -31,5 +31,6 @@ entry* get(buffer* b);
 
 void freeBuffer(buffer* b);
 
+void freeEntry(entry* e);
 
 #endif

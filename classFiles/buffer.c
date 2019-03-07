@@ -69,3 +69,9 @@ entry* get(buffer* b){
 void freeBuffer(buffer* b){
     free(b->buff);
 }
+
+
+void freeEntry(entry* e){
+  free(e->info);
+  free(e);
+}
