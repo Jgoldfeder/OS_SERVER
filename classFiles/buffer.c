@@ -1,4 +1,5 @@
 #include "buffer.h"
+#include <limits.h>
 #include <stdlib.h>
 buffer* createBuffer(int capacity,int policy){
     entry** buff = malloc(sizeof(entry*)*capacity);
@@ -9,25 +10,44 @@ buffer* createBuffer(int capacity,int policy){
     b->buff = buff;
     b->size = size;
     b->cap = capacity;
-    b->top = top;
-    b->bottom = bottom;
+    b->policy = policy;
     return b;
 }
 
+int getPriority(buffer* b,entry* e){
+  int hit,html,policy;
+  hit = e->hit;
+  html=e->html;
+  policy = b->policy;
+  if(policy==FIFO){
+    //new entries simply have a lower getPriority
+    return INT_MAX-hit;
+  }
+  if(policy == HPIC){
+    //always give pics a higher getPriority
+    if(html) return -hit;
+    return INT_MAX-hit;
+  }
+  if(policy == HPHC){
+    //always give html a higher getPriority
+    if(!html) return -hit;
+    return INT_MAX-hit;
+  }
+  //policy is ill specifified
+  return 0;
+}
+
+
 //act as a priority queue
-int add(buffer* b, int info,int priority){
+int add(buffer* b, entry* e){
     //if queue is full, return
     if(b->cap==b->size) return -1;
 
-    //create entry
-    entry* e = malloc(sizeof(entry));
-    e->info=info;
-    e->priority = priority;
-
+    e->priority = getPriority(b,e);
     //insert into queue
     int i;
     for(i=0;i<b->size;i++){
-      if(b->buff[i]->priority > priority) break;
+      if(b->buff[i]->priority > e->priority) break;
     }
     for(int j =b->size;j>i;j--){
       b->buff[j] = b->buff[j-1];
@@ -38,10 +58,10 @@ int add(buffer* b, int info,int priority){
     return 0;
 }
 
-int get(buffer* b){
-    if(b->size==0) return -1;
+entry* get(buffer* b){
+    if(b->size==0) return NULL;
 
-    int ret = b->buff[b->size-1]->info;
+    entry* ret = b->buff[b->size-1];
     b->size--;
     return ret;
 }

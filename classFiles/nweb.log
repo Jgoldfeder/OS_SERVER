@@ -1,66 +1,242 @@
 
- INFO: text/html:(null):1
- INFO: adding to buffer:8080:20928
- INFO: waiting...:8080:20928
- INFO: reading from buffer:(null):20928
- INFO: processing request:(null):20928
+ INFO: nweb starting:8080:23309
+ INFO: waiting...:8080:23309
+ INFO: thread starting....:(null):23309
+ INFO: thread waiting ...:(null):23309
+ INFO: thread starting....:(null):23309
+ INFO: thread waiting ...:(null):23309
+ INFO: thread starting....:(null):23309
+ INFO: thread waiting ...:(null):23309
+ INFO: thread starting....:(null):23309
+ INFO: thread waiting ...:(null):23309
+ INFO: thread starting....:(null):23309
+ INFO: thread waiting ...:(null):23309
+ INFO: thread starting....:(null):23309
+ INFO: thread waiting ...:(null):23309
+ INFO: thread starting....:(null):23309
+ INFO: thread waiting ...:(null):23309
+ INFO: thread starting....:(null):23309
+ INFO: thread waiting ...:(null):23309
+ INFO: thread starting....:(null):23309
+ INFO: thread waiting ...:(null):23309
+ INFO: thread starting....:(null):23309
+ INFO: thread waiting ...:(null):23309
+ INFO: GET /nigel.jpg HTTP/1.0
+
+::1
+ INFO: end
+::1
+ INFO: adding to buffer:8080:23309
+ INFO: waiting...:8080:23309
+ INFO: reading from buffer:(null):23309
+ INFO: processing request:(null):23309
  INFO: WEB:(null):0
 FORBIDDEN: failed to read browser request:
- INFO: nweb starting:8080:20964
- INFO: waiting...:8080:20964
- INFO: thread starting....:(null):20964
- INFO: thread waiting ...:(null):20964
- INFO: thread starting....:(null):20964
- INFO: thread waiting ...:(null):20964
- INFO: thread starting....:(null):20964
- INFO: thread waiting ...:(null):20964
- INFO: thread starting....:(null):20964
- INFO: thread waiting ...:(null):20964
- INFO: thread starting....:(null):20964
- INFO: thread waiting ...:(null):20964
- INFO: thread starting....:(null):20964
- INFO: thread waiting ...:(null):20964
- INFO: thread starting....:(null):20964
- INFO: thread waiting ...:(null):20964
- INFO: thread starting....:(null):20964
- INFO: thread waiting ...:(null):20964
- INFO: thread starting....:(null):20964
- INFO: thread waiting ...:(null):20964
- INFO: thread starting....:(null):20964
- INFO: thread waiting ...:(null):20964
- INFO: text/html:(null):1
- INFO: adding to buffer:8080:20964
- INFO: waiting...:8080:20964
- INFO: reading from buffer:(null):20964
- INFO: processing request:(null):20964
+ INFO: nweb starting:8080:23566
+ INFO: waiting...:8080:23566
+ INFO: thread starting....:(null):23566
+ INFO: thread waiting ...:(null):23566
+ INFO: thread starting....:(null):23566
+ INFO: thread waiting ...:(null):23566
+ INFO: thread starting....:(null):23566
+ INFO: thread waiting ...:(null):23566
+ INFO: thread starting....:(null):23566
+ INFO: thread waiting ...:(null):23566
+ INFO: thread starting....:(null):23566
+ INFO: thread waiting ...:(null):23566
+ INFO: thread starting....:(null):23566
+ INFO: thread waiting ...:(null):23566
+ INFO: thread starting....:(null):23566
+ INFO: thread waiting ...:(null):23566
+ INFO: thread starting....:(null):23566
+ INFO: thread waiting ...:(null):23566
+ INFO: thread starting....:(null):23566
+ INFO: thread waiting ...:(null):23566
+ INFO: thread starting....:(null):23566
+ INFO: thread waiting ...:(null):23566
+ INFO: adding to buffer:8080:23566
+ INFO: waiting...:8080:23566
+ INFO: reading from buffer:(null):23566
+ INFO: processing request:(null):23566
  INFO: WEB:(null):0
-FORBIDDEN: failed to read browser request:
- INFO: nweb starting:8080:21066
- INFO: waiting...:8080:21066
- INFO: thread starting....:(null):21066
- INFO: thread waiting ...:(null):21066
- INFO: thread starting....:(null):21066
- INFO: thread waiting ...:(null):21066
- INFO: thread starting....:(null):21066
- INFO: thread waiting ...:(null):21066
- INFO: thread starting....:(null):21066
- INFO: thread waiting ...:(null):21066
- INFO: thread starting....:(null):21066
- INFO: thread waiting ...:(null):21066
- INFO: thread starting....:(null):21066
- INFO: thread waiting ...:(null):21066
- INFO: thread starting....:(null):21066
- INFO: thread waiting ...:(null):21066
- INFO: thread starting....:(null):21066
- INFO: thread waiting ...:(null):21066
- INFO: thread starting....:(null):21066
- INFO: thread waiting ...:(null):21066
- INFO: thread starting....:(null):21066
- INFO: thread waiting ...:(null):21066
- INFO: text/html:(null):1
- INFO: adding to buffer:8080:21066
- INFO: waiting...:8080:21066
- INFO: reading from buffer:(null):21066
- INFO: processing request:(null):21066
+ INFO: request::0
+FORBIDDEN: Only simple GET operation supported:
+ INFO: nweb starting:8080:23588
+ERROR: system call:bind Errno=98 exiting pid=23588
+ INFO: nweb starting:8080:23596
+ERROR: system call:bind Errno=98 exiting pid=23596
+ INFO: nweb starting:8080:23637
+ INFO: waiting...:8080:23637
+ INFO: thread starting....:(null):23637
+ INFO: thread waiting ...:(null):23637
+ INFO: thread starting....:(null):23637
+ INFO: thread waiting ...:(null):23637
+ INFO: thread starting....:(null):23637
+ INFO: thread waiting ...:(null):23637
+ INFO: thread starting....:(null):23637
+ INFO: thread waiting ...:(null):23637
+ INFO: thread starting....:(null):23637
+ INFO: thread waiting ...:(null):23637
+ INFO: thread starting....:(null):23637
+ INFO: thread waiting ...:(null):23637
+ INFO: thread starting....:(null):23637
+ INFO: thread waiting ...:(null):23637
+ INFO: thread starting....:(null):23637
+ INFO: thread waiting ...:(null):23637
+ INFO: thread starting....:(null):23637
+ INFO: thread waiting ...:(null):23637
+ INFO: thread starting....:(null):23637
+ INFO: thread waiting ...:(null):23637
+ INFO: adding to buffer:8080:23637
+ INFO: waiting...:8080:23637
+ INFO: reading from buffer:(null):23637
+ INFO: processing request:(null):23637
  INFO: WEB:(null):0
-FORBIDDEN: failed to read browser request:
+ INFO: request::0
+FORBIDDEN: Only simple GET operation supported:
+ INFO: nweb starting:8080:23705
+ INFO: waiting...:8080:23705
+ INFO: thread starting....:(null):23705
+ INFO: thread waiting ...:(null):23705
+ INFO: thread starting....:(null):23705
+ INFO: thread waiting ...:(null):23705
+ INFO: thread starting....:(null):23705
+ INFO: thread waiting ...:(null):23705
+ INFO: thread starting....:(null):23705
+ INFO: thread waiting ...:(null):23705
+ INFO: thread starting....:(null):23705
+ INFO: thread waiting ...:(null):23705
+ INFO: thread starting....:(null):23705
+ INFO: thread waiting ...:(null):23705
+ INFO: thread starting....:(null):23705
+ INFO: thread waiting ...:(null):23705
+ INFO: thread starting....:(null):23705
+ INFO: thread waiting ...:(null):23705
+ INFO: thread starting....:(null):23705
+ INFO: thread waiting ...:(null):23705
+ INFO: thread starting....:(null):23705
+ INFO: thread waiting ...:(null):23705
+ INFO: adding to buffer:8080:23705
+ INFO: waiting...:8080:23705
+ INFO: reading from buffer:(null):23705
+ INFO: processing request:(null):23705
+ INFO: WEB:(null):0
+ INFO: request:GET /nigel.jpg HTTP/1.0
+
+:0
+ INFO: SEND:nigel.jpg:0
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:0
+ INFO: thread waiting ...:(null):23705
+ INFO: adding to buffer:8080:23705
+ INFO: waiting...:8080:23705
+ INFO: reading from buffer:(null):23705
+ INFO: processing request:(null):23705
+ INFO: WEB:(null):0
+ INFO: request:GET /nigel.jpg HTTP/1.0
+
+:0
+ INFO: SEND:nigel.jpg:0
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:0
+ INFO: thread waiting ...:(null):23705
+ INFO: adding to buffer:8080:23705
+ INFO: waiting...:8080:23705
+ INFO: reading from buffer:(null):23705
+ INFO: processing request:(null):23705
+ INFO: WEB:(null):0
+ INFO: request:GET /nigel.jpg HTTP/1.0
+
+:0
+ INFO: SEND:nigel.jpg:0
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:0
+ INFO: thread waiting ...:(null):23705
+ INFO: adding to buffer:8080:23705
+ INFO: waiting...:8080:23705
+ INFO: reading from buffer:(null):23705
+ INFO: processing request:(null):23705
+ INFO: WEB:(null):0
+ INFO: request:GET /index.html HTTP/1.0
+
+:0
+ INFO: SEND:index.html:0
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 286
+Connection: close
+Content-Type: text/html
+
+:0
+ INFO: thread waiting ...:(null):23705
+ INFO: nweb starting:8080:23932
+ INFO: waiting...:8080:23932
+ INFO: thread starting....:(null):23932
+ INFO: thread waiting ...:(null):23932
+ INFO: thread starting....:(null):23932
+ INFO: thread waiting ...:(null):23932
+ INFO: thread starting....:(null):23932
+ INFO: thread waiting ...:(null):23932
+ INFO: thread starting....:(null):23932
+ INFO: thread waiting ...:(null):23932
+ INFO: thread starting....:(null):23932
+ INFO: thread waiting ...:(null):23932
+ INFO: thread starting....:(null):23932
+ INFO: thread waiting ...:(null):23932
+ INFO: thread starting....:(null):23932
+ INFO: thread waiting ...:(null):23932
+ INFO: thread starting....:(null):23932
+ INFO: thread waiting ...:(null):23932
+ INFO: thread starting....:(null):23932
+ INFO: thread waiting ...:(null):23932
+ INFO: thread starting....:(null):23932
+ INFO: thread waiting ...:(null):23932
+ INFO: adding to buffer:8080:23932
+ INFO: waiting...:8080:23932
+ INFO: reading from buffer:(null):23932
+ INFO: processing request:(null):23932
+ INFO: WEB:(null):0
+ INFO: request:GET /index.html HTTP/1.0
+
+:0
+ INFO: SEND:index.html:0
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 286
+Connection: close
+Content-Type: text/html
+
+:0
+ INFO: thread waiting ...:(null):23932
+ INFO: adding to buffer:8080:23932
+ INFO: waiting...:8080:23932
+ INFO: reading from buffer:(null):23932
+ INFO: processing request:(null):23932
+ INFO: WEB:(null):0
+ INFO: request:GET /index.html HTTP/1.0
+
+:0
+ INFO: SEND:index.html:0
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 286
+Connection: close
+Content-Type: text/html
+
+:0
+ INFO: thread waiting ...:(null):23932

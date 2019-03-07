@@ -33,7 +33,7 @@ void* workerThread(void* v){
         sem_wait(&full);
         pthread_mutex_lock(&mutex);
         logger(LOG,"reading from buffer",0,getpid());
-        int info = get(b);
+        entry* info = get(b);
         pthread_mutex_unlock(&mutex);
         sem_post(&empty);
         //do something

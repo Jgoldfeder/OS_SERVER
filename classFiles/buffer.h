@@ -6,7 +6,10 @@
 
 
 typedef struct e{
-    int info;
+    char* info;
+    int html;
+    int fd;
+    int hit;
     int priority;
 }entry;
 
@@ -15,17 +18,16 @@ typedef struct b{
     entry** buff;
     int cap;
     int size;
-    int top;
-    int bottom;
+    int policy;
 }buffer;
 
 buffer* createBuffer(int capacity,int policy);
 
 //return -1 if full
-int add(buffer* b, int element,int priority);
+int add(buffer* b, entry* e);
 
 //return -1 if empty
-int get(buffer* b);
+entry* get(buffer* b);
 
 void freeBuffer(buffer* b);
 
