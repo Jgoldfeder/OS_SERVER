@@ -695,3 +695,189 @@ Content-Type: text/html
 
 :11
  INFO: thread waiting ...:(null):24412
+                                                                                                                                                                                                                                                                                                                                                                                                        INFO: nweb starting:8080:1950
+ INFO: waiting...:8080:1950
+ INFO: thread starting....:(null):1950
+ INFO: thread waiting ...:(null):1950
+ INFO: thread starting....:(null):1950
+ INFO: thread waiting ...:(null):1950
+ INFO: thread starting....:(null):1950
+ INFO: thread waiting ...:(null):1950
+ INFO: thread starting....:(null):1950
+ INFO: thread waiting ...:(null):1950
+ INFO: thread starting....:(null):1950
+ INFO: thread waiting ...:(null):1950
+ INFO: thread starting....:(null):1950
+ INFO: thread waiting ...:(null):1950
+ INFO: thread starting....:(null):1950
+ INFO: thread waiting ...:(null):1950
+ INFO: thread starting....:(null):1950
+ INFO: thread waiting ...:(null):1950
+ INFO: thread starting....:(null):1950
+ INFO: thread waiting ...:(null):1950
+ INFO: thread starting....:(null):1950
+ INFO: thread waiting ...:(null):1950
+ INFO: adding to buffer:8080:1950
+ INFO: waiting...:8080:1950
+ INFO: reading from buffer:(null):1950
+ INFO: processing request:(null):1950
+ INFO: WEB:(null):1
+ INFO: request:GET / HTTP/1.1
+Host: localhost:8080
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+:1
+ INFO: SEND:index.html:1
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 286
+Connection: close
+Content-Type: text/html
+
+:1
+ INFO: thread waiting ...:(null):1950
+ INFO: nweb starting:8080:2565
+ INFO: waiting...:8080:2565
+ INFO: thread starting....:(null):2565
+ INFO: thread waiting ...:(null):2565
+ INFO: thread starting....:(null):2565
+ INFO: thread waiting ...:(null):2565
+ INFO: thread starting....:(null):2565
+ INFO: thread waiting ...:(null):2565
+ INFO: thread starting....:(null):2565
+ INFO: thread waiting ...:(null):2565
+ INFO: thread starting....:(null):2565
+ INFO: thread waiting ...:(null):2565
+ INFO: thread starting....:(null):2565
+ INFO: thread waiting ...:(null):2565
+ INFO: thread starting....:(null):2565
+ INFO: thread waiting ...:(null):2565
+ INFO: thread starting....:(null):2565
+ INFO: thread waiting ...:(null):2565
+ INFO: thread starting....:(null):2565
+ INFO: thread waiting ...:(null):2565
+ INFO: thread starting....:(null):2565
+ INFO: thread waiting ...:(null):2565
+ INFO: adding to buffer:8080:2565
+ INFO: waiting...:8080:2565
+ INFO: reading from buffer:(null):2565
+ INFO: processing request:(null):2565
+ INFO: WEB:(null):1
+ INFO: request:GET / HTTP/1.1
+Host: localhost:8080
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+:1
+ INFO: SEND:index.html:1
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 286
+Connection: close
+Content-Type: text/html
+
+:1
+ INFO: thread waiting ...:(null):2565
+ INFO: adding to buffer:8080:2565
+ INFO: waiting...:8080:2565
+ INFO: reading from buffer:(null):2565
+ INFO: processing request:(null):2565
+ INFO: WEB:(null):2
+ INFO: request:GET / HTTP/1.1
+Host: localhost:8080
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+:2
+ INFO: SEND:index.html:2
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 286
+Connection: close
+Content-Type: text/html
+
+:2
+ INFO: thread waiting ...:(null):2565
+ INFO: adding to buffer:8080:2565
+ INFO: waiting...:8080:2565
+ INFO: reading from buffer:(null):2565
+ INFO: processing request:(null):2565
+ INFO: WEB:(null):3
+ INFO: request:GET / HTTP/1.1
+Host: localhost:8080
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+:3
+ INFO: SEND:index.html:3
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 286
+Connection: close
+Content-Type: text/html
+
+:3
+ INFO: thread waiting ...:(null):2565
+ INFO: nweb starting:8080:2619
+ INFO: waiting...:8080:2619
+ INFO: thread starting....:(null):2619
+ INFO: thread waiting ...:(null):2619
+ INFO: thread starting....:(null):2619
+ INFO: thread waiting ...:(null):2619
+ INFO: thread starting....:(null):2619
+ INFO: thread waiting ...:(null):2619
+ INFO: thread starting....:(null):2619
+ INFO: thread waiting ...:(null):2619
+ INFO: thread starting....:(null):2619
+ INFO: thread waiting ...:(null):2619
+ INFO: thread starting....:(null):2619
+ INFO: thread waiting ...:(null):2619
+ INFO: thread starting....:(null):2619
+ INFO: thread waiting ...:(null):2619
+ INFO: thread starting....:(null):2619
+ INFO: thread waiting ...:(null):2619
+ INFO: thread starting....:(null):2619
+ INFO: thread waiting ...:(null):2619
+ INFO: thread starting....:(null):2619
+ INFO: thread waiting ...:(null):2619
+ INFO: adding to buffer:8080:2619
+ INFO: waiting...:8080:2619
+ INFO: reading from buffer:(null):2619
+ INFO: processing request:(null):2619
+ INFO: WEB:(null):1
+ INFO: request:GET / HTTP/1.1
+Host: localhost:8080
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+:1
+ INFO: SEND:index.html:1
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 286
+Connection: close
+Content-Type: text/html
+
+:1
+ INFO: thread waiting ...:(null):2619

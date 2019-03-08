@@ -150,10 +150,10 @@ void web(entry* e)
 	dummy = write(fd,buffer,strlen(buffer));
 
     // Send the statistical headers described in the paper, example below
-
+/*
     (void)sprintf(buffer,"X-stat-req-arrival-count: %d\r\n", 300);
 	dummy = write(fd,buffer,strlen(buffer));
-
+*/
 
     /* send file in 8KB block - last block may be smaller */
 	while (	(ret = read(file_fd, buffer, BUFSIZE)) > 0 ) {
