@@ -75,6 +75,9 @@ entry* getEntry(int fd, int hit){
 	if(ret > 0 && ret < BUFSIZE)	/* return code is valid chars */
 		buffer[ret]=0;		/* terminate the buffer */
 	else buffer[0]=0;
+	for(int i=0;i<ret;i++)	/* remove CF and LF characters */
+		if(buffer[i] == '\r' || buffer[i] == '\n')
+			buffer[i]='*';
 	//get if file is html
 	int html = 0;
 	if (strstr(buffer, ".html") != NULL) {
@@ -100,16 +103,14 @@ void web(entry* e)
 	int hit = e->hit;
 	logger(LOG,"WEB",0,hit);
 
-	int j, file_fd, buflen;
-	long i, ret, len;
+	int j,i, file_fd, buflen;
+	long len;
 	char * fstr;
   char* buffer = e->info;
 	int fd = e->fd;
 
 
-	for(i=0;i<ret;i++)	/* remove CF and LF characters */
-		if(buffer[i] == '\r' || buffer[i] == '\n')
-			buffer[i]='*';
+
 	logger(LOG,"request",buffer,hit);
 	if( strncmp(buffer,"GET ",4) && strncmp(buffer,"get ",4) ) {
 		logger(FORBIDDEN,"Only simple GET operation supported",buffer,fd);
@@ -150,11 +151,12 @@ void web(entry* e)
 	dummy = write(fd,buffer,strlen(buffer));
 
     // Send the statistical headers described in the paper, example below
-/*
-    (void)sprintf(buffer,"X-stat-req-arrival-count: %d\r\n", 300);
-	dummy = write(fd,buffer,strlen(buffer));
-*/
 
+    (void)sprintf(buffer,"X-stat-req-arrival-count: %d\r\n", 300);	dummy = write(fd,buffer,strlen(buffer));
+
+	dummy = write(fd,buffer,strlen(buffer));
+
+int ret;
     /* send file in 8KB block - last block may be smaller */
 	while (	(ret = read(file_fd, buffer, BUFSIZE)) > 0 ) {
 		dummy = write(fd,buffer,ret);
