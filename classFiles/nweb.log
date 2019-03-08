@@ -1440,3 +1440,15 @@ Content-Type: text/html
 
 :1
  INFO: thread waiting ...:(null):3415
+ INFO: nweb starting:2020:18690
+ INFO: waiting...:2020:18690
+ INFO: thread starting....:(null):18690
+ INFO: thread starting....:(null):18690 INFO: thread waiting ...:(null):18690
+
+ INFO: thread waiting ...:(null):18690 INFO: thread starting....:(null):18690
+
+ INFO: thread starting....:(null):18690 INFO: thread waiting ...:(null):18690
+
+ INFO: thread waiting ...:(null):18690
+ INFO: thread starting....:(null):18690
+ INFO: thread waiting ...:(null):18690

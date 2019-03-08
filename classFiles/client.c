@@ -8,14 +8,25 @@
 /* Network */
 #include <netdb.h>
 #include <sys/socket.h>
+
+/* Extras */
 #include <pthread.h>
+#include <sys/types.h>
+pid_t gettid(void);
 
-#define BUF_SIZE 100
-
-//Function headers
+/* Function headers */
 int connect_and_send_request (int argc, char **argv);
 int create_threads (int numThreads);
 void *workerFunc (void *argv);
+
+#define BUF_SIZE 100
+pthread_barrier_t mybarrier;
+
+/* Data structures*/
+typedef struct thread_information {
+    int id;
+    char ** argv;
+} thread_info;
 
 // Get host information (used to establishConnection)
 struct addrinfo *getHostInfo(char *host, char *port) {
@@ -87,17 +98,27 @@ int main(int argc, char **argv) {
 
     //-----------------------------------------------------------
 
+    pthread_t threadIds[numThreads];
+    thread_info tInfo[numThreads];
+
+    pthread_barrier_init(&mybarrier, NULL, numThreads);
+
     int i;
 
     for (i = 0; i < numThreads; i++) {
-        pthread_t* tid = malloc(sizeof(pthread_t));
+        tInfo[i].id = i;
+        tInfo[i].argv = argv;
 
-        int ret = pthread_create(tid, NULL, workerFunc, (void *) argv);
+        int ret = pthread_create(&threadIds[i], NULL, workerFunc, (void *) &tInfo[i]);
 
         if(ret != 0){
-            printf("%s\n","Could not create thread");
+            printf("Could not create thread\n");
         }
     }
+
+//    pthread_barrier_wait(&mybarrier);
+
+//    printf("main()\n");
 
     pthread_exit(NULL);
 
@@ -105,20 +126,19 @@ int main(int argc, char **argv) {
 }
 
 void *workerFunc (void *argv) {
+    thread_info *tInfo = argv;
     int j = 0;
 
-    while (j < 2) {
-        //int *myid = vargp;
+    while (1) {
+        //        printf("Thread: %d Loop: %d after\n", tInfo->id, j);
 
-        static int s = 0;
+        connect_and_send_request(6, (char **) tInfo->argv);
 
-        ++s;
+        printf("%d Loop: %d before\n", tInfo->id, j);
+
+        pthread_barrier_wait(&mybarrier);
         j++;
-
-        connect_and_send_request(6, (char **) argv);
-        printf("\nStatic: %d, looped %d times\n\n", s, j);
     }
-
     return 0;
 }
 
