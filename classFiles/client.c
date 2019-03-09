@@ -11,11 +11,10 @@
 
 /* Extras */
 #include <pthread.h>
-#include <sys/types.h>
-pid_t gettid(void);
+#include <time.h>
 
 /* Function headers */
-int connect_and_send_request (int argc, char **argv);
+int connect_and_send_request (int argc, char **argv, int fileNum);
 int create_threads (int numThreads);
 void *workerFunc (void *argv);
 
@@ -24,8 +23,9 @@ pthread_barrier_t mybarrier;
 
 /* Data structures*/
 typedef struct thread_information {
-    int id;
     char ** argv;
+    int argc;
+    int id;
 } thread_info;
 
 // Get host information (used to establishConnection)
@@ -82,9 +82,10 @@ int main(int argc, char **argv) {
 //    int clientfd;
 //    char buf[BUF_SIZE];
 
-
+    printf("%d\n", argc);
+    /* Checks for amount of arguments */
     if (argc == 4) {
-        connect_and_send_request(argc, argv);
+        connect_and_send_request(argc, argv, 0);
     } else if (argc != 6) {
         if (argc != 7) {
             fprintf(stderr, "USAGE: ./httpclient <hostname> <port> <request path>\n");
@@ -94,21 +95,23 @@ int main(int argc, char **argv) {
 
     int numThreads = atoi(argv[3]);
 
-    create_threads(numThreads);
-
     //-----------------------------------------------------------
 
-    pthread_t threadIds[numThreads];
-    thread_info tInfo[numThreads];
+    /* --Thread creation-- */
+    pthread_t threadIds[numThreads]; //holds the pthread_t for each thread
+    thread_info tInfo[numThreads]; //array of thread_info structs for each thread
 
     pthread_barrier_init(&mybarrier, NULL, numThreads);
 
     int i;
 
     for (i = 0; i < numThreads; i++) {
+        //sets struct params
         tInfo[i].id = i;
         tInfo[i].argv = argv;
+        tInfo[i].argc = argc;
 
+        //creates a thread
         int ret = pthread_create(&threadIds[i], NULL, workerFunc, (void *) &tInfo[i]);
 
         if(ret != 0){
@@ -130,11 +133,18 @@ void *workerFunc (void *argv) {
     int j = 0;
 
     while (1) {
-        //        printf("Thread: %d Loop: %d after\n", tInfo->id, j);
+        if (tInfo->argc == 7) {
+            //generating random number for a file picker
+            srand(time(0) + tInfo->id);
+            int argNum = rand() % 2;
+//            printf("------%d chose file %d, loop: %d-------\n", tInfo->id, (5+argNum), j);
 
-        connect_and_send_request(6, (char **) tInfo->argv);
-
-        printf("%d Loop: %d before\n", tInfo->id, j);
+            printf("%d before\n", tInfo->id);
+            connect_and_send_request(tInfo->argc, (char **) tInfo->argv, argNum);
+            printf("%d after\n", tInfo->id);
+        }
+        else
+            connect_and_send_request(tInfo->argc, (char **) tInfo->argv, 0);
 
         pthread_barrier_wait(&mybarrier);
         j++;
@@ -142,7 +152,7 @@ void *workerFunc (void *argv) {
     return 0;
 }
 
-int connect_and_send_request (int argc, char **argv) {
+int connect_and_send_request (int argc, char **argv, int fileNum) {
     int clientfd;
     char buf[BUF_SIZE];
 
@@ -156,8 +166,11 @@ int connect_and_send_request (int argc, char **argv) {
     }
 
     // Send GET request > stdout
-    if (argc > 4)
+    if (argc == 6)
         GET(clientfd, argv[5]);
+    else if (argc == 7) {
+        GET(clientfd, argv[5 + fileNum]);
+    }
     else
         GET(clientfd, argv[3]);
 
