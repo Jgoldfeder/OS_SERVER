@@ -15,6 +15,7 @@ typedef struct e{
     long dispatched_time;
     int prior_dispatch_count;
     int prior_completed_requests;
+    int stat_req_age;
 }entry;
 
 
@@ -27,6 +28,7 @@ typedef struct b{
 
 buffer* createBuffer(int capacity,int policy);
 
+//source-https://gist.github.com/afrachioni/f441de4ab75b8c7de264
 unsigned long get_time();
 
 //return -1 if full

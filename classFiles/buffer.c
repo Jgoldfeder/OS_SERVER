@@ -29,7 +29,7 @@ unsigned long get_time() { //this is copied and pasted in server.c --> should pr
 	ret /= 1000;
 	ret += (tv.tv_sec * 1000);
 	return ret;
-} 
+}
 
 
 int getPriority(buffer* b,entry* e){
@@ -65,6 +65,7 @@ int add(buffer* b, entry* e){
     //insert into queue
     int i;
     for(i=0;i<b->size;i++){
+      b->buff[i]->stat_req_age++;
       if(b->buff[i]->priority > e->priority) break;
     }
     for(int j =b->size;j>i;j--){
@@ -81,11 +82,11 @@ entry* get(buffer* b, long server_time){
 
     entry* ret = b->buff[b->size-1];
     ret->dispatched_time = (get_time() - server_time);
-    
+
     pthread_mutex_lock(&dispatch_mutex);
     ret->prior_dispatch_count = dispatch_count++;
     pthread_mutex_unlock(&dispatch_mutex);
-    
+
     b->size--;
     return ret;
 }
