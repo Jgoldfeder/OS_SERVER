@@ -16,7 +16,6 @@
 
 /* Function headers */
 int connect_and_send_request (int argc, char **argv, int fileNum, int policy);
-int create_threads (int numThreads);
 void *workerCONCURFunc (void *tInf);
 void *workerFIFOFunc (void *tInf);
 
@@ -133,13 +132,6 @@ int main(int argc, char **argv) {
         return 1;
     }
 
-//    ret = pthread_cond_init(&condVerb, NULL);
-//
-//    if(ret != 0){
-//        printf("Could not create condition variable\n");
-//        return 1;
-//    }
-
     numberOfThreads = numThreads;
     int i;
 
@@ -178,10 +170,6 @@ int main(int argc, char **argv) {
         }
     }
 
-//    pthread_barrier_wait(&mybarrier);
-
-//    printf("main()\n");
-
     pthread_exit(NULL);
 
     return 0;
@@ -198,10 +186,10 @@ void *workerCONCURFunc (void *tInf) {
 //            int argNum = rand() % 2;
             int argNum = j % 2;
 
-            connect_and_send_request(tInfo->argc, (char **) tInfo->argv, argNum, -1);
+            connect_and_send_request(tInfo->argc, (char **) tInfo->argv, argNum, CONCUR);
         }
         else
-            connect_and_send_request(tInfo->argc, (char **) tInfo->argv, 0, -1);
+            connect_and_send_request(tInfo->argc, (char **) tInfo->argv, 0, CONCUR);
 
         pthread_barrier_wait(&mybarrier);
         j++;
@@ -214,23 +202,16 @@ void *workerFIFOFunc (void *tInf) {
     int j = 0;
 
     while (1) {
-//        if (tInfo->id == 0)
-//            fifoTurn = 0;
 
         pthread_mutex_lock( &fifoMutex);
         while (tInfo->id != fifoTurn) {
-            printf("%d, fifoTurn = %d\n", tInfo->id, fifoTurn);
-//            pthread_mutex_unlock( &fifoMutex);
+//            printf("%d, fifoTurn = %d\n", tInfo->id, fifoTurn);
             pthread_cond_signal(&condVerb);
             pthread_cond_wait( &condVerb, &fifoMutex);
 
-//            printf("%d after cond\n", tInfo->id);
-//            pthread_mutex_lock( &fifoMutex);
-            printf("%d is here\n", tInfo->id);
+//            printf("%d is here\n", tInfo->id);
 
         }
-//        pthread_mutex_lock( &fifoMutex);
-
 
         /* WORK */
         if (tInfo->argc == 7) {
@@ -239,10 +220,10 @@ void *workerFIFOFunc (void *tInf) {
 //            int argNum = rand() % 2;
             int argNum = j % 2;
 
-            connect_and_send_request(tInfo->argc, (char **) tInfo->argv, argNum, tInfo->id);
+            connect_and_send_request(tInfo->argc, (char **) tInfo->argv, argNum, FIFO);
         }
         else
-            connect_and_send_request(tInfo->argc, (char **) tInfo->argv, 0, tInfo->id);
+            connect_and_send_request(tInfo->argc, (char **) tInfo->argv, 0, FIFO);
         /* END WORK*/
 
 
@@ -266,14 +247,15 @@ int connect_and_send_request (int argc, char **argv, int fileNum, int policy) {
     }
 
     // Send GET request > stdout
-    if (policy >= 0) {
-        printf("%d done fifo: %d\n", policy, fifoTurn);
+    if (policy == FIFO) {
+//        printf("%d done fifo: %d\n", policy, fifoTurn);
 
         if (fifoTurn == numberOfThreads-1)
             fifoTurn = 0;
         else
             fifoTurn++;
-        printf("%d\n", fifoTurn);
+
+//        printf("%d\n", fifoTurn);
 
         pthread_cond_signal(&condVerb);
         pthread_mutex_unlock( &fifoMutex );
@@ -300,10 +282,6 @@ int connect_and_send_request (int argc, char **argv, int fileNum, int policy) {
     }
 
     close(clientfd);
-    return 0;
-}
-
-int create_threads (int numThreads) {
     return 0;
 }
 
