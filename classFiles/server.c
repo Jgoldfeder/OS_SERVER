@@ -214,7 +214,7 @@ void web(entry* e, int id, int html, int pic)
 	(void)sprintf(buffer,"total requests completed before this request completed: %d\r\n", e->prior_completed_requests);
 	dummy = write(fd,buffer,strlen(buffer));
 
-	(void)sprintf(buffer,"Number of requests given priority over this request: %d\r\n", e->prior_dispatch_count - e->hit);
+	(void)sprintf(buffer,"Number of requests given priority over this request: %d\r\n", e->stat_req_age);
 	dummy = write(fd,buffer,strlen(buffer));
 
 
