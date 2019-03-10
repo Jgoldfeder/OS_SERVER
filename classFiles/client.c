@@ -170,12 +170,14 @@ int main(int argc, char **argv) {
         }
     }
 
-    pthread_exit(NULL);
+    pthread_exit(NULL); //this doesn't return to the caller
 
     return 0;
 }
 
 void *workerCONCURFunc (void *tInf) {
+    int ret;
+
     thread_info *tInfo = tInf;
     int j = 0;
 
@@ -192,22 +194,41 @@ void *workerCONCURFunc (void *tInf) {
             connect_and_send_request(tInfo->argc, (char **) tInfo->argv, 0, CONCUR);
 
         pthread_barrier_wait(&mybarrier);
+
         j++;
     }
     return 0;
 }
 
 void *workerFIFOFunc (void *tInf) {
+    int ret;
     thread_info *tInfo = tInf;
     int j = 0;
 
     while (1) {
 
-        pthread_mutex_lock( &fifoMutex);
+        ret = pthread_mutex_lock( &fifoMutex);
+
+        if (ret != 0) {
+            printf("Could not lock mutex\n");
+            return 1;
+        }
+
         while (tInfo->id != fifoTurn) {
 //            printf("%d, fifoTurn = %d\n", tInfo->id, fifoTurn);
-            pthread_cond_signal(&condVerb);
-            pthread_cond_wait( &condVerb, &fifoMutex);
+            ret = pthread_cond_signal(&condVerb);
+
+            if (ret != 0) {
+                printf("Could not signal condition\n");
+                return 1;
+            }
+
+            ret = pthread_cond_wait( &condVerb, &fifoMutex);
+
+            if (ret != 0) {
+                printf("Could not create thread\n");
+                return 1;
+            }
 
 //            printf("%d is here\n", tInfo->id);
 
@@ -237,6 +258,8 @@ int connect_and_send_request (int argc, char **argv, int fileNum, int policy) {
     int clientfd;
     char buf[BUF_SIZE];
 
+    int ret;
+
     // Establish connection with <hostname>:<port>
     clientfd = establishConnection(getHostInfo(argv[1], argv[2]));
     if (clientfd == -1) {
@@ -257,8 +280,19 @@ int connect_and_send_request (int argc, char **argv, int fileNum, int policy) {
 
 //        printf("%d\n", fifoTurn);
 
-        pthread_cond_signal(&condVerb);
-        pthread_mutex_unlock( &fifoMutex );
+        ret = pthread_cond_signal(&condVerb);
+
+        if (ret != 0) {
+            printf("Could not signal condition\n");
+            return 1;
+        }
+
+        ret = pthread_mutex_unlock( &fifoMutex );
+
+        if (ret != 0) {
+            printf("Could not unlock mutex\n");
+            return 1;
+        }
 
         if (argc == 6)
             GET(clientfd, argv[5]);
