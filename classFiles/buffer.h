@@ -14,6 +14,7 @@ typedef struct e{
     long time_arrival;
     long dispatched_time;
     int prior_dispatch_count;
+    int prior_completed_requests;
 }entry;
 
 

@@ -21,6 +21,9 @@
 #define NOTFOUND  404
 long server_time;
 
+pthread_mutex_t completed_mutex= PTHREAD_MUTEX_INITIALIZER;
+int request_completed= 0;
+
 
 struct {
 	char *ext;
@@ -156,14 +159,25 @@ void web(entry* e, int id, int html, int pic)
 	if(( file_fd = open(&buffer[5],O_RDONLY)) == -1) {  /* open the file for reading */
 		logger(NOTFOUND, "failed to open file",&buffer[5],fd);
 	}
+
+	long completed_time = (get_time() -server_time);
+	pthread_mutex_lock(&completed_mutex);
+	e->prior_completed_requests = request_completed;
+    	request_completed++;
+        pthread_mutex_unlock(&completed_mutex);
+	
+
 	logger(LOG,"SEND",&buffer[5],hit);
 	len = (long)lseek(file_fd, (off_t)0, SEEK_END); /* lseek to the file end to find the length */
 	      (void)lseek(file_fd, (off_t)0, SEEK_SET); /* lseek back to the file start ready for reading */
-          (void)sprintf(buffer,"HTTP/1.1 200 OK\nServer: nweb/%d.0 \nthread ID: %d \n thread pic count: %d \nthread html count %d \nContent-Length: %ld\nConnection: close\nContent-Type: %s\n\n", VERSION, thread_id, pic_count, html_count, len, fstr); /* Header + a blank line */
+          (void)sprintf(buffer,"HTTP/1.1 200 OK\nServer: nweb/%d.0 \nContent-Length: %ld\nConnection: close\nContent-Type: %s\n\n", VERSION, len, fstr); /* Header + a blank line */
 	logger(LOG,"Header",buffer,hit);
 	dummy = write(fd,buffer,strlen(buffer));
 
     // Send the statistical headers described in the paper, example below
+
+	(void)sprintf(buffer,"THREAD INFO: \n\n");	
+	dummy = write(fd,buffer,strlen(buffer));
 
     	(void)sprintf(buffer,"thread ID: %d\r\n", thread_id);	
 	dummy = write(fd,buffer,strlen(buffer));
@@ -174,7 +188,11 @@ void web(entry* e, int id, int html, int pic)
 	(void)sprintf(buffer,"thread JPG count: %d\r\n", pic);	
 	dummy = write(fd,buffer,strlen(buffer));
 
-	(void)sprintf(buffer,"total request this thread has completed: %d\r\n", pic_count + html_count);	
+	(void)sprintf(buffer,"total request this thread has completed: %d\r\n\n", pic_count + html_count);	
+	dummy = write(fd,buffer,strlen(buffer));
+
+
+	(void)sprintf(buffer,"REQUEST INFO: \n\n");	
 	dummy = write(fd,buffer,strlen(buffer));
 
 	(void)sprintf(buffer,"number of request that arrived before this one: %d\r\n", e->hit);	
@@ -186,12 +204,17 @@ void web(entry* e, int id, int html, int pic)
 	(void)sprintf(buffer,"request dispatched time relative to server: %ld ms\n", e->dispatched_time);	
 	dummy = write(fd,buffer,strlen(buffer));
 
-	(void)sprintf(buffer,"total request dispatched before this request: %d ms\n", e->prior_dispatch_count);	
+	(void)sprintf(buffer,"total request dispatched before this request: %d\n", e->prior_dispatch_count);	
 	dummy = write(fd,buffer,strlen(buffer));
 
-	(void)sprintf(buffer,"request time of completion relative to server: %ld ms\n", (get_time() -server_time));	
+	(void)sprintf(buffer,"request time of completion relative to server: %ld ms\n", completed_time);	
 	dummy = write(fd,buffer,strlen(buffer));
 
+	(void)sprintf(buffer,"total request requests completed before this request completed: %d\r\n", e->prior_completed_requests);	
+	dummy = write(fd,buffer,strlen(buffer));
+
+	(void)sprintf(buffer,"Number of requests given priority over this request: %d\r\n", e->prior_dispatch_count - e->hit);	
+	dummy = write(fd,buffer,strlen(buffer));
 
 
 int ret;
