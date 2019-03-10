@@ -98,7 +98,7 @@ int main(int argc, char **argv) {
     } else if (argc != 6) {
         if (argc != 7) {
             fprintf(stderr, "USAGE: ./httpclient <hostname> <port> <request path>\n");
-            return 1;
+            exit(1);
         }
     }
 
@@ -114,7 +114,7 @@ int main(int argc, char **argv) {
             (!strcmp(schedAlg,"FIFO")) policy = FIFO;
     else{
         printf("Error: \"%s\" is Invalid scheduling policy, try CONCUR or FIFO\n",schedAlg);
-        return 1;
+        exit(1);
     }
 
     //-----------------------------------------------------------
@@ -129,12 +129,12 @@ int main(int argc, char **argv) {
 
     if(ret != 0){
         printf("Could not create thread barrier\n");
-        return 1;
+        exit(1);
     }
 
     numberOfThreads = numThreads;
     int i;
-
+    printf("policy %d\n", policy);
     if (policy == CONCUR)
         for (i = 0; i < numThreads; i++) {
             //sets struct params
@@ -147,11 +147,11 @@ int main(int argc, char **argv) {
 
             if(ret != 0){
                 printf("Could not create thread\n");
-                return 1;
+                exit(1);
             }
         }
 
-    if (policy == FIFO) {
+    else if (policy == FIFO) {
         for (i = 0; i < numThreads; i++) {
             fifoTurn = 0;
 
@@ -165,7 +165,7 @@ int main(int argc, char **argv) {
 
             if (ret != 0) {
                 printf("Could not create thread\n");
-                return 1;
+                exit(1);
             }
         }
     }
@@ -176,8 +176,6 @@ int main(int argc, char **argv) {
 }
 
 void *workerCONCURFunc (void *tInf) {
-    int ret;
-
     thread_info *tInfo = tInf;
     int j = 0;
 
@@ -188,10 +186,10 @@ void *workerCONCURFunc (void *tInf) {
 //            int argNum = rand() % 2;
             int argNum = j % 2;
 
-            connect_and_send_request(tInfo->argc, (char **) tInfo->argv, argNum, CONCUR);
+            connect_and_send_request(tInfo->argc, (char **) tInfo->argv, argNum, -(tInfo->id)-1);
         }
         else
-            connect_and_send_request(tInfo->argc, (char **) tInfo->argv, 0, CONCUR);
+            connect_and_send_request(tInfo->argc, (char **) tInfo->argv, 0, -(tInfo->id)-1);
 
         pthread_barrier_wait(&mybarrier);
 
@@ -211,26 +209,26 @@ void *workerFIFOFunc (void *tInf) {
 
         if (ret != 0) {
             printf("Could not lock mutex\n");
-            return 1;
+            exit(1);
         }
 
         while (tInfo->id != fifoTurn) {
-//            printf("%d, fifoTurn = %d\n", tInfo->id, fifoTurn);
+            printf("%d, fifoTurn = %d\n", tInfo->id, fifoTurn);
             ret = pthread_cond_signal(&condVerb);
 
             if (ret != 0) {
                 printf("Could not signal condition\n");
-                return 1;
+                exit(1);
             }
 
             ret = pthread_cond_wait( &condVerb, &fifoMutex);
 
             if (ret != 0) {
                 printf("Could not create thread\n");
-                return 1;
+                exit(1);
             }
 
-//            printf("%d is here\n", tInfo->id);
+            printf("%d is here\n", tInfo->id);
 
         }
 
@@ -241,10 +239,10 @@ void *workerFIFOFunc (void *tInf) {
 //            int argNum = rand() % 2;
             int argNum = j % 2;
 
-            connect_and_send_request(tInfo->argc, (char **) tInfo->argv, argNum, FIFO);
+            connect_and_send_request(tInfo->argc, (char **) tInfo->argv, argNum, tInfo->id);
         }
         else
-            connect_and_send_request(tInfo->argc, (char **) tInfo->argv, 0, FIFO);
+            connect_and_send_request(tInfo->argc, (char **) tInfo->argv, 0, tInfo->id);
         /* END WORK*/
 
 
@@ -270,35 +268,35 @@ int connect_and_send_request (int argc, char **argv, int fileNum, int policy) {
     }
 
     // Send GET request > stdout
-    if (policy == FIFO) {
-//        printf("%d done fifo: %d\n", policy, fifoTurn);
+    if (policy >= 0) {
+        printf("%d done fifo: %d\n", policy, fifoTurn);
 
         if (fifoTurn == numberOfThreads-1)
             fifoTurn = 0;
         else
             fifoTurn++;
 
-//        printf("%d\n", fifoTurn);
+        printf("%d\n", fifoTurn);
 
         ret = pthread_cond_signal(&condVerb);
 
         if (ret != 0) {
             printf("Could not signal condition\n");
-            return 1;
+            exit(1);
         }
 
         ret = pthread_mutex_unlock( &fifoMutex );
 
         if (ret != 0) {
             printf("Could not unlock mutex\n");
-            return 1;
+            exit(1);
         }
 
-        if (argc == 6)
-            GET(clientfd, argv[5]);
-        else {
-            GET(clientfd, argv[5 + fileNum]);
-        }
+//        if (argc == 6)
+//            GET(clientfd, argv[5]);
+//        else {
+//            GET(clientfd, argv[5 + fileNum]);
+//        }
     }
     else {
         if (argc == 6)
