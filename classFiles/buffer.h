@@ -11,6 +11,10 @@ typedef struct e{
     int fd;
     int hit;
     int priority;
+    long time_arrival;
+    long dispatched_time;
+    int prior_dispatch_count;
+    int prior_completed_requests;
 }entry;
 
 
@@ -23,11 +27,13 @@ typedef struct b{
 
 buffer* createBuffer(int capacity,int policy);
 
+unsigned long get_time();
+
 //return -1 if full
 int add(buffer* b, entry* e);
 
 //return -1 if empty
-entry* get(buffer* b);
+entry* get(buffer* b, long server_time);
 
 void freeBuffer(buffer* b);
 

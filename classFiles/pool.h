@@ -10,9 +10,10 @@ extern pthread_mutex_t mutex;
 sem_t full;
 sem_t empty;
 
-void web(entry* fd);
+void web(entry* fd, int id, int html, int pic);
 
-void createPool(int size,buffer* b);
+void createPool(int size,buffer* b, long server_time);
+unsigned long get_time();
 
 
 

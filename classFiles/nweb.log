@@ -1,1454 +1,4358 @@
-
- INFO: nweb starting:8080:23309
- INFO: waiting...:8080:23309
- INFO: thread starting....:(null):23309
- INFO: thread waiting ...:(null):23309
- INFO: thread starting....:(null):23309
- INFO: thread waiting ...:(null):23309
- INFO: thread starting....:(null):23309
- INFO: thread waiting ...:(null):23309
- INFO: thread starting....:(null):23309
- INFO: thread waiting ...:(null):23309
- INFO: thread starting....:(null):23309
- INFO: thread waiting ...:(null):23309
- INFO: thread starting....:(null):23309
- INFO: thread waiting ...:(null):23309
- INFO: thread starting....:(null):23309
- INFO: thread waiting ...:(null):23309
- INFO: thread starting....:(null):23309
- INFO: thread waiting ...:(null):23309
- INFO: thread starting....:(null):23309
- INFO: thread waiting ...:(null):23309
- INFO: thread starting....:(null):23309
- INFO: thread waiting ...:(null):23309
- INFO: GET /nigel.jpg HTTP/1.0
-
-::1
- INFO: end
-::1
- INFO: adding to buffer:8080:23309
- INFO: waiting...:8080:23309
- INFO: reading from buffer:(null):23309
- INFO: processing request:(null):23309
+ INFO: nweb starting:8080:3853
+ERROR: system call:bind Errno=98 exiting pid=3853
+ INFO: nweb starting:2006:3867
+ INFO: thread starting....:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread starting....:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread starting....:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread starting....:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread starting....:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread starting....:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread starting....:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: waiting...:2006:3867
+ INFO: thread starting....:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread starting....:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread starting....:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
  INFO: WEB:(null):0
-FORBIDDEN: failed to read browser request:
- INFO: nweb starting:8080:23566
- INFO: waiting...:8080:23566
- INFO: thread starting....:(null):23566
- INFO: thread waiting ...:(null):23566
- INFO: thread starting....:(null):23566
- INFO: thread waiting ...:(null):23566
- INFO: thread starting....:(null):23566
- INFO: thread waiting ...:(null):23566
- INFO: thread starting....:(null):23566
- INFO: thread waiting ...:(null):23566
- INFO: thread starting....:(null):23566
- INFO: thread waiting ...:(null):23566
- INFO: thread starting....:(null):23566
- INFO: thread waiting ...:(null):23566
- INFO: thread starting....:(null):23566
- INFO: thread waiting ...:(null):23566
- INFO: thread starting....:(null):23566
- INFO: thread waiting ...:(null):23566
- INFO: thread starting....:(null):23566
- INFO: thread waiting ...:(null):23566
- INFO: thread starting....:(null):23566
- INFO: thread waiting ...:(null):23566
- INFO: adding to buffer:8080:23566
- INFO: waiting...:8080:23566
- INFO: reading from buffer:(null):23566
- INFO: processing request:(null):23566
- INFO: WEB:(null):0
- INFO: request::0
-FORBIDDEN: Only simple GET operation supported:
- INFO: nweb starting:8080:23588
-ERROR: system call:bind Errno=98 exiting pid=23588
- INFO: nweb starting:8080:23596
-ERROR: system call:bind Errno=98 exiting pid=23596
- INFO: nweb starting:8080:23637
- INFO: waiting...:8080:23637
- INFO: thread starting....:(null):23637
- INFO: thread waiting ...:(null):23637
- INFO: thread starting....:(null):23637
- INFO: thread waiting ...:(null):23637
- INFO: thread starting....:(null):23637
- INFO: thread waiting ...:(null):23637
- INFO: thread starting....:(null):23637
- INFO: thread waiting ...:(null):23637
- INFO: thread starting....:(null):23637
- INFO: thread waiting ...:(null):23637
- INFO: thread starting....:(null):23637
- INFO: thread waiting ...:(null):23637
- INFO: thread starting....:(null):23637
- INFO: thread waiting ...:(null):23637
- INFO: thread starting....:(null):23637
- INFO: thread waiting ...:(null):23637
- INFO: thread starting....:(null):23637
- INFO: thread waiting ...:(null):23637
- INFO: thread starting....:(null):23637
- INFO: thread waiting ...:(null):23637
- INFO: adding to buffer:8080:23637
- INFO: waiting...:8080:23637
- INFO: reading from buffer:(null):23637
- INFO: processing request:(null):23637
- INFO: WEB:(null):0
- INFO: request::0
-FORBIDDEN: Only simple GET operation supported:
- INFO: nweb starting:8080:23705
- INFO: waiting...:8080:23705
- INFO: thread starting....:(null):23705
- INFO: thread waiting ...:(null):23705
- INFO: thread starting....:(null):23705
- INFO: thread waiting ...:(null):23705
- INFO: thread starting....:(null):23705
- INFO: thread waiting ...:(null):23705
- INFO: thread starting....:(null):23705
- INFO: thread waiting ...:(null):23705
- INFO: thread starting....:(null):23705
- INFO: thread waiting ...:(null):23705
- INFO: thread starting....:(null):23705
- INFO: thread waiting ...:(null):23705
- INFO: thread starting....:(null):23705
- INFO: thread waiting ...:(null):23705
- INFO: thread starting....:(null):23705
- INFO: thread waiting ...:(null):23705
- INFO: thread starting....:(null):23705
- INFO: thread waiting ...:(null):23705
- INFO: thread starting....:(null):23705
- INFO: thread waiting ...:(null):23705
- INFO: adding to buffer:8080:23705
- INFO: waiting...:8080:23705
- INFO: reading from buffer:(null):23705
- INFO: processing request:(null):23705
- INFO: WEB:(null):0
- INFO: request:GET /nigel.jpg HTTP/1.0
-
-:0
- INFO: SEND:nigel.jpg:0
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 10184
-Connection: close
-Content-Type: image/jpg
-
-:0
- INFO: thread waiting ...:(null):23705
- INFO: adding to buffer:8080:23705
- INFO: waiting...:8080:23705
- INFO: reading from buffer:(null):23705
- INFO: processing request:(null):23705
- INFO: WEB:(null):0
- INFO: request:GET /nigel.jpg HTTP/1.0
-
-:0
- INFO: SEND:nigel.jpg:0
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 10184
-Connection: close
-Content-Type: image/jpg
-
-:0
- INFO: thread waiting ...:(null):23705
- INFO: adding to buffer:8080:23705
- INFO: waiting...:8080:23705
- INFO: reading from buffer:(null):23705
- INFO: processing request:(null):23705
- INFO: WEB:(null):0
- INFO: request:GET /nigel.jpg HTTP/1.0
-
-:0
- INFO: SEND:nigel.jpg:0
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 10184
-Connection: close
-Content-Type: image/jpg
-
-:0
- INFO: thread waiting ...:(null):23705
- INFO: adding to buffer:8080:23705
- INFO: waiting...:8080:23705
- INFO: reading from buffer:(null):23705
- INFO: processing request:(null):23705
- INFO: WEB:(null):0
- INFO: request:GET /index.html HTTP/1.0
-
-:0
+ INFO: request:GET /index.html HTTP/1.0****:0
  INFO: SEND:index.html:0
+ INFO: reading from buffer:(null):3867
  INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
+Server: nweb/23.0 
+thread ID: 6 
+ thread pic count: 0 
+thread html count 1 
+Content-Length: 217
 Connection: close
 Content-Type: text/html
 
 :0
- INFO: thread waiting ...:(null):23705
- INFO: nweb starting:8080:23932
- INFO: waiting...:8080:23932
- INFO: thread starting....:(null):23932
- INFO: thread waiting ...:(null):23932
- INFO: thread starting....:(null):23932
- INFO: thread waiting ...:(null):23932
- INFO: thread starting....:(null):23932
- INFO: thread waiting ...:(null):23932
- INFO: thread starting....:(null):23932
- INFO: thread waiting ...:(null):23932
- INFO: thread starting....:(null):23932
- INFO: thread waiting ...:(null):23932
- INFO: thread starting....:(null):23932
- INFO: thread waiting ...:(null):23932
- INFO: thread starting....:(null):23932
- INFO: thread waiting ...:(null):23932
- INFO: thread starting....:(null):23932
- INFO: thread waiting ...:(null):23932
- INFO: thread starting....:(null):23932
- INFO: thread waiting ...:(null):23932
- INFO: thread starting....:(null):23932
- INFO: thread waiting ...:(null):23932
- INFO: adding to buffer:8080:23932
- INFO: waiting...:8080:23932
- INFO: reading from buffer:(null):23932
- INFO: processing request:(null):23932
- INFO: WEB:(null):0
- INFO: request:GET /index.html HTTP/1.0
-
-:0
- INFO: SEND:index.html:0
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
-Connection: close
-Content-Type: text/html
-
-:0
- INFO: thread waiting ...:(null):23932
- INFO: adding to buffer:8080:23932
- INFO: waiting...:8080:23932
- INFO: reading from buffer:(null):23932
- INFO: processing request:(null):23932
- INFO: WEB:(null):0
- INFO: request:GET /index.html HTTP/1.0
-
-:0
- INFO: SEND:index.html:0
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
-Connection: close
-Content-Type: text/html
-
-:0
- INFO: thread waiting ...:(null):23932
- INFO: nweb starting:8080:24080
- INFO: waiting...:8080:24080
- INFO: thread starting....:(null):24080
- INFO: thread waiting ...:(null):24080
- INFO: thread starting....:(null):24080
- INFO: thread waiting ...:(null):24080
- INFO: thread starting....:(null):24080
- INFO: thread waiting ...:(null):24080
- INFO: thread starting....:(null):24080
- INFO: thread waiting ...:(null):24080
- INFO: thread starting....:(null):24080
- INFO: thread waiting ...:(null):24080
- INFO: thread starting....:(null):24080
- INFO: thread waiting ...:(null):24080
- INFO: thread starting....:(null):24080
- INFO: thread waiting ...:(null):24080
- INFO: thread starting....:(null):24080
- INFO: thread waiting ...:(null):24080
- INFO: thread starting....:(null):24080
- INFO: thread waiting ...:(null):24080
- INFO: thread starting....:(null):24080
- INFO: thread waiting ...:(null):24080
- INFO: adding to buffer:8080:24080
- INFO: waiting...:8080:24080
- INFO: reading from buffer:(null):24080
- INFO: processing request:(null):24080
- INFO: WEB:(null):0
- INFO: request:GET /index.html HTTP/1.0
-
-:0
- INFO: SEND:index.html:0
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
-Connection: close
-Content-Type: text/html
-
-:0
- INFO: thread waiting ...:(null):24080
- INFO: adding to buffer:8080:24080
- INFO: waiting...:8080:24080
- INFO: reading from buffer:(null):24080
- INFO: processing request:(null):24080
- INFO: WEB:(null):0
- INFO: request:GET /index.html HTTP/1.0
-
-:0
- INFO: SEND:index.html:0
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
-Connection: close
-Content-Type: text/html
-
-:0
- INFO: thread waiting ...:(null):24080
- INFO: adding to buffer:8080:24080
- INFO: waiting...:8080:24080
- INFO: reading from buffer:(null):24080
- INFO: processing request:(null):24080
- INFO: WEB:(null):0
- INFO: request:GET /index.html HTTP/1.0
-
-:0
- INFO: SEND:index.html:0
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
-Connection: close
-Content-Type: text/html
-
-:0
- INFO: thread waiting ...:(null):24080
- INFO: adding to buffer:8080:24080
- INFO: waiting...:8080:24080
- INFO: reading from buffer:(null):24080
- INFO: processing request:(null):24080
- INFO: WEB:(null):0
- INFO: request:GET /index.html HTTP/1.0
-
-:0
- INFO: SEND:index.html:0
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
-Connection: close
-Content-Type: text/html
-
-:0
- INFO: thread waiting ...:(null):24080
- INFO: adding to buffer:8080:24080
- INFO: waiting...:8080:24080
- INFO: reading from buffer:(null):24080
- INFO: processing request:(null):24080
- INFO: WEB:(null):0
- INFO: request:GET /index.html HTTP/1.0
-
-:0
- INFO: SEND:index.html:0
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
-Connection: close
-Content-Type: text/html
-
-:0
- INFO: thread waiting ...:(null):24080
- INFO: adding to buffer:8080:24080
- INFO: waiting...:8080:24080
- INFO: reading from buffer:(null):24080
- INFO: processing request:(null):24080
- INFO: WEB:(null):0
- INFO: request:GET /index.html HTTP/1.0
-
-:0
- INFO: SEND:index.html:0
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
-Connection: close
-Content-Type: text/html
-
-:0
- INFO: thread waiting ...:(null):24080
- INFO: adding to buffer:8080:24080
- INFO: waiting...:8080:24080
- INFO: reading from buffer:(null):24080
- INFO: processing request:(null):24080
- INFO: WEB:(null):0
- INFO: request:GET /index.html HTTP/1.0
-
-:0
- INFO: SEND:index.html:0
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
-Connection: close
-Content-Type: text/html
-
-:0
- INFO: thread waiting ...:(null):24080
- INFO: adding to buffer:8080:24080
- INFO: waiting...:8080:24080
- INFO: reading from buffer:(null):24080
- INFO: processing request:(null):24080
- INFO: WEB:(null):0
- INFO: request:GET /index.html HTTP/1.0
-
-:0
- INFO: SEND:index.html:0
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
-Connection: close
-Content-Type: text/html
-
-:0
- INFO: thread waiting ...:(null):24080
- INFO: nweb starting:8080:24340
- INFO: waiting...:8080:24340
- INFO: thread starting....:(null):24340
- INFO: thread waiting ...:(null):24340
- INFO: thread starting....:(null):24340
- INFO: thread waiting ...:(null):24340
- INFO: thread starting....:(null):24340
- INFO: thread waiting ...:(null):24340
- INFO: thread starting....:(null):24340
- INFO: thread waiting ...:(null):24340
- INFO: thread starting....:(null):24340
- INFO: thread waiting ...:(null):24340
- INFO: thread starting....:(null):24340
- INFO: thread waiting ...:(null):24340
- INFO: thread starting....:(null):24340
- INFO: thread waiting ...:(null):24340
- INFO: thread starting....:(null):24340
- INFO: thread waiting ...:(null):24340
- INFO: thread starting....:(null):24340
- INFO: thread waiting ...:(null):24340
- INFO: thread starting....:(null):24340
- INFO: thread waiting ...:(null):24340
- INFO: adding to buffer:8080:24340
- INFO: waiting...:8080:24340
- INFO: reading from buffer:(null):24340
- INFO: processing request:(null):24340
+ INFO: processing request :(null):3867
  INFO: WEB:(null):1
- INFO: request:GET /index.html HTTP/1.0
-
-:1
+ INFO: request:GET /index.html HTTP/1.0****:1
  INFO: SEND:index.html:1
  INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
+Server: nweb/23.0 
+thread ID: 2 
+ thread pic count: 0 
+thread html count 1 
+Content-Length: 217
 Connection: close
 Content-Type: text/html
 
 :1
- INFO: thread waiting ...:(null):24340
- INFO: nweb starting:8080:24412
- INFO: waiting...:8080:24412
- INFO: thread starting....:(null):24412
- INFO: thread waiting ...:(null):24412
- INFO: thread starting....:(null):24412
- INFO: thread waiting ...:(null):24412
- INFO: thread starting....:(null):24412
- INFO: thread waiting ...:(null):24412
- INFO: thread starting....:(null):24412
- INFO: thread waiting ...:(null):24412
- INFO: thread starting....:(null):24412
- INFO: thread waiting ...:(null):24412
- INFO: thread starting....:(null):24412
- INFO: thread waiting ...:(null):24412
- INFO: thread starting....:(null):24412
- INFO: thread waiting ...:(null):24412
- INFO: thread starting....:(null):24412
- INFO: thread waiting ...:(null):24412
- INFO: thread starting....:(null):24412
- INFO: thread waiting ...:(null):24412
- INFO: thread starting....:(null):24412
- INFO: thread waiting ...:(null):24412
- INFO: adding to buffer:8080:24412
- INFO: waiting...:8080:24412
- INFO: reading from buffer:(null):24412
- INFO: processing request:(null):24412
- INFO: WEB:(null):1
- INFO: request:GET / HTTP/1.1
-Host: localhost:8080
-User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Upgrade-Insecure-Requests: 1
-
-:1
- INFO: SEND:index.html:1
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
-Connection: close
-Content-Type: text/html
-
-:1
- INFO: thread waiting ...:(null):24412
- INFO: adding to buffer:8080:24412
- INFO: waiting...:8080:24412
- INFO: reading from buffer:(null):24412
- INFO: processing request:(null):24412
- INFO: WEB:(null):2
- INFO: request:GET /index.html HTTP/1.0
-
-:2
- INFO: SEND:index.html:2
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
-Connection: close
-Content-Type: text/html
-
-:2
- INFO: thread waiting ...:(null):24412
- INFO: adding to buffer:8080:24412
- INFO: waiting...:8080:24412
- INFO: reading from buffer:(null):24412
- INFO: processing request:(null):24412
- INFO: WEB:(null):3
- INFO: request:GET / HTTP/1.1
-Host: localhost:8080
-User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Upgrade-Insecure-Requests: 1
-
-:3
- INFO: SEND:index.html:3
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
-Connection: close
-Content-Type: text/html
-
-:3
- INFO: thread waiting ...:(null):24412
- INFO: adding to buffer:8080:24412
- INFO: waiting...:8080:24412
- INFO: reading from buffer:(null):24412
- INFO: processing request:(null):24412
- INFO: WEB:(null):4
- INFO: request:GET / HTTP/1.1
-Host: localhost:8080
-User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Upgrade-Insecure-Requests: 1
-
-:4
- INFO: SEND:index.html:4
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
-Connection: close
-Content-Type: text/html
-
-:4
- INFO: thread waiting ...:(null):24412
- INFO: adding to buffer:8080:24412
- INFO: waiting...:8080:24412
- INFO: reading from buffer:(null):24412
- INFO: processing request:(null):24412
- INFO: WEB:(null):5
- INFO: request:GET / HTTP/1.1
-Host: localhost:8080
-User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Upgrade-Insecure-Requests: 1
-
-:5
- INFO: SEND:index.html:5
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
-Connection: close
-Content-Type: text/html
-
-:5
- INFO: thread waiting ...:(null):24412
- INFO: adding to buffer:8080:24412
- INFO: waiting...:8080:24412
- INFO: reading from buffer:(null):24412
- INFO: processing request:(null):24412
- INFO: WEB:(null):6
- INFO: request:GET / HTTP/1.1
-Host: localhost:8080
-User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Upgrade-Insecure-Requests: 1
-
-:6
- INFO: SEND:index.html:6
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
-Connection: close
-Content-Type: text/html
-
-:6
- INFO: thread waiting ...:(null):24412
- INFO: adding to buffer:8080:24412
- INFO: waiting...:8080:24412
- INFO: reading from buffer:(null):24412
- INFO: processing request:(null):24412
- INFO: WEB:(null):7
- INFO: request:GET / HTTP/1.1
-Host: localhost:8080
-User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Upgrade-Insecure-Requests: 1
-
-:7
- INFO: SEND:index.html:7
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
-Connection: close
-Content-Type: text/html
-
-:7
- INFO: thread waiting ...:(null):24412
- INFO: adding to buffer:8080:24412
- INFO: waiting...:8080:24412
- INFO: reading from buffer:(null):24412
- INFO: processing request:(null):24412
- INFO: WEB:(null):8
- INFO: request:GET / HTTP/1.1
-Host: localhost:8080
-User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Upgrade-Insecure-Requests: 1
-
-:8
- INFO: SEND:index.html:8
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
-Connection: close
-Content-Type: text/html
-
-:8
- INFO: thread waiting ...:(null):24412
- INFO: adding to buffer:8080:24412
- INFO: waiting...:8080:24412
- INFO: reading from buffer:(null):24412
- INFO: processing request:(null):24412
- INFO: WEB:(null):9
- INFO: request:GET /index.html HTTP/1.0
-
-:9
- INFO: SEND:index.html:9
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
-Connection: close
-Content-Type: text/html
-
-:9
- INFO: thread waiting ...:(null):24412
- INFO: adding to buffer:8080:24412
- INFO: waiting...:8080:24412
- INFO: reading from buffer:(null):24412
- INFO: processing request:(null):24412
- INFO: WEB:(null):10
- INFO: request:GET /index.html HTTP/1.0
-
-:10
- INFO: SEND:index.html:10
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
-Connection: close
-Content-Type: text/html
-
-:10
- INFO: thread waiting ...:(null):24412
- INFO: adding to buffer:8080:24412
- INFO: waiting...:8080:24412
- INFO: reading from buffer:(null):24412
- INFO: processing request:(null):24412
- INFO: WEB:(null):11
- INFO: request:GET /index.html HTTP/1.0
-
-:11
- INFO: SEND:index.html:11
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
-Connection: close
-Content-Type: text/html
-
-:11
- INFO: thread waiting ...:(null):24412
-                                                                                                                                                                                                                                                                                                                                                                                                        INFO: nweb starting:8080:1950
- INFO: waiting...:8080:1950
- INFO: thread starting....:(null):1950
- INFO: thread waiting ...:(null):1950
- INFO: thread starting....:(null):1950
- INFO: thread waiting ...:(null):1950
- INFO: thread starting....:(null):1950
- INFO: thread waiting ...:(null):1950
- INFO: thread starting....:(null):1950
- INFO: thread waiting ...:(null):1950
- INFO: thread starting....:(null):1950
- INFO: thread waiting ...:(null):1950
- INFO: thread starting....:(null):1950
- INFO: thread waiting ...:(null):1950
- INFO: thread starting....:(null):1950
- INFO: thread waiting ...:(null):1950
- INFO: thread starting....:(null):1950
- INFO: thread waiting ...:(null):1950
- INFO: thread starting....:(null):1950
- INFO: thread waiting ...:(null):1950
- INFO: thread starting....:(null):1950
- INFO: thread waiting ...:(null):1950
- INFO: adding to buffer:8080:1950
- INFO: waiting...:8080:1950
- INFO: reading from buffer:(null):1950
- INFO: processing request:(null):1950
- INFO: WEB:(null):1
- INFO: request:GET / HTTP/1.1
-Host: localhost:8080
-User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Upgrade-Insecure-Requests: 1
-
-:1
- INFO: SEND:index.html:1
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
-Connection: close
-Content-Type: text/html
-
-:1
- INFO: thread waiting ...:(null):1950
- INFO: nweb starting:8080:2565
- INFO: waiting...:8080:2565
- INFO: thread starting....:(null):2565
- INFO: thread waiting ...:(null):2565
- INFO: thread starting....:(null):2565
- INFO: thread waiting ...:(null):2565
- INFO: thread starting....:(null):2565
- INFO: thread waiting ...:(null):2565
- INFO: thread starting....:(null):2565
- INFO: thread waiting ...:(null):2565
- INFO: thread starting....:(null):2565
- INFO: thread waiting ...:(null):2565
- INFO: thread starting....:(null):2565
- INFO: thread waiting ...:(null):2565
- INFO: thread starting....:(null):2565
- INFO: thread waiting ...:(null):2565
- INFO: thread starting....:(null):2565
- INFO: thread waiting ...:(null):2565
- INFO: thread starting....:(null):2565
- INFO: thread waiting ...:(null):2565
- INFO: thread starting....:(null):2565
- INFO: thread waiting ...:(null):2565
- INFO: adding to buffer:8080:2565
- INFO: waiting...:8080:2565
- INFO: reading from buffer:(null):2565
- INFO: processing request:(null):2565
- INFO: WEB:(null):1
- INFO: request:GET / HTTP/1.1
-Host: localhost:8080
-User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Upgrade-Insecure-Requests: 1
-
-:1
- INFO: SEND:index.html:1
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
-Connection: close
-Content-Type: text/html
-
-:1
- INFO: thread waiting ...:(null):2565
- INFO: adding to buffer:8080:2565
- INFO: waiting...:8080:2565
- INFO: reading from buffer:(null):2565
- INFO: processing request:(null):2565
- INFO: WEB:(null):2
- INFO: request:GET / HTTP/1.1
-Host: localhost:8080
-User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Upgrade-Insecure-Requests: 1
-
-:2
- INFO: SEND:index.html:2
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
-Connection: close
-Content-Type: text/html
-
-:2
- INFO: thread waiting ...:(null):2565
- INFO: adding to buffer:8080:2565
- INFO: waiting...:8080:2565
- INFO: reading from buffer:(null):2565
- INFO: processing request:(null):2565
- INFO: WEB:(null):3
- INFO: request:GET / HTTP/1.1
-Host: localhost:8080
-User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Upgrade-Insecure-Requests: 1
-
-:3
- INFO: SEND:index.html:3
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
-Connection: close
-Content-Type: text/html
-
-:3
- INFO: thread waiting ...:(null):2565
- INFO: nweb starting:8080:2619
- INFO: waiting...:8080:2619
- INFO: thread starting....:(null):2619
- INFO: thread waiting ...:(null):2619
- INFO: thread starting....:(null):2619
- INFO: thread waiting ...:(null):2619
- INFO: thread starting....:(null):2619
- INFO: thread waiting ...:(null):2619
- INFO: thread starting....:(null):2619
- INFO: thread waiting ...:(null):2619
- INFO: thread starting....:(null):2619
- INFO: thread waiting ...:(null):2619
- INFO: thread starting....:(null):2619
- INFO: thread waiting ...:(null):2619
- INFO: thread starting....:(null):2619
- INFO: thread waiting ...:(null):2619
- INFO: thread starting....:(null):2619
- INFO: thread waiting ...:(null):2619
- INFO: thread starting....:(null):2619
- INFO: thread waiting ...:(null):2619
- INFO: thread starting....:(null):2619
- INFO: thread waiting ...:(null):2619
- INFO: adding to buffer:8080:2619
- INFO: waiting...:8080:2619
- INFO: reading from buffer:(null):2619
- INFO: processing request:(null):2619
- INFO: WEB:(null):1
- INFO: request:GET / HTTP/1.1
-Host: localhost:8080
-User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Upgrade-Insecure-Requests: 1
-
-:1
- INFO: SEND:index.html:1
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
-Connection: close
-Content-Type: text/html
-
-:1
- INFO: thread waiting ...:(null):2619
- INFO: nweb starting:8080:2734
- INFO: waiting...:8080:2734
- INFO: thread starting....:(null):2734
- INFO: thread waiting ...:(null):2734
- INFO: thread starting....:(null):2734
- INFO: thread waiting ...:(null):2734
- INFO: thread starting....:(null):2734
- INFO: thread waiting ...:(null):2734
- INFO: thread starting....:(null):2734
- INFO: thread waiting ...:(null):2734
- INFO: thread starting....:(null):2734
- INFO: thread waiting ...:(null):2734
- INFO: thread starting....:(null):2734
- INFO: thread waiting ...:(null):2734
- INFO: thread starting....:(null):2734
- INFO: thread waiting ...:(null):2734
- INFO: thread starting....:(null):2734
- INFO: thread waiting ...:(null):2734
- INFO: thread starting....:(null):2734
- INFO: thread waiting ...:(null):2734
- INFO: thread starting....:(null):2734
- INFO: thread waiting ...:(null):2734
- INFO: adding to buffer:8080:2734
- INFO: waiting...:8080:2734
- INFO: reading from buffer:(null):2734
- INFO: processing request:(null):2734
- INFO: WEB:(null):1
- INFO: request:GET / HTTP/1.1
-Host: localhost:8080
-User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Upgrade-Insecure-Requests: 1
-
-:1
- INFO: SEND:index.html:1
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
-Connection: close
-Content-Type: text/html
-
-:1
- INFO: thread waiting ...:(null):2734
- INFO: adding to buffer:8080:2734
- INFO: waiting...:8080:2734
- INFO: reading from buffer:(null):2734
- INFO: processing request:(null):2734
- INFO: WEB:(null):2
- INFO: request:GET / HTTP/1.1
-Host: localhost:8080
-User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Upgrade-Insecure-Requests: 1
-
-:2
- INFO: SEND:index.html:2
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
-Connection: close
-Content-Type: text/html
-
-:2
- INFO: thread waiting ...:(null):2734
- INFO: adding to buffer:8080:2734
- INFO: waiting...:8080:2734
- INFO: reading from buffer:(null):2734
- INFO: processing request:(null):2734
- INFO: WEB:(null):3
- INFO: request:GET / HTTP/1.1
-Host: localhost:8080
-User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Upgrade-Insecure-Requests: 1
-
-:3
- INFO: SEND:index.html:3
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
-Connection: close
-Content-Type: text/html
-
-:3
- INFO: thread waiting ...:(null):2734
- INFO: nweb starting:8080:2944
-ERROR: system call:bind Errno=98 exiting pid=2944
- INFO: nweb starting:8080:2968
-ERROR: system call:bind Errno=98 exiting pid=2968
- INFO: adding to buffer:8080:2734
- INFO: waiting...:8080:2734
- INFO: reading from buffer:(null):2734
- INFO: processing request:(null):2734
- INFO: WEB:(null):4
- INFO: request:GET / HTTP/1.1
-Host: localhost:8080
-User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Upgrade-Insecure-Requests: 1
-
-:4
- INFO: SEND:index.html:4
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
-Connection: close
-Content-Type: text/html
-
-:4
- INFO: thread waiting ...:(null):2734
- INFO: adding to buffer:8080:2734
- INFO: waiting...:8080:2734
- INFO: reading from buffer:(null):2734
- INFO: processing request:(null):2734
- INFO: WEB:(null):5
- INFO: request:GET / HTTP/1.1
-Host: localhost:8080
-User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Upgrade-Insecure-Requests: 1
-
-:5
- INFO: SEND:index.html:5
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
-Connection: close
-Content-Type: text/html
-
-:5
- INFO: thread waiting ...:(null):2734
- INFO: nweb starting:8080:3009
- INFO: waiting...:8080:3009
- INFO: thread starting....:(null):3009
- INFO: thread waiting ...:(null):3009
- INFO: thread starting....:(null):3009
- INFO: thread waiting ...:(null):3009
- INFO: thread starting....:(null):3009
- INFO: thread waiting ...:(null):3009
- INFO: thread starting....:(null):3009
- INFO: thread waiting ...:(null):3009
- INFO: thread starting....:(null):3009
- INFO: thread waiting ...:(null):3009
- INFO: thread starting....:(null):3009
- INFO: thread waiting ...:(null):3009
- INFO: thread starting....:(null):3009
- INFO: thread waiting ...:(null):3009
- INFO: thread starting....:(null):3009
- INFO: thread waiting ...:(null):3009
- INFO: thread starting....:(null):3009
- INFO: thread waiting ...:(null):3009
- INFO: thread starting....:(null):3009
- INFO: thread waiting ...:(null):3009
- INFO: adding to buffer:8080:3009
- INFO: waiting...:8080:3009
- INFO: reading from buffer:(null):3009
- INFO: processing request:(null):3009
- INFO: WEB:(null):1
- INFO: request:GET / HTTP/1.1**Host: localhost:8080**User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8**Accept-Language: en-US,en;q=0.5**Accept-Encoding: gzip, deflate**Connection: keep-alive**Upgrade-Insecure-Requests: 1****:1
- INFO: SEND:index.html:1
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
-Connection: close
-Content-Type: text/html
-
-:1
- INFO: thread waiting ...:(null):3009
- INFO: adding to buffer:8080:3009
- INFO: waiting...:8080:3009
- INFO: reading from buffer:(null):3009
- INFO: processing request:(null):3009
- INFO: WEB:(null):2
- INFO: request:GET / HTTP/1.1**Host: localhost:8080**User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8**Accept-Language: en-US,en;q=0.5**Accept-Encoding: gzip, deflate**Connection: keep-alive**Upgrade-Insecure-Requests: 1****:2
- INFO: SEND:index.html:2
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
-Connection: close
-Content-Type: text/html
-
-:2
- INFO: thread waiting ...:(null):3009
- INFO: adding to buffer:8080:3009
- INFO: waiting...:8080:3009
- INFO: reading from buffer:(null):3009
- INFO: processing request:(null):3009
- INFO: WEB:(null):3
- INFO: request:GET / HTTP/1.1**Host: localhost:8080**User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8**Accept-Language: en-US,en;q=0.5**Accept-Encoding: gzip, deflate**Connection: keep-alive**Upgrade-Insecure-Requests: 1****:3
- INFO: SEND:index.html:3
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
-Connection: close
-Content-Type: text/html
-
-:3
- INFO: thread waiting ...:(null):3009
- INFO: adding to buffer:8080:3009
- INFO: waiting...:8080:3009
- INFO: reading from buffer:(null):3009
- INFO: processing request:(null):3009
- INFO: WEB:(null):4
- INFO: request:GET / HTTP/1.1**Host: localhost:8080**User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8**Accept-Language: en-US,en;q=0.5**Accept-Encoding: gzip, deflate**Connection: keep-alive**Upgrade-Insecure-Requests: 1****:4
- INFO: SEND:index.html:4
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
-Connection: close
-Content-Type: text/html
-
-:4
- INFO: thread waiting ...:(null):3009
- INFO: nweb starting:8080:3079
-ERROR: system call:bind Errno=98 exiting pid=3079
- INFO: adding to buffer:8080:3009
- INFO: waiting...:8080:3009
- INFO: reading from buffer:(null):3009
- INFO: processing request:(null):3009
- INFO: WEB:(null):5
- INFO: request:GET / HTTP/1.1**Host: localhost:8080**User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8**Accept-Language: en-US,en;q=0.5**Accept-Encoding: gzip, deflate**Connection: keep-alive**Upgrade-Insecure-Requests: 1****:5
- INFO: SEND:index.html:5
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
-Connection: close
-Content-Type: text/html
-
-:5
- INFO: thread waiting ...:(null):3009
- INFO: adding to buffer:8080:3009
- INFO: waiting...:8080:3009
- INFO: reading from buffer:(null):3009
- INFO: processing request:(null):3009
- INFO: WEB:(null):6
- INFO: request:GET / HTTP/1.1**Host: localhost:8080**User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8**Accept-Language: en-US,en;q=0.5**Accept-Encoding: gzip, deflate**Connection: keep-alive**Upgrade-Insecure-Requests: 1****:6
- INFO: SEND:index.html:6
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
-Connection: close
-Content-Type: text/html
-
-:6
- INFO: thread waiting ...:(null):3009
- INFO: adding to buffer:8080:3009
- INFO: waiting...:8080:3009
- INFO: reading from buffer:(null):3009
- INFO: processing request:(null):3009
- INFO: WEB:(null):7
- INFO: request:GET / HTTP/1.1**Host: localhost:8080**User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8**Accept-Language: en-US,en;q=0.5**Accept-Encoding: gzip, deflate**Connection: keep-alive**Upgrade-Insecure-Requests: 1****:7
- INFO: SEND:index.html:7
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
-Connection: close
-Content-Type: text/html
-
-:7
- INFO: thread waiting ...:(null):3009
- INFO: nweb starting:8080:3109
-ERROR: system call:bind Errno=98 exiting pid=3109
- INFO: nweb starting:8080:3162
- INFO: waiting...:8080:3162
- INFO: thread starting....:(null):3162
- INFO: thread waiting ...:(null):3162
- INFO: thread starting....:(null):3162
- INFO: thread waiting ...:(null):3162
- INFO: thread starting....:(null):3162
- INFO: thread waiting ...:(null):3162
- INFO: thread starting....:(null):3162
- INFO: thread waiting ...:(null):3162
- INFO: thread starting....:(null):3162
- INFO: thread waiting ...:(null):3162
- INFO: thread starting....:(null):3162
- INFO: thread waiting ...:(null):3162
- INFO: thread starting....:(null):3162
- INFO: thread waiting ...:(null):3162
- INFO: thread starting....:(null):3162
- INFO: thread waiting ...:(null):3162
- INFO: thread starting....:(null):3162
- INFO: thread waiting ...:(null):3162
- INFO: thread starting....:(null):3162
- INFO: thread waiting ...:(null):3162
- INFO: adding to buffer:8080:3162
- INFO: waiting...:8080:3162
- INFO: reading from buffer:(null):3162
- INFO: processing request:(null):3162
- INFO: WEB:(null):1
- INFO: request:GET / HTTP/1.1**Host: localhost:8080**User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8**Accept-Language: en-US,en;q=0.5**Accept-Encoding: gzip, deflate**Connection: keep-alive**Upgrade-Insecure-Requests: 1****:1
- INFO: SEND:index.html:1
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
-Connection: close
-Content-Type: text/html
-
-:1
- INFO: thread waiting ...:(null):3162
- INFO: nweb starting:8080:3208
- INFO: waiting...:8080:3208
- INFO: thread starting....:(null):3208
- INFO: thread waiting ...:(null):3208
- INFO: thread starting....:(null):3208
- INFO: thread waiting ...:(null):3208
- INFO: thread starting....:(null):3208
- INFO: thread waiting ...:(null):3208
- INFO: thread starting....:(null):3208
- INFO: thread waiting ...:(null):3208
- INFO: thread starting....:(null):3208
- INFO: thread waiting ...:(null):3208
- INFO: thread starting....:(null):3208
- INFO: thread waiting ...:(null):3208
- INFO: thread starting....:(null):3208
- INFO: thread waiting ...:(null):3208
- INFO: thread starting....:(null):3208
- INFO: thread waiting ...:(null):3208
- INFO: thread starting....:(null):3208
- INFO: thread waiting ...:(null):3208
- INFO: thread starting....:(null):3208
- INFO: thread waiting ...:(null):3208
- INFO: adding to buffer:8080:3208
- INFO: waiting...:8080:3208
- INFO: reading from buffer:(null):3208
- INFO: processing request:(null):3208
- INFO: WEB:(null):1
- INFO: request:GET / HTTP/1.1**Host: localhost:8080**User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8**Accept-Language: en-US,en;q=0.5**Accept-Encoding: gzip, deflate**Connection: keep-alive**Upgrade-Insecure-Requests: 1****:1
- INFO: SEND:index.html:1
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
-Connection: close
-Content-Type: text/html
-
-:1
- INFO: thread waiting ...:(null):3208
- INFO: nweb starting:8080:3273
- INFO: waiting...:8080:3273
- INFO: thread starting....:(null):3273
- INFO: thread waiting ...:(null):3273
- INFO: thread starting....:(null):3273
- INFO: thread waiting ...:(null):3273
- INFO: thread starting....:(null):3273
- INFO: thread waiting ...:(null):3273
- INFO: thread starting....:(null):3273
- INFO: thread waiting ...:(null):3273
- INFO: thread starting....:(null):3273
- INFO: thread waiting ...:(null):3273
- INFO: thread starting....:(null):3273
- INFO: thread waiting ...:(null):3273
- INFO: thread starting....:(null):3273
- INFO: thread waiting ...:(null):3273
- INFO: thread starting....:(null):3273
- INFO: thread waiting ...:(null):3273
- INFO: thread starting....:(null):3273
- INFO: thread waiting ...:(null):3273
- INFO: thread starting....:(null):3273
- INFO: thread waiting ...:(null):3273
- INFO: adding to buffer:8080:3273
- INFO: waiting...:8080:3273
- INFO: reading from buffer:(null):3273
- INFO: processing request:(null):3273
- INFO: WEB:(null):1
- INFO: request:GET / HTTP/1.1**Host: localhost:8080**User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8**Accept-Language: en-US,en;q=0.5**Accept-Encoding: gzip, deflate**Connection: keep-alive**Upgrade-Insecure-Requests: 1****:1
- INFO: SEND:index.html:1
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
-Connection: close
-Content-Type: text/html
-
-:1
- INFO: thread waiting ...:(null):3273
- INFO: adding to buffer:8080:3273
- INFO: waiting...:8080:3273
- INFO: reading from buffer:(null):3273
- INFO: processing request:(null):3273
- INFO: WEB:(null):2
- INFO: request:GET / HTTP/1.1**Host: localhost:8080**User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8**Accept-Language: en-US,en;q=0.5**Accept-Encoding: gzip, deflate**Connection: keep-alive**Upgrade-Insecure-Requests: 1****:2
- INFO: SEND:index.html:2
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
-Connection: close
-Content-Type: text/html
-
-:2
- INFO: thread waiting ...:(null):3273
- INFO: nweb starting:8080:3319
- INFO: waiting...:8080:3319
- INFO: thread starting....:(null):3319
- INFO: thread waiting ...:(null):3319
- INFO: thread starting....:(null):3319
- INFO: thread waiting ...:(null):3319
- INFO: thread starting....:(null):3319
- INFO: thread waiting ...:(null):3319
- INFO: thread starting....:(null):3319
- INFO: thread waiting ...:(null):3319
- INFO: thread starting....:(null):3319
- INFO: thread waiting ...:(null):3319
- INFO: thread starting....:(null):3319
- INFO: thread waiting ...:(null):3319
- INFO: thread starting....:(null):3319
- INFO: thread waiting ...:(null):3319
- INFO: thread starting....:(null):3319
- INFO: thread waiting ...:(null):3319
- INFO: thread starting....:(null):3319
- INFO: thread waiting ...:(null):3319
- INFO: thread starting....:(null):3319
- INFO: thread waiting ...:(null):3319
- INFO: adding to buffer:8080:3319
- INFO: waiting...:8080:3319
- INFO: reading from buffer:(null):3319
- INFO: processing request:(null):3319
- INFO: WEB:(null):1
- INFO: request:GET / HTTP/1.1**Host: localhost:8080**User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8**Accept-Language: en-US,en;q=0.5**Accept-Encoding: gzip, deflate**Connection: keep-alive**Upgrade-Insecure-Requests: 1****:1
- INFO: SEND:index.html:1
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
-Connection: close
-Content-Type: text/html
-
-:1
- INFO: thread waiting ...:(null):3319
- INFO: nweb starting:8080:3353
- INFO: waiting...:8080:3353
- INFO: thread starting....:(null):3353
- INFO: thread waiting ...:(null):3353
- INFO: thread starting....:(null):3353
- INFO: thread waiting ...:(null):3353
- INFO: thread starting....:(null):3353
- INFO: thread waiting ...:(null):3353
- INFO: thread starting....:(null):3353
- INFO: thread waiting ...:(null):3353
- INFO: thread starting....:(null):3353
- INFO: thread waiting ...:(null):3353
- INFO: thread starting....:(null):3353
- INFO: thread waiting ...:(null):3353
- INFO: thread starting....:(null):3353
- INFO: thread waiting ...:(null):3353
- INFO: thread starting....:(null):3353
- INFO: thread waiting ...:(null):3353
- INFO: thread starting....:(null):3353
- INFO: thread waiting ...:(null):3353
- INFO: thread starting....:(null):3353
- INFO: thread waiting ...:(null):3353
- INFO: adding to buffer:8080:3353
- INFO: waiting...:8080:3353
- INFO: reading from buffer:(null):3353
- INFO: processing request:(null):3353
- INFO: WEB:(null):1
- INFO: request:GET / HTTP/1.1**Host: localhost:8080**User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8**Accept-Language: en-US,en;q=0.5**Accept-Encoding: gzip, deflate**Connection: keep-alive**Upgrade-Insecure-Requests: 1****:1
- INFO: SEND:index.html:1
- INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
-Connection: close
-Content-Type: text/html
-
-:1
- INFO: thread waiting ...:(null):3353
- INFO: adding to buffer:8080:3353
- INFO: waiting...:8080:3353
- INFO: reading from buffer:(null):3353
- INFO: processing request:(null):3353
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
  INFO: WEB:(null):2
  INFO: request:GET /index.html HTTP/1.0****:2
  INFO: SEND:index.html:2
  INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
+Server: nweb/23.0 
+thread ID: 4 
+ thread pic count: 0 
+thread html count 1 
+Content-Length: 217
 Connection: close
 Content-Type: text/html
 
 :2
- INFO: thread waiting ...:(null):3353
- INFO: adding to buffer:8080:3353
- INFO: waiting...:8080:3353
- INFO: reading from buffer:(null):3353
- INFO: processing request:(null):3353
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
  INFO: WEB:(null):3
- INFO: request:GET /index.html HTTP/1.1**Host: localhost:8080**User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8**Accept-Language: en-US,en;q=0.5**Accept-Encoding: gzip, deflate**Connection: keep-alive**Upgrade-Insecure-Requests: 1****:3
+ INFO: request:GET /index.html HTTP/1.0****:3
  INFO: SEND:index.html:3
  INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
+Server: nweb/23.0 
+thread ID: 3 
+ thread pic count: 0 
+thread html count 1 
+Content-Length: 217
 Connection: close
 Content-Type: text/html
 
 :3
- INFO: thread waiting ...:(null):3353
- INFO: adding to buffer:8080:3353
- INFO: waiting...:8080:3353
- INFO: reading from buffer:(null):3353
- INFO: processing request:(null):3353
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
  INFO: WEB:(null):4
- INFO: request:GET /index.html HTTP/1.1**Host: localhost:8080**User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8**Accept-Language: en-US,en;q=0.5**Accept-Encoding: gzip, deflate**Connection: keep-alive**Upgrade-Insecure-Requests: 1****:4
+ INFO: request:GET /index.html HTTP/1.0****:4
  INFO: SEND:index.html:4
  INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
+Server: nweb/23.0 
+thread ID: 7 
+ thread pic count: 0 
+thread html count 1 
+Content-Length: 217
 Connection: close
 Content-Type: text/html
 
 :4
- INFO: thread waiting ...:(null):3353
- INFO: nweb starting:8080:3415
- INFO: waiting...:8080:3415
- INFO: thread starting....:(null):3415
- INFO: thread waiting ...:(null):3415
- INFO: thread starting....:(null):3415
- INFO: thread waiting ...:(null):3415
- INFO: thread starting....:(null):3415
- INFO: thread waiting ...:(null):3415
- INFO: thread starting....:(null):3415
- INFO: thread waiting ...:(null):3415
- INFO: thread starting....:(null):3415
- INFO: thread waiting ...:(null):3415
- INFO: thread starting....:(null):3415
- INFO: thread waiting ...:(null):3415
- INFO: thread starting....:(null):3415
- INFO: thread waiting ...:(null):3415
- INFO: thread starting....:(null):3415
- INFO: thread waiting ...:(null):3415
- INFO: thread starting....:(null):3415
- INFO: thread waiting ...:(null):3415
- INFO: thread starting....:(null):3415
- INFO: thread waiting ...:(null):3415
- INFO: adding to buffer:8080:3415
- INFO: waiting...:8080:3415
- INFO: reading from buffer:(null):3415
- INFO: processing request:(null):3415
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):5
+ INFO: request:GET /index.html HTTP/1.0****:5
+ INFO: SEND:index.html:5
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 0 
+ thread pic count: 0 
+thread html count 1 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:5
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):6
+ INFO: request:GET /index.html HTTP/1.0****:6
+ INFO: SEND:index.html:6
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 5 
+ thread pic count: 0 
+thread html count 1 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:6
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):7
+ INFO: request:GET /index.html HTTP/1.0****:7
+ INFO: SEND:index.html:7
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 9 
+ thread pic count: 0 
+thread html count 1 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:7
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):8
+ INFO: request:GET /index.html HTTP/1.0****:8
+ INFO: SEND:index.html:8
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 8 
+ thread pic count: 0 
+thread html count 1 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:8
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):9
+ INFO: request:GET /index.html HTTP/1.0****:9
+ INFO: SEND:index.html:9
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 1 
+ thread pic count: 0 
+thread html count 1 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:9
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):10
+ INFO: request:GET /index.html HTTP/1.0****:10
+ INFO: SEND:index.html:10
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 6 
+ thread pic count: 0 
+thread html count 2 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:10
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):11
+ INFO: request:GET /index.html HTTP/1.0****:11
+ INFO: SEND:index.html:11
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 4 
+ thread pic count: 0 
+thread html count 2 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:11
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):12
+ INFO: request:GET /index.html HTTP/1.0****:12
+ INFO: SEND:index.html:12
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 2 
+ thread pic count: 0 
+thread html count 2 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:12
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: thread waiting ...:(null):3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):13
+ INFO: request:GET /index.html HTTP/1.0****:13
+ INFO: SEND:index.html:13
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 6 
+ thread pic count: 0 
+thread html count 3 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:13
+ INFO: thread waiting ...:(null):3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):14
+ INFO: request:GET /index.html HTTP/1.0****:14
+ INFO: SEND:index.html:14
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 4 
+ thread pic count: 0 
+thread html count 3 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:14
+ INFO: thread waiting ...:(null):3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):15
+ INFO: request:GET /index.html HTTP/1.0****:15
+ INFO: SEND:index.html:15
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 2 
+ thread pic count: 0 
+thread html count 3 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:15
+ INFO: thread waiting ...:(null):3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):16
+ INFO: request:GET /index.html HTTP/1.0****:16
+ INFO: SEND:index.html:16
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 6 
+ thread pic count: 0 
+thread html count 4 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:16
+ INFO: thread waiting ...:(null):3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):17
+ INFO: request:GET /index.html HTTP/1.0****:17
+ INFO: SEND:index.html:17
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 2 
+ thread pic count: 0 
+thread html count 4 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:17
+ INFO: thread waiting ...:(null):3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):18
+ INFO: request:GET /index.html HTTP/1.0****:18
+ INFO: SEND:index.html:18
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 4 
+ thread pic count: 0 
+thread html count 4 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:18
+ INFO: thread waiting ...:(null):3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):19
+ INFO: request:GET /index.html HTTP/1.0****:19
+ INFO: SEND:index.html:19
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 6 
+ thread pic count: 0 
+thread html count 5 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:19
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):20
+ INFO: request:GET /index.html HTTP/1.0****:20
+ INFO: SEND:index.html:20
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 3 
+ thread pic count: 0 
+thread html count 2 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:20
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):21
+ INFO: request:GET /index.html HTTP/1.0****:21
+ INFO: SEND:index.html:21
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 7 
+ thread pic count: 0 
+thread html count 2 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:21
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):22
+ INFO: request:GET /index.html HTTP/1.0****:22
+ INFO: SEND:index.html:22
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 2 
+ thread pic count: 0 
+thread html count 5 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:22
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):23
+ INFO: request:GET /index.html HTTP/1.0****:23
+ INFO: SEND:index.html:23
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 4 
+ thread pic count: 0 
+thread html count 5 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:23
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):24
+ INFO: request:GET /index.html HTTP/1.0****:24
+ INFO: SEND:index.html:24
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 1 
+ thread pic count: 0 
+thread html count 2 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:24
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):25
+ INFO: request:GET /index.html HTTP/1.0****:25
+ INFO: SEND:index.html:25
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 8 
+ thread pic count: 0 
+thread html count 2 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:25
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):26
+ INFO: request:GET /index.html HTTP/1.0****:26
+ INFO: SEND:index.html:26
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 9 
+ thread pic count: 0 
+thread html count 2 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:26
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):27
+ INFO: request:GET /index.html HTTP/1.0****:27
+ INFO: SEND:index.html:27
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 5 
+ thread pic count: 0 
+thread html count 2 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:27
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):28
+ INFO: request:GET /index.html HTTP/1.0****:28
+ INFO: SEND:index.html:28
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 0 
+ thread pic count: 0 
+thread html count 2 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:28
+ INFO: thread waiting ...:(null):3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):29
+ INFO: request:GET /index.html HTTP/1.0****:29
+ INFO: SEND:index.html:29
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 7 
+ thread pic count: 0 
+thread html count 3 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:29
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):30
+ INFO: request:GET /index.html HTTP/1.0****:30
+ INFO: SEND:index.html:30
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 3 
+ thread pic count: 0 
+thread html count 3 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:30
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):31
+ INFO: request:GET /index.html HTTP/1.0****:31 INFO: adding to buffer:2006:3867
+
+ INFO: SEND:index.html:31
+ INFO: waiting...:2006:3867
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 6 
+ thread pic count: 0 
+thread html count 6 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:31
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):32
+ INFO: request:GET /index.html HTTP/1.0****:32
+ INFO: SEND:index.html:32
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 1 
+ thread pic count: 0 
+thread html count 3 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:32
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: thread waiting ...:(null):3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):33
+ INFO: request:GET /index.html HTTP/1.0****:33
+ INFO: SEND:index.html:33
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 6 
+ thread pic count: 0 
+thread html count 7 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:33
+ INFO: thread waiting ...:(null):3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):34
+ INFO: request:GET /index.html HTTP/1.0****:34
+ INFO: SEND:index.html:34
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 3 
+ thread pic count: 0 
+thread html count 4 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:34
+ INFO: thread waiting ...:(null):3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):35
+ INFO: request:GET /index.html HTTP/1.0****:35
+ INFO: SEND:index.html:35
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 1 
+ thread pic count: 0 
+thread html count 4 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:35
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867 INFO: reading from buffer:(null):3867
+
+ INFO: processing request :(null):3867 INFO: reading from buffer:(null):3867
+
+ INFO: WEB:(null):36 INFO: processing request :(null):3867
+
+ INFO: request:GET /index.html HTTP/1.0****:36 INFO: WEB:(null):37
+
+ INFO: request:GET /index.html HTTP/1.0****:37 INFO: SEND:index.html:36
+
+ INFO: SEND:index.html:37 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 1 
+ thread pic count: 0 
+thread html count 5 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:36
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 6 
+ thread pic count: 0 
+thread html count 8 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:37
+ INFO: thread waiting ...:(null):3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):38
+ INFO: request:GET /index.html HTTP/1.0****:38
+ INFO: SEND:index.html:38
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 3 
+ thread pic count: 0 
+thread html count 5 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:38
+ INFO: thread waiting ...:(null):3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):39
+ INFO: request:GET /index.html HTTP/1.0****:39
+ INFO: SEND:index.html:39
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 6 
+ thread pic count: 0 
+thread html count 9 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:39
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):40
+ INFO: request:GET /index.html HTTP/1.0****:40
+ INFO: SEND:index.html:40
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 9 
+ thread pic count: 0 
+thread html count 3 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:40
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867 INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867 INFO: adding to buffer:2006:3867
+
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):43
+ INFO: request:GET /index.html HTTP/1.0****:43
+ INFO: SEND:index.html:43
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 7 
+ thread pic count: 0 
+thread html count 4 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:43
+ INFO: WEB:(null):42
+ INFO: waiting...:2006:3867
+ INFO: request:GET /index.html HTTP/1.0****:42
+ INFO: SEND:index.html:42
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 4 
+ thread pic count: 0 
+thread html count 6 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:42
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):44
+ INFO: request:GET /index.html HTTP/1.0****:44
+ INFO: SEND:index.html:44
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 1 
+ thread pic count: 0 
+thread html count 6 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:44
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867 INFO: reading from buffer:(null):3867
+
+ INFO: WEB:(null):45
+ INFO: request:GET /index.html HTTP/1.0****:45 INFO: processing request :(null):3867
+
+ INFO: WEB:(null):46 INFO: SEND:index.html:45
+
+ INFO: request:GET /index.html HTTP/1.0****:46 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 8 
+ thread pic count: 0 
+thread html count 3 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:45
+ INFO: SEND:index.html:46
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):47
+ INFO: request:GET /index.html HTTP/1.0****:47
+ INFO: SEND:index.html:47
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 0 
+ thread pic count: 0 
+thread html count 3 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:47
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 5 
+ thread pic count: 0 
+thread html count 3 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:46
+
+ INFO: WEB:(null):41
+ INFO: request:GET /index.html HTTP/1.0****:41
+ INFO: SEND:index.html:41
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 2 
+ thread pic count: 0 
+thread html count 6 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:41
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):48
+ INFO: request:GET /index.html HTTP/1.0****:48
+ INFO: SEND:index.html:48
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 3 
+ thread pic count: 0 
+thread html count 6 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:48
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):49
+ INFO: request:GET /index.html HTTP/1.0****:49
+ INFO: SEND:index.html:49
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 6 
+ thread pic count: 0 
+thread html count 10 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:49
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: adding to buffer:2006:3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):51
+ INFO: request:GET /index.html HTTP/1.0****:51
+ INFO: SEND:index.html:51
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 4 
+ thread pic count: 0 
+thread html count 7 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:51
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):52
+ INFO: request:GET /index.html HTTP/1.0****:52
+ INFO: SEND:index.html:52
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 0 
+ thread pic count: 0 
+thread html count 4 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:52
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):53
+ INFO: request:GET /index.html HTTP/1.0****:53
+ INFO: SEND:index.html:53
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 1 
+ thread pic count: 0 
+thread html count 7 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:53
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):54
+ INFO: request:GET /index.html HTTP/1.0****:54
+ INFO: SEND:index.html:54
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 8 
+ thread pic count: 0 
+thread html count 4 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:54
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):55
+ INFO: request:GET /index.html HTTP/1.0****:55
+ INFO: SEND:index.html:55
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 5 
+ thread pic count: 0 
+thread html count 4 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:55
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: WEB:(null):50
+ INFO: waiting...:2006:3867
+ INFO: request:GET /index.html HTTP/1.0****:50 INFO: adding to buffer:2006:3867
+
+ INFO: SEND:index.html:50 INFO: reading from buffer:(null):3867
+
+ INFO: processing request :(null):3867
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 9 
+ thread pic count: 0 
+thread html count 4 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:50 INFO: WEB:(null):56
+
+ INFO: request:GET /index.html HTTP/1.0****:56
+ INFO: SEND:index.html:56
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 3 
+ thread pic count: 0 
+thread html count 7 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:56
+ INFO: reading from buffer:(null):3867
+ INFO: waiting...:2006:3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):57
+ INFO: adding to buffer:2006:3867
+ INFO: request:GET /index.html HTTP/1.0****:57
+ INFO: waiting...:2006:3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):58
+ INFO: request:GET /index.html HTTP/1.0****:58
+ INFO: SEND:index.html:57 INFO: SEND:index.html:58
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 6 
+ thread pic count: 0 
+thread html count 11 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:58 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 7 
+ thread pic count: 0 
+thread html count 5 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:57
+
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):59
+ INFO: request:GET /index.html HTTP/1.0****:59
+ INFO: SEND:index.html:59
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 2 
+ thread pic count: 0 
+thread html count 7 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:59
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: adding to buffer:2006:3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):60
+ INFO: request:GET /index.html HTTP/1.0****:60
+ INFO: SEND:index.html:60
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 4 
+ thread pic count: 0 
+thread html count 8 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:60
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):61
+ INFO: request:GET /index.html HTTP/1.0****:61
+ INFO: SEND:index.html:61
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 8 
+ thread pic count: 0 
+thread html count 5 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:61
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):62
+ INFO: request:GET /index.html HTTP/1.0****:62
+ INFO: SEND:index.html:62
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 0 
+ thread pic count: 0 
+thread html count 5 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:62
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: thread waiting ...:(null):3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):63
+ INFO: request:GET /index.html HTTP/1.0****:63
+ INFO: SEND:index.html:63
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 4 
+ thread pic count: 0 
+thread html count 9 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:63
+ INFO: thread waiting ...:(null):3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):64
+ INFO: request:GET /index.html HTTP/1.0****:64
+ INFO: SEND:index.html:64
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 8 
+ thread pic count: 0 
+thread html count 6 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:64
+ INFO: thread waiting ...:(null):3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):65
+ INFO: request:GET /index.html HTTP/1.0****:65
+ INFO: SEND:index.html:65
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 0 
+ thread pic count: 0 
+thread html count 6 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:65
+ INFO: thread waiting ...:(null):3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):66
+ INFO: request:GET /index.html HTTP/1.0****:66
+ INFO: SEND:index.html:66
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 8 
+ thread pic count: 0 
+thread html count 7 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:66
+ INFO: thread waiting ...:(null):3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):67
+ INFO: request:GET /index.html HTTP/1.0****:67
+ INFO: SEND:index.html:67
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 4 
+ thread pic count: 0 
+thread html count 10 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:67
+ INFO: thread waiting ...:(null):3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):68
+ INFO: request:GET /index.html HTTP/1.0****:68
+ INFO: SEND:index.html:68
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 0 
+ thread pic count: 0 
+thread html count 7 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:68
+ INFO: thread waiting ...:(null):3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):69
+ INFO: request:GET /index.html HTTP/1.0****:69
+ INFO: SEND:index.html:69
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 8 
+ thread pic count: 0 
+thread html count 8 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:69
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: adding to buffer:2006:3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):70
+ INFO: request:GET /index.html HTTP/1.0****:70
+ INFO: SEND:index.html:70
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 1 
+ thread pic count: 0 
+thread html count 8 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:70
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):71
+ INFO: request:GET /index.html HTTP/1.0****:71
+ INFO: SEND:index.html:71
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 5 
+ thread pic count: 0 
+thread html count 5 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:71
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):72
+ INFO: request:GET /index.html HTTP/1.0****:72
+ INFO: SEND:index.html:72
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 3 
+ thread pic count: 0 
+thread html count 8 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:72
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):73
+ INFO: request:GET /index.html HTTP/1.0****:73
+ INFO: SEND:index.html:73
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 7 
+ thread pic count: 0 
+thread html count 6 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:73
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):74
+ INFO: request:GET /index.html HTTP/1.0****:74
+ INFO: SEND:index.html:74
+ INFO: reading from buffer:(null):3867 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 6 
+ thread pic count: 0 
+thread html count 12 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:74
+
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):75
+ INFO: request:GET /index.html HTTP/1.0****:75
+ INFO: SEND:index.html:75
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 9 
+ thread pic count: 0 
+thread html count 5 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:75
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):76
+ INFO: request:GET /index.html HTTP/1.0****:76
+ INFO: SEND:index.html:76
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 2 
+ thread pic count: 0 
+thread html count 8 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:76
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):77
+ INFO: request:GET /index.html HTTP/1.0****:77
+ INFO: SEND:index.html:77
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 0 
+ thread pic count: 0 
+thread html count 8 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:77
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):78
+ INFO: request:GET /index.html HTTP/1.0****:78
+ INFO: SEND:index.html:78
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 4 
+ thread pic count: 0 
+thread html count 11 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:78
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):79
+ INFO: request:GET /index.html HTTP/1.0****:79
+ INFO: SEND:index.html:79
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 8 
+ thread pic count: 0 
+thread html count 9 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:79
+ INFO: waiting...:2006:3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: adding to buffer:2006:3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):80
+ INFO: request:GET /index.html HTTP/1.0****:80
+ INFO: SEND:index.html:80
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 5 
+ thread pic count: 0 
+thread html count 6 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:80
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):81
+ INFO: request:GET /index.html HTTP/1.0****:81
+ INFO: SEND:index.html:81
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 1 
+ thread pic count: 0 
+thread html count 9 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:81
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):82
+ INFO: request:GET /index.html HTTP/1.0****:82
+ INFO: SEND:index.html:82
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 3 
+ thread pic count: 0 
+thread html count 9 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:82
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: thread waiting ...:(null):3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):83
+ INFO: request:GET /index.html HTTP/1.0****:83
+ INFO: SEND:index.html:83
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 5 
+ thread pic count: 0 
+thread html count 7 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:83
+ INFO: thread waiting ...:(null):3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):84
+ INFO: request:GET /index.html HTTP/1.0****:84
+ INFO: SEND:index.html:84
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 1 
+ thread pic count: 0 
+thread html count 10 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:84
+ INFO: thread waiting ...:(null):3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):85
+ INFO: request:GET /index.html HTTP/1.0****:85
+ INFO: SEND:index.html:85
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 3 
+ thread pic count: 0 
+thread html count 10 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:85
+ INFO: thread waiting ...:(null):3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):86
+ INFO: request:GET /index.html HTTP/1.0****:86
+ INFO: SEND:index.html:86
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 5 
+ thread pic count: 0 
+thread html count 8 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:86
+ INFO: thread waiting ...:(null):3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):87
+ INFO: request:GET /index.html HTTP/1.0****:87
+ INFO: SEND:index.html:87
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 3 
+ thread pic count: 0 
+thread html count 11 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:87
+ INFO: thread waiting ...:(null):3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):88
+ INFO: request:GET /index.html HTTP/1.0****:88
+ INFO: SEND:index.html:88
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 1 
+ thread pic count: 0 
+thread html count 11 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:88
+ INFO: thread waiting ...:(null):3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):89
+ INFO: request:GET /index.html HTTP/1.0****:89
+ INFO: SEND:index.html:89
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 3 
+ thread pic count: 0 
+thread html count 12 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:89
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: adding to buffer:2006:3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):90
+ INFO: request:GET /index.html HTTP/1.0****:90
+ INFO: SEND:index.html:90
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 6 
+ thread pic count: 0 
+thread html count 13 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:90
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):91
+ INFO: request:GET /index.html HTTP/1.0****:91
+ INFO: SEND:index.html:91
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 9 
+ thread pic count: 0 
+thread html count 6 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:91
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):92
+ INFO: request:GET /index.html HTTP/1.0****:92
+ INFO: SEND:index.html:92
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 7 
+ thread pic count: 0 
+thread html count 7 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:92
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: thread waiting ...:(null):3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):93
+ INFO: request:GET /index.html HTTP/1.0****:93
+ INFO: SEND:index.html:93
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 6 
+ thread pic count: 0 
+thread html count 14 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:93
+ INFO: thread waiting ...:(null):3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):94
+ INFO: request:GET /index.html HTTP/1.0****:94
+ INFO: SEND:index.html:94
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 7 
+ thread pic count: 0 
+thread html count 8 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:94
+ INFO: thread waiting ...:(null):3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):95
+ INFO: request:GET /index.html HTTP/1.0****:95
+ INFO: SEND:index.html:95
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 9 
+ thread pic count: 0 
+thread html count 7 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:95
+ INFO: thread waiting ...:(null):3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):96
+ INFO: request:GET /index.html HTTP/1.0****:96
+ INFO: thread waiting ...:(null):3867 INFO: SEND:index.html:96
+
+ INFO: reading from buffer:(null):3867 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 6 
+ thread pic count: 0 
+thread html count 15 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:96
+
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):97
+ INFO: request:GET /index.html HTTP/1.0****:97
+ INFO: SEND:index.html:97
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 7 
+ thread pic count: 0 
+thread html count 9 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:97
+ INFO: thread waiting ...:(null):3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):98
+ INFO: request:GET /index.html HTTP/1.0****:98
+ INFO: SEND:index.html:98
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 9 
+ thread pic count: 0 
+thread html count 8 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:98
+ INFO: thread waiting ...:(null):3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):99
+ INFO: request:GET /index.html HTTP/1.0****:99 INFO: thread waiting ...:(null):3867
+
+ INFO: SEND:index.html:99
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 6 
+ thread pic count: 0 
+thread html count 16 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:99
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: reading from buffer:(null):3867 INFO: WEB:(null):100
+
+ INFO: request:GET /index.html HTTP/1.0****:100
+ INFO: processing request :(null):3867 INFO: SEND:index.html:100
+
+ INFO: WEB:(null):101
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 0 
+ thread pic count: 0 
+thread html count 9 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:100
+ INFO: request:GET /index.html HTTP/1.0****:101
+ INFO: SEND:index.html:101
+ INFO: waiting...:2006:3867
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 2 
+ thread pic count: 0 
+thread html count 9 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:101
+ INFO: adding to buffer:2006:3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):102
+ INFO: request:GET /index.html HTTP/1.0****:102
+ INFO: SEND:index.html:102
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 4 
+ thread pic count: 0 
+thread html count 12 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:102
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: adding to buffer:2006:3867
+ INFO: waiting...:2006:3867
+ INFO: thread waiting ...:(null):3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):103
+ INFO: request:GET /index.html HTTP/1.0****:103
+ INFO: SEND:index.html:103
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 0 
+ thread pic count: 0 
+thread html count 10 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:103
+ INFO: thread waiting ...:(null):3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):104
+ INFO: request:GET /index.html HTTP/1.0****:104
+ INFO: SEND:index.html:104
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 2 
+ thread pic count: 0 
+thread html count 10 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:104
+ INFO: thread waiting ...:(null):3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):105
+ INFO: request:GET /index.html HTTP/1.0****:105
+ INFO: SEND:index.html:105
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 4 
+ thread pic count: 0 
+thread html count 13 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:105
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867 INFO: reading from buffer:(null):3867
+
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):106
+ INFO: request:GET /index.html HTTP/1.0****:106
+ INFO: SEND:index.html:106
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 4 
+ thread pic count: 0 
+thread html count 14 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:106
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: WEB:(null):107
+ INFO: request:GET /index.html HTTP/1.0****:107
+ INFO: SEND:index.html:107
+ INFO: thread waiting ...:(null):3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 2 
+ thread pic count: 0 
+thread html count 11 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:107
+
+ INFO: WEB:(null):108
+ INFO: request:GET /index.html HTTP/1.0****:108
+ INFO: SEND:index.html:108
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 0 
+ thread pic count: 0 
+thread html count 11 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:108
+ INFO: thread waiting ...:(null):3867
+ INFO: reading from buffer:(null):3867
+ INFO: processing request :(null):3867
+ INFO: thread waiting ...:(null):3867 INFO: WEB:(null):109
+
+ INFO: request:GET /index.html HTTP/1.0****:109
+ INFO: SEND:index.html:109
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 4 
+ thread pic count: 0 
+thread html count 15 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:109
+ INFO: thread waiting ...:(null):3867
+ INFO: thread waiting ...:(null):3867
+ INFO: nweb starting:2006:3915
+ INFO: thread starting....:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread starting....:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: waiting...:2006:3915
+ INFO: thread starting....:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread starting....:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread starting....:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread starting....:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread starting....:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread starting....:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread starting....:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread starting....:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915 INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):0
+ INFO: request:GET /index.html HTTP/1.0****:0
+ INFO: SEND:index.html:0
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 0 
+ thread pic count: 0 
+thread html count 1 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:0
+
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915 INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
  INFO: WEB:(null):1
- INFO: request:GET /index.html HTTP/1.1**Host: localhost:8080**User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8**Accept-Language: en-US,en;q=0.5**Accept-Encoding: gzip, deflate**Connection: keep-alive**Upgrade-Insecure-Requests: 1****:1
+ INFO: request:GET /pic.jpg HTTP/1.0****:1
+ INFO: SEND:pic.jpg:1
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 8 
+ thread pic count: 1 
+thread html count 0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:1
+
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915 INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):2
+ INFO: request:GET /index.html HTTP/1.0****:2
+ INFO: SEND:index.html:2
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 7 
+ thread pic count: 0 
+thread html count 1 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:2
+
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915 INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: reading from buffer:(null):3915 INFO: WEB:(null):3
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):4
+ INFO: request:GET /index.html HTTP/1.0****:4
+ INFO: SEND:index.html:4
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 1 
+ thread pic count: 0 
+thread html count 1 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:4
+
+ INFO: request:GET /index.html HTTP/1.0****:3
+ INFO: SEND:index.html:3
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 6 
+ thread pic count: 0 
+thread html count 1 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:3
+
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915 INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):5
+ INFO: request:GET /index.html HTTP/1.0****:5
+ INFO: SEND:index.html:5
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 5 
+ thread pic count: 0 
+thread html count 1 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:5
+
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915 INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):6
+ INFO: request:GET /pic.jpg HTTP/1.0****:6
+ INFO: SEND:pic.jpg:6
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 4 
+ thread pic count: 1 
+thread html count 0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:6
+
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915 INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):7
+ INFO: request:GET /pic.jpg HTTP/1.0****:7
+ INFO: SEND:pic.jpg:7
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 3 
+ thread pic count: 1 
+thread html count 0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:7
+
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: thread waiting ...:(null):3915
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):8
+ INFO: request:GET /pic.jpg HTTP/1.0****:8
+ INFO: SEND:pic.jpg:8
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 0 
+ thread pic count: 1 
+thread html count 1 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:8
+ INFO: thread waiting ...:(null):3915
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):9
+ INFO: request:GET /pic.jpg HTTP/1.0****:9
+ INFO: SEND:pic.jpg:9
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 8 
+ thread pic count: 2 
+thread html count 0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:9
+ INFO: thread waiting ...:(null):3915 INFO: thread waiting ...:(null):3915
+
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):10
+ INFO: request:GET /pic.jpg HTTP/1.0****:10
+ INFO: SEND:pic.jpg:10
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 9 
+ thread pic count: 1 
+thread html count 0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:10
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):11
+ INFO: request:GET /pic.jpg HTTP/1.0****:11
+ INFO: SEND:pic.jpg:11
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 1 
+ thread pic count: 1 
+thread html count 1 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:11
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):13
+ INFO: request:GET /pic.jpg HTTP/1.0****:13
+ INFO: SEND:pic.jpg:13
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 2 
+ thread pic count: 1 
+thread html count 0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:13
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):12
+ INFO: request:GET /index.html HTTP/1.0****:12
+ INFO: SEND:index.html:12
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 7 
+ thread pic count: 0 
+thread html count 2 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:12
+ INFO: adding to buffer:2006:3915
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):14
+ INFO: request:GET /index.html HTTP/1.0****:14
+ INFO: SEND:index.html:14
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 6 
+ thread pic count: 0 
+thread html count 2 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:14
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):16
+ INFO: request:GET /pic.jpg HTTP/1.0****:16
+ INFO: SEND:pic.jpg:16
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 4 
+ thread pic count: 2 
+thread html count 0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:16
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):15
+ INFO: request:GET /index.html HTTP/1.0****:15
+ INFO: SEND:index.html:15
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 5 
+ thread pic count: 0 
+thread html count 2 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:15
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):18
+ INFO: request:GET /pic.jpg HTTP/1.0****:18
+ INFO: SEND:pic.jpg:18
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 0 
+ thread pic count: 2 
+thread html count 1 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:18
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):19
+ INFO: request:GET /pic.jpg HTTP/1.0****:19
+ INFO: SEND:pic.jpg:19
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 8 
+ thread pic count: 3 
+thread html count 0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:19
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):17
+ INFO: request:GET /index.html HTTP/1.0****:17
+ INFO: SEND:index.html:17
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 3 
+ thread pic count: 1 
+thread html count 1 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:17
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915 INFO: thread waiting ...:(null):3915
+
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):21
+ INFO: request:GET /pic.jpg HTTP/1.0****:21
+ INFO: SEND:pic.jpg:21
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 1 
+ thread pic count: 2 
+thread html count 1 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:21
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):22
+ INFO: request:GET /pic.jpg HTTP/1.0****:22
+ INFO: SEND:pic.jpg:22
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 9 
+ thread pic count: 2 
+thread html count 0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:22
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):24
+ INFO: request:GET /pic.jpg HTTP/1.0****:24
+ INFO: SEND:pic.jpg:24
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 2 
+ thread pic count: 2 
+thread html count 0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:24
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):25
+ INFO: request:GET /pic.jpg HTTP/1.0****:25
+ INFO: reading from buffer:(null):3915 INFO: SEND:pic.jpg:25
+
+ INFO: processing request :(null):3915 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 6 
+ thread pic count: 1 
+thread html count 2 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:25
+
+ INFO: WEB:(null):26
+ INFO: request:GET /pic.jpg HTTP/1.0****:26
+ INFO: SEND:pic.jpg:26
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 4 
+ thread pic count: 3 
+thread html count 0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:26
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):20
+ INFO: request:GET /index.html HTTP/1.0****:20
+ INFO: SEND:index.html:20
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 7 
+ thread pic count: 0 
+thread html count 3 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:20
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):23
+ INFO: request:GET /index.html HTTP/1.0****:23
+ INFO: SEND:index.html:23
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 5 
+ thread pic count: 0 
+thread html count 3 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:23
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):27
+ INFO: request:GET /pic.jpg HTTP/1.0****:27
+ INFO: SEND:pic.jpg:27
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 8 
+ thread pic count: 4 
+thread html count 0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:27
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):28
+ INFO: request:GET /pic.jpg HTTP/1.0****:28
+ INFO: SEND:pic.jpg:28
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 0 
+ thread pic count: 3 
+thread html count 1 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:28
+ INFO: thread waiting ...:(null):3915
+ INFO: reading from buffer:(null):3915
+ INFO: thread waiting ...:(null):3915 INFO: processing request :(null):3915
+
+ INFO: WEB:(null):29
+ INFO: request:GET /index.html HTTP/1.0****:29
+ INFO: SEND:index.html:29
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 2 
+ thread pic count: 2 
+thread html count 1 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:29
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):30
+ INFO: request:GET /pic.jpg HTTP/1.0****:30
+ INFO: SEND:pic.jpg:30
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 4 
+ thread pic count: 4 
+thread html count 0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:30
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):31
+ INFO: request:GET /pic.jpg HTTP/1.0****:31
+ INFO: SEND:pic.jpg:31
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 7 
+ thread pic count: 1 
+thread html count 3 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:31
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):33
+ INFO: request:GET /pic.jpg HTTP/1.0****:33
+ INFO: SEND:pic.jpg:33
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 5 
+ thread pic count: 1 
+thread html count 3 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:33
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):34
+ INFO: request:GET /pic.jpg HTTP/1.0****:34
+ INFO: SEND:pic.jpg:34
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 3 
+ thread pic count: 2 
+thread html count 1 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:34
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):35
+ INFO: request:GET /pic.jpg HTTP/1.0****:35
+ INFO: SEND:pic.jpg:35
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 2 
+ thread pic count: 3 
+thread html count 1 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:35
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):36
+ INFO: request:GET /pic.jpg HTTP/1.0****:36
+ INFO: SEND:pic.jpg:36
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 1 
+ thread pic count: 3 
+thread html count 1 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:36
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):39
+ INFO: request:GET /pic.jpg HTTP/1.0****:39
+ INFO: SEND:pic.jpg:39
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 8 
+ thread pic count: 5 
+thread html count 0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:39
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):32
+ INFO: request:GET /index.html HTTP/1.0****:32
+ INFO: SEND:index.html:32
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 0 
+ thread pic count: 3 
+thread html count 2 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:32
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):37
+ INFO: request:GET /index.html HTTP/1.0****:37
+ INFO: SEND:index.html:37
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 9 
+ thread pic count: 2 
+thread html count 1 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:37
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):38
+ INFO: request:GET /index.html HTTP/1.0****:38
+ INFO: SEND:index.html:38
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 6 
+ thread pic count: 1 
+thread html count 3 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:38
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):40 INFO: reading from buffer:(null):3915
+
+ INFO: request:GET /pic.jpg HTTP/1.0****:40
+ INFO: processing request :(null):3915
+ INFO: SEND:pic.jpg:40 INFO: WEB:(null):41
+
+ INFO: request:GET /pic.jpg HTTP/1.0****:41 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 4 
+ thread pic count: 5 
+thread html count 0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:40
+
+ INFO: SEND:pic.jpg:41
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 0 
+ thread pic count: 4 
+thread html count 2 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:41
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):42
+ INFO: request:GET /pic.jpg HTTP/1.0****:42
+ INFO: SEND:pic.jpg:42
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 7 
+ thread pic count: 2 
+thread html count 3 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:42
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):45
+ INFO: request:GET /pic.jpg HTTP/1.0****:45
+ INFO: SEND:pic.jpg:45
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 1 
+ thread pic count: 4 
+thread html count 1 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:45
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):46
+ INFO: request:GET /pic.jpg HTTP/1.0****:46
+ INFO: SEND:pic.jpg:46
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 8 
+ thread pic count: 6 
+thread html count 0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:46
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915 INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):44
+ INFO: request:GET /index.html HTTP/1.0****:44
+
+ INFO: WEB:(null):43
+ INFO: SEND:index.html:44 INFO: reading from buffer:(null):3915 INFO: request:GET /index.html HTTP/1.0****:43
+
+ INFO: processing request :(null):3915
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 2 
+ thread pic count: 3 
+thread html count 2 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:44
+ INFO: SEND:index.html:43
+ INFO: WEB:(null):47
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 5 
+ thread pic count: 1 
+thread html count 4 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:43 INFO: request:GET /index.html HTTP/1.0****:47
+ INFO: SEND:index.html:47
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 3 
+ thread pic count: 2 
+thread html count 2 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:47
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: thread waiting ...:(null):3915
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):49
+ INFO: request:GET /pic.jpg HTTP/1.0****:49
+ INFO: SEND:pic.jpg:49
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 4 
+ thread pic count: 6 
+thread html count 0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:49
+ INFO: thread waiting ...:(null):3915
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):48
+ INFO: request:GET /index.html HTTP/1.0****:48
+ INFO: SEND:index.html:48
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 1 
+ thread pic count: 4 
+thread html count 2 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:48
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: adding to buffer:2006:3915
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):50
+ INFO: request:GET /pic.jpg HTTP/1.0****:50
+ INFO: SEND:pic.jpg:50
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 9 
+ thread pic count: 3 
+thread html count 1 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:50
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):51
+ INFO: request:GET /pic.jpg HTTP/1.0****:51
+ INFO: SEND:pic.jpg:51
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 6 
+ thread pic count: 2 
+thread html count 3 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:51
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):52
+ INFO: request:GET /pic.jpg HTTP/1.0****:52
+ INFO: SEND:pic.jpg:52
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 8 
+ thread pic count: 7 
+thread html count 0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:52
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):53
+ INFO: request:GET /pic.jpg HTTP/1.0****:53
+ INFO: SEND:pic.jpg:53
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 0 
+ thread pic count: 5 
+thread html count 2 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:53
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):54
+ INFO: request:GET /pic.jpg HTTP/1.0****:54
+ INFO: SEND:pic.jpg:54
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 2 
+ thread pic count: 4 
+thread html count 2 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:54
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):55
+ INFO: request:GET /index.html HTTP/1.0****:55
+ INFO: SEND:index.html:55
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 5 
+ thread pic count: 1 
+thread html count 5 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:55
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):59
+ INFO: request:GET /pic.jpg HTTP/1.0****:59
+ INFO: SEND:pic.jpg:59
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 3 
+ thread pic count: 3 
+thread html count 2 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:59
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):56
+ INFO: request:GET /index.html HTTP/1.0****:56
+ INFO: SEND:index.html:56
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 7 
+ thread pic count: 2 
+thread html count 4 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:56
+ INFO: thread waiting ...:(null):3915
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):57
+ INFO: request:GET /index.html HTTP/1.0****:57
+ INFO: SEND:index.html:57
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 9 
+ thread pic count: 3 
+thread html count 2 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:57
+ INFO: thread waiting ...:(null):3915
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):58
+ INFO: request:GET /index.html HTTP/1.0****:58
+ INFO: SEND:index.html:58
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 0 
+ thread pic count: 5 
+thread html count 3 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:58
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):61 INFO: reading from buffer:(null):3915
+
+ INFO: request:GET /pic.jpg HTTP/1.0****:61
+ INFO: processing request :(null):3915
+ INFO: SEND:pic.jpg:61 INFO: WEB:(null):60
+
+ INFO: request:GET /index.html HTTP/1.0****:60 INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 1 
+ thread pic count: 5 
+thread html count 2 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:61
+
+ INFO: SEND:index.html:60
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 4 
+ thread pic count: 6 
+thread html count 1 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:60
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):62
+ INFO: request:GET /pic.jpg HTTP/1.0****:62
+ INFO: SEND:pic.jpg:62
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 8 
+ thread pic count: 8 
+thread html count 0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:62
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):63
+ INFO: request:GET /index.html HTTP/1.0****:63
+ INFO: SEND:index.html:63
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 6 
+ thread pic count: 2 
+thread html count 4 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:63
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):64
+ INFO: request:GET /pic.jpg HTTP/1.0****:64
+ INFO: SEND:pic.jpg:64
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 2 
+ thread pic count: 5 
+thread html count 2 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:64
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):65
+ INFO: request:GET /index.html HTTP/1.0****:65
+ INFO: SEND:index.html:65
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 5 
+ thread pic count: 1 
+thread html count 6 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:65
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):66
+ INFO: request:GET /pic.jpg HTTP/1.0****:66
+ INFO: SEND:pic.jpg:66
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 3 
+ thread pic count: 4 
+thread html count 2 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:66
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):67
+ INFO: request:GET /index.html HTTP/1.0****:67
+ INFO: SEND:index.html:67
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 7 
+ thread pic count: 2 
+thread html count 5 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:67
+ INFO: adding to buffer:2006:3915
+ INFO: waiting...:2006:3915
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):68
+ INFO: request:GET /index.html HTTP/1.0****:68
+ INFO: SEND:index.html:68
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 9 
+ thread pic count: 3 
+thread html count 3 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:68
+ INFO: thread waiting ...:(null):3915
+ INFO: reading from buffer:(null):3915
+ INFO: processing request :(null):3915
+ INFO: WEB:(null):69
+ INFO: request:GET /index.html HTTP/1.0****:69
+ INFO: SEND:index.html:69
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+thread ID: 8 
+ thread pic count: 8 
+thread html count 1 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:69
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: thread waiting ...:(null):3915
+ INFO: nweb starting:2006:4428
+ INFO: thread starting....:(null):4428 INFO: waiting...:2006:4428
+ INFO: thread starting....:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread starting....:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread starting....:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread starting....:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread starting....:(null):4428
+ INFO: thread waiting ...:(null):4428
+
+ INFO: thread starting....:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread starting....:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread starting....:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread starting....:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428 INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):0
+ INFO: request:GET /pic.jpg HTTP/1.0****:0
+ INFO: SEND:pic.jpg:0
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:0
+
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428 INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):1
+ INFO: request:GET /index.html HTTP/1.0****:1
  INFO: SEND:index.html:1
  INFO: Header:HTTP/1.1 200 OK
-Server: nweb/23.0
-Content-Length: 286
+Server: nweb/23.0 
+Content-Length: 217
 Connection: close
 Content-Type: text/html
 
 :1
- INFO: thread waiting ...:(null):3415
- INFO: nweb starting:2020:18690
- INFO: waiting...:2020:18690
- INFO: thread starting....:(null):18690
- INFO: thread starting....:(null):18690 INFO: thread waiting ...:(null):18690
 
- INFO: thread waiting ...:(null):18690 INFO: thread starting....:(null):18690
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428 INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):2
+ INFO: request:GET /pic.jpg HTTP/1.0****:2
+ INFO: SEND:pic.jpg:2
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
 
- INFO: thread starting....:(null):18690 INFO: thread waiting ...:(null):18690
+:2
 
- INFO: thread waiting ...:(null):18690
- INFO: thread starting....:(null):18690
- INFO: thread waiting ...:(null):18690
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428 INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):3
+ INFO: request:GET /index.html HTTP/1.0****:3
+ INFO: SEND:index.html:3
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:3
+
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428 INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):4
+ INFO: request:GET /pic.jpg HTTP/1.0****:4
+ INFO: SEND:pic.jpg:4
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:4
+
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428 INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):5
+ INFO: request:GET /index.html HTTP/1.0****:5
+ INFO: SEND:index.html:5
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:5
+
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428 INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):6
+
+ INFO: WEB:(null):7
+ INFO: request:GET /index.html HTTP/1.0****:6 INFO: request:GET /pic.jpg HTTP/1.0****:7
+
+ INFO: SEND:index.html:6 INFO: SEND:pic.jpg:7
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:7
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:6
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428 INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+
+ INFO: WEB:(null):8 INFO: WEB:(null):9
+ INFO: request:GET /index.html HTTP/1.0****:9
+
+ INFO: request:GET /pic.jpg HTTP/1.0****:8 INFO: SEND:index.html:9
+
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:9
+ INFO: SEND:pic.jpg:8
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:8
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428 INFO: thread waiting ...:(null):4428
+
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428 INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):10
+ INFO: request:GET /index.html HTTP/1.0****:10
+ INFO: SEND:index.html:10
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:10
+
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428 INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):11
+ INFO: request:GET /index.html HTTP/1.0****:11
+ INFO: SEND:index.html:11
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:11
+
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428 INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):12
+ INFO: request:GET /pic.jpg HTTP/1.0****:12
+ INFO: SEND:pic.jpg:12
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:12
+
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428 INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):13
+ INFO: request:GET /pic.jpg HTTP/1.0****:13
+ INFO: SEND:pic.jpg:13
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:13
+
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428 INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):14
+ INFO: request:GET /index.html HTTP/1.0****:14
+ INFO: SEND:index.html:14
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:14
+
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428 INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):15
+ INFO: request:GET /pic.jpg HTTP/1.0****:15
+ INFO: SEND:pic.jpg:15
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:15
+
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428 INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):16
+ INFO: request:GET /index.html HTTP/1.0****:16
+ INFO: SEND:index.html:16
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:16
+
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428 INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):17
+ INFO: request:GET /index.html HTTP/1.0****:17
+ INFO: SEND:index.html:17
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:17
+
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428 INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):18
+ INFO: request:GET /index.html HTTP/1.0****:18
+ INFO: SEND:index.html:18
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:18
+
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428 INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):19
+ INFO: request:GET /pic.jpg HTTP/1.0****:19
+ INFO: SEND:pic.jpg:19
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:19
+
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):20
+ INFO: request:GET /index.html HTTP/1.0****:20
+ INFO: SEND:index.html:20
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:20
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):22
+ INFO: request:GET /pic.jpg HTTP/1.0****:22
+ INFO: SEND:pic.jpg:22
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:22
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):21
+ INFO: request:GET /index.html HTTP/1.0****:21
+ INFO: SEND:index.html:21
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:21
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):23
+ INFO: request:GET /pic.jpg HTTP/1.0****:23
+ INFO: SEND:pic.jpg:23
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:23
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):24
+ INFO: request:GET /index.html HTTP/1.0****:24
+ INFO: SEND:index.html:24
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:24
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):25
+ INFO: request:GET /pic.jpg HTTP/1.0****:25
+ INFO: SEND:pic.jpg:25
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:25
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):26
+ INFO: request:GET /index.html HTTP/1.0****:26
+ INFO: SEND:index.html:26
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:26
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):27
+ INFO: request:GET /index.html HTTP/1.0****:27
+ INFO: SEND:index.html:27
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:27
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):28
+ INFO: request:GET /index.html HTTP/1.0****:28
+ INFO: SEND:index.html:28
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:28
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):29
+ INFO: request:GET /index.html HTTP/1.0****:29
+ INFO: SEND:index.html:29
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:29
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):33
+ INFO: request:GET /pic.jpg HTTP/1.0****:33
+ INFO: SEND:pic.jpg:33
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:33
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):30
+ INFO: request:GET /index.html HTTP/1.0****:30
+ INFO: SEND:index.html:30
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:30
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):31
+ INFO: request:GET /index.html HTTP/1.0****:31
+ INFO: SEND:index.html:31
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:31
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):32
+ INFO: request:GET /index.html HTTP/1.0****:32
+ INFO: SEND:index.html:32
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:32
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):34
+ INFO: request:GET /index.html HTTP/1.0****:34
+ INFO: SEND:index.html:34
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:34
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):35
+ INFO: request:GET /pic.jpg HTTP/1.0****:35
+ INFO: SEND:pic.jpg:35
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:35
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):36
+ INFO: request:GET /index.html HTTP/1.0****:36
+ INFO: SEND:index.html:36
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:36
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):37
+ INFO: request:GET /index.html HTTP/1.0****:37
+ INFO: SEND:index.html:37
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:37
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):38
+ INFO: request:GET /pic.jpg HTTP/1.0****:38
+ INFO: SEND:pic.jpg:38
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:38
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):39
+ INFO: request:GET /pic.jpg HTTP/1.0****:39
+ INFO: SEND:pic.jpg:39
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:39
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):41
+ INFO: request:GET /pic.jpg HTTP/1.0****:41
+ INFO: SEND:pic.jpg:41
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:41
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):40
+ INFO: request:GET /index.html HTTP/1.0****:40
+ INFO: SEND:index.html:40
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:40
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):42
+ INFO: request:GET /index.html HTTP/1.0****:42
+ INFO: SEND:index.html:42
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:42
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):44
+ INFO: request:GET /pic.jpg HTTP/1.0****:44
+ INFO: SEND:pic.jpg:44
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:44
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):43
+ INFO: request:GET /index.html HTTP/1.0****:43
+ INFO: SEND:index.html:43
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:43
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):45
+ INFO: request:GET /pic.jpg HTTP/1.0****:45
+ INFO: SEND:pic.jpg:45
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:45
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):46
+ INFO: request:GET /pic.jpg HTTP/1.0****:46
+ INFO: SEND:pic.jpg:46
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:46
+ INFO: adding to buffer:2006:4428
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):47
+ INFO: request:GET /index.html HTTP/1.0****:47
+ INFO: SEND:index.html:47
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:47
+ INFO: waiting...:2006:4428
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):48
+ INFO: request:GET /index.html HTTP/1.0****:48
+ INFO: SEND:index.html:48
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:48
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):49
+ INFO: request:GET /index.html HTTP/1.0****:49
+ INFO: SEND:index.html:49
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:49
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):50
+ INFO: request:GET /pic.jpg HTTP/1.0****:50
+ INFO: SEND:pic.jpg:50
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:50
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):51
+ INFO: request:GET /index.html HTTP/1.0****:51
+ INFO: SEND:index.html:51
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:51
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):52
+ INFO: request:GET /index.html HTTP/1.0****:52
+ INFO: SEND:index.html:52
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:52
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428
+ INFO: adding to buffer:2006:4428
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):53
+ INFO: request:GET /index.html HTTP/1.0****:53
+ INFO: SEND:index.html:53
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:53
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):54
+ INFO: request:GET /index.html HTTP/1.0****:54
+ INFO: SEND:index.html:54
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:54
+ INFO: waiting...:2006:4428
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):55
+ INFO: request:GET /index.html HTTP/1.0****:55
+ INFO: SEND:index.html:55
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:55
+ INFO: adding to buffer:2006:4428
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):56
+ INFO: request:GET /pic.jpg HTTP/1.0****:56
+ INFO: SEND:pic.jpg:56
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:56
+ INFO: waiting...:2006:4428
+ INFO: adding to buffer:2006:4428
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):57
+ INFO: request:GET /pic.jpg HTTP/1.0****:57
+ INFO: SEND:pic.jpg:57
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:57
+ INFO: waiting...:2006:4428
+ INFO: adding to buffer:2006:4428
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):58
+ INFO: request:GET /pic.jpg HTTP/1.0****:58
+ INFO: SEND:pic.jpg:58
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:58
+ INFO: waiting...:2006:4428
+ INFO: adding to buffer:2006:4428
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):59
+ INFO: request:GET /pic.jpg HTTP/1.0****:59
+ INFO: SEND:pic.jpg:59
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:59
+ INFO: waiting...:2006:4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428
+ INFO: adding to buffer:2006:4428
+ INFO: waiting...:2006:4428
+ INFO: adding to buffer:2006:4428
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):62
+ INFO: request:GET /pic.jpg HTTP/1.0****:62
+ INFO: SEND:pic.jpg:62
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:62
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):60
+ INFO: request:GET /index.html HTTP/1.0****:60
+ INFO: SEND:index.html:60
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:60
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):61
+ INFO: request:GET /index.html HTTP/1.0****:61
+ INFO: SEND:index.html:61
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:61
+ INFO: waiting...:2006:4428
+ INFO: adding to buffer:2006:4428
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):63
+ INFO: request:GET /pic.jpg HTTP/1.0****:63
+ INFO: SEND:pic.jpg:63
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:63
+ INFO: waiting...:2006:4428
+ INFO: adding to buffer:2006:4428
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):64
+ INFO: request:GET /index.html HTTP/1.0****:64
+ INFO: SEND:index.html:64
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:64
+ INFO: waiting...:2006:4428
+ INFO: adding to buffer:2006:4428
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):65
+ INFO: request:GET /pic.jpg HTTP/1.0****:65
+ INFO: SEND:pic.jpg:65
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:65
+ INFO: waiting...:2006:4428
+ INFO: adding to buffer:2006:4428
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):66
+ INFO: request:GET /index.html HTTP/1.0****:66
+ INFO: SEND:index.html:66
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:66
+ INFO: waiting...:2006:4428
+ INFO: adding to buffer:2006:4428
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):67
+ INFO: request:GET /pic.jpg HTTP/1.0****:67
+ INFO: SEND:pic.jpg:67
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:67
+ INFO: waiting...:2006:4428
+ INFO: adding to buffer:2006:4428
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):68
+ INFO: request:GET /pic.jpg HTTP/1.0****:68
+ INFO: SEND:pic.jpg:68
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 0
+Connection: close
+Content-Type: image/jpg
+
+:68
+ INFO: waiting...:2006:4428
+ INFO: adding to buffer:2006:4428
+ INFO: reading from buffer:(null):4428
+ INFO: processing request :(null):4428
+ INFO: WEB:(null):69
+ INFO: request:GET /index.html HTTP/1.0****:69
+ INFO: SEND:index.html:69
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:69
+ INFO: waiting...:2006:4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428 INFO: thread waiting ...:(null):4428
+
+ INFO: thread waiting ...:(null):4428
+ INFO: thread waiting ...:(null):4428
