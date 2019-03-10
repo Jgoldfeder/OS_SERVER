@@ -12,7 +12,6 @@ void logger(int type, char *s1, char *s2, int socket_fd);
 pthread_mutex_t mutex= PTHREAD_MUTEX_INITIALIZER;
 void* workerThread(void* b);
 
-
 typedef struct t{
 
     buffer* b;

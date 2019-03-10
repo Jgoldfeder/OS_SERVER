@@ -3,6 +3,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <sys/time.h>
+#include <pthread.h>
+
+int dispatch_count = 0;
+pthread_mutex_t dispatch_mutex= PTHREAD_MUTEX_INITIALIZER;
+
+
 buffer* createBuffer(int capacity,int policy){
     entry** buff = malloc(sizeof(entry*)*capacity);
     int size = 0;
@@ -16,7 +22,7 @@ buffer* createBuffer(int capacity,int policy){
     return b;
 }
 
-unsigned long get_time2() { //this is copied and pasted in server.c --> should prob create a library for this
+unsigned long get_time() { //this is copied and pasted in server.c --> should prob create a library for this
 	struct timeval tv;
 	gettimeofday(&tv, NULL);
 	unsigned long ret = tv.tv_usec;
@@ -74,7 +80,12 @@ entry* get(buffer* b, long server_time){
     if(b->size==0) return NULL;
 
     entry* ret = b->buff[b->size-1];
-    ret->dispatched_time = (get_time2() - server_time);
+    ret->dispatched_time = (get_time() - server_time);
+    
+    pthread_mutex_lock(&dispatch_mutex);
+    ret->prior_dispatch_count = dispatch_count++;
+    pthread_mutex_unlock(&dispatch_mutex);
+    
     b->size--;
     return ret;
 }

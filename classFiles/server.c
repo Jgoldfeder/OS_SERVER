@@ -68,15 +68,6 @@ void logger(int type, char *s1, char *s2, int socket_fd)
 }
 
 
-unsigned long get_time() {
-	struct timeval tv;
-	gettimeofday(&tv, NULL);
-	unsigned long ret = tv.tv_usec;
-	ret /= 1000;
-	ret += (tv.tv_sec * 1000);
-	return ret;
-}
-
 
 entry* getEntry(int fd, int hit, long server_time ){
 	char* buffer = calloc(BUFSIZE+1,sizeof(char));
@@ -177,20 +168,25 @@ void web(entry* e, int id, int html, int pic)
     	(void)sprintf(buffer,"thread ID: %d\r\n", thread_id);	
 	dummy = write(fd,buffer,strlen(buffer));
 
-	(void)sprintf(buffer,"thread HTML count: %d\r\n", html);	//These are flipped
+	(void)sprintf(buffer,"thread HTML count: %d\r\n", html);	
 	dummy = write(fd,buffer,strlen(buffer));
 
-	(void)sprintf(buffer,"thread JPG count: %d\r\n", pic);	// these are flipped
+	(void)sprintf(buffer,"thread JPG count: %d\r\n", pic);	
 	dummy = write(fd,buffer,strlen(buffer));
 
 	(void)sprintf(buffer,"total request this thread has completed: %d\r\n", pic_count + html_count);	
 	dummy = write(fd,buffer,strlen(buffer));
 
+	(void)sprintf(buffer,"number of request that arrived before this one: %d\r\n", e->hit);	
+	dummy = write(fd,buffer,strlen(buffer));
 
    	(void)sprintf(buffer,"request time arrival relative to server: %ld ms\n", e->time_arrival);	
 	dummy = write(fd,buffer,strlen(buffer));
 
 	(void)sprintf(buffer,"request dispatched time relative to server: %ld ms\n", e->dispatched_time);	
+	dummy = write(fd,buffer,strlen(buffer));
+
+	(void)sprintf(buffer,"total request dispatched before this request: %d ms\n", e->prior_dispatch_count);	
 	dummy = write(fd,buffer,strlen(buffer));
 
 	(void)sprintf(buffer,"request time of completion relative to server: %ld ms\n", (get_time() -server_time));	
@@ -285,7 +281,7 @@ int main(int argc, char **argv)
     buffer* b = createBuffer(buffSize,policy);
     createPool(threadNum,b, server_time);
 
-    for(hit=1; ;hit++) {
+    for(hit=0; ;hit++) {
 			length = sizeof(cli_addr);
 			logger(LOG,"waiting...",argv[1],getpid());
 			if((socketfd = accept(listenfd, (struct sockaddr *)&cli_addr, &length)) < 0)

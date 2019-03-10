@@ -13,6 +13,7 @@ typedef struct e{
     int priority;
     long time_arrival;
     long dispatched_time;
+    int prior_dispatch_count;
 }entry;
 
 
