@@ -1,6 +1,8 @@
 #include "buffer.h"
 #include <limits.h>
 #include <stdlib.h>
+#include <time.h>
+#include <sys/time.h>
 buffer* createBuffer(int capacity,int policy){
     entry** buff = malloc(sizeof(entry*)*capacity);
     int size = 0;
@@ -13,6 +15,16 @@ buffer* createBuffer(int capacity,int policy){
     b->policy = policy;
     return b;
 }
+
+unsigned long get_time2() { //this is copied and pasted in server.c --> should prob create a library for this
+	struct timeval tv;
+	gettimeofday(&tv, NULL);
+	unsigned long ret = tv.tv_usec;
+	ret /= 1000;
+	ret += (tv.tv_sec * 1000);
+	return ret;
+} 
+
 
 int getPriority(buffer* b,entry* e){
   int hit,html,policy;
@@ -58,10 +70,11 @@ int add(buffer* b, entry* e){
     return 0;
 }
 
-entry* get(buffer* b){
+entry* get(buffer* b, long server_time){
     if(b->size==0) return NULL;
 
     entry* ret = b->buff[b->size-1];
+    ret->dispatched_time = (get_time2() - server_time);
     b->size--;
     return ret;
 }

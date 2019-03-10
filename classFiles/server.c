@@ -9,6 +9,8 @@
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <arpa/inet.h>
+#include <time.h>
+#include <sys/time.h>
 #include "buffer.h"
 #include "pool.h"
 #define VERSION 23
@@ -17,6 +19,8 @@
 #define LOG        44
 #define FORBIDDEN 403
 #define NOTFOUND  404
+long server_time;
+
 
 struct {
 	char *ext;
@@ -64,9 +68,21 @@ void logger(int type, char *s1, char *s2, int socket_fd)
 }
 
 
+unsigned long get_time() {
+	struct timeval tv;
+	gettimeofday(&tv, NULL);
+	unsigned long ret = tv.tv_usec;
+	ret /= 1000;
+	ret += (tv.tv_sec * 1000);
+	return ret;
+}
 
-entry* getEntry(int fd, int hit){
+
+entry* getEntry(int fd, int hit, long server_time ){
 	char* buffer = calloc(BUFSIZE+1,sizeof(char));
+
+	long request_arrival = get_time() - server_time; //time of request arrival relative to server time
+
 
 	long ret =read(fd,buffer,BUFSIZE); 	/* read Web request in one go */
 	if(ret == 0 || ret == -1) {	/* read failure stop now */
@@ -88,6 +104,7 @@ entry* getEntry(int fd, int hit){
 	e->html = html;
 	e->hit = hit;
 	e->fd = fd;
+	e->time_arrival = request_arrival;
 	return e;
 }
 
@@ -98,8 +115,13 @@ entry* getEntry(int fd, int hit){
 
 
 /* this is a child web server process, so we can exit on errors */
-void web(entry* e)
+void web(entry* e, int id, int html, int pic)
 {
+	int thread_id = id;
+	int html_count = html;
+	int pic_count = pic;
+	int total_jobs = html_count + pic_count;
+	
 	int hit = e->hit;
 	logger(LOG,"WEB",0,hit);
 
@@ -146,15 +168,35 @@ void web(entry* e)
 	logger(LOG,"SEND",&buffer[5],hit);
 	len = (long)lseek(file_fd, (off_t)0, SEEK_END); /* lseek to the file end to find the length */
 	      (void)lseek(file_fd, (off_t)0, SEEK_SET); /* lseek back to the file start ready for reading */
-          (void)sprintf(buffer,"HTTP/1.1 200 OK\nServer: nweb/%d.0\nContent-Length: %ld\nConnection: close\nContent-Type: %s\n\n", VERSION, len, fstr); /* Header + a blank line */
+          (void)sprintf(buffer,"HTTP/1.1 200 OK\nServer: nweb/%d.0 \nthread ID: %d \n thread pic count: %d \nthread html count %d \nContent-Length: %ld\nConnection: close\nContent-Type: %s\n\n", VERSION, thread_id, pic_count, html_count, len, fstr); /* Header + a blank line */
 	logger(LOG,"Header",buffer,hit);
 	dummy = write(fd,buffer,strlen(buffer));
 
     // Send the statistical headers described in the paper, example below
 
-    (void)sprintf(buffer,"X-stat-req-arrival-count: %d\r\n", 300);	dummy = write(fd,buffer,strlen(buffer));
-
+    	(void)sprintf(buffer,"thread ID: %d\r\n", thread_id);	
 	dummy = write(fd,buffer,strlen(buffer));
+
+	(void)sprintf(buffer,"thread HTML count: %d\r\n", html);	//These are flipped
+	dummy = write(fd,buffer,strlen(buffer));
+
+	(void)sprintf(buffer,"thread JPG count: %d\r\n", pic);	// these are flipped
+	dummy = write(fd,buffer,strlen(buffer));
+
+	(void)sprintf(buffer,"total request this thread has completed: %d\r\n", pic_count + html_count);	
+	dummy = write(fd,buffer,strlen(buffer));
+
+
+   	(void)sprintf(buffer,"request time arrival relative to server: %ld ms\n", e->time_arrival);	
+	dummy = write(fd,buffer,strlen(buffer));
+
+	(void)sprintf(buffer,"request dispatched time relative to server: %ld ms\n", e->dispatched_time);	
+	dummy = write(fd,buffer,strlen(buffer));
+
+	(void)sprintf(buffer,"request time of completion relative to server: %ld ms\n", (get_time() -server_time));	
+	dummy = write(fd,buffer,strlen(buffer));
+
+
 
 int ret;
     /* send file in 8KB block - last block may be smaller */
@@ -168,6 +210,9 @@ int ret;
 
 int main(int argc, char **argv)
 {
+	server_time = get_time();
+	
+
 	int i, port,  listenfd, socketfd, hit;
 	socklen_t length;
 	static struct sockaddr_in cli_addr; /* static = initialised to zeros */
@@ -238,7 +283,7 @@ int main(int argc, char **argv)
 		}
 
     buffer* b = createBuffer(buffSize,policy);
-    createPool(threadNum,b);
+    createPool(threadNum,b, server_time);
 
     for(hit=1; ;hit++) {
 			length = sizeof(cli_addr);
@@ -246,9 +291,11 @@ int main(int argc, char **argv)
 			if((socketfd = accept(listenfd, (struct sockaddr *)&cli_addr, &length)) < 0)
 				  logger(ERROR,"system call","accept",0);
 
-			entry* e = getEntry(socketfd,hit);
+			entry* e = getEntry(socketfd,hit, server_time);
+			//MIGHT WANNA MODIFY ENTRY WHERE IT HAS THE TIME,
+			//Is this where the master thread waits to add the request
 			sem_wait(&empty);
-      pthread_mutex_lock(&mutex);
+      			pthread_mutex_lock(&mutex);
 			logger(LOG,"adding to buffer",argv[1],getpid());
 
       add(b,e);
