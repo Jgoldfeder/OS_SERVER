@@ -242,7 +242,7 @@ void *workerFIFOFunc (void *tInf) {
             connect_and_send_request(tInfo->argc, (char **) tInfo->argv, argNum, tInfo->id);
         }
         else
-            connect_and_send_request(tInfo->argc, (char **) tInfo->argv, 0, -1);
+            connect_and_send_request(tInfo->argc, (char **) tInfo->argv, 0, tInfo->id);
         /* END WORK*/
 
 
@@ -283,17 +283,16 @@ int connect_and_send_request (int argc, char **argv, int fileNum, int policy) {
         else {
             GET(clientfd, argv[5 + fileNum]);
         }
-
-        return 0;
     }
+    else {
+        if (argc == 6)
+            GET(clientfd, argv[5]);
+        else if (argc == 7) {
+            GET(clientfd, argv[5 + fileNum]);
+        } else
+            GET(clientfd, argv[3]);
 
-    if (argc == 6)
-        GET(clientfd, argv[5]);
-    else if (argc == 7) {
-        GET(clientfd, argv[5 + fileNum]);
     }
-    else
-        GET(clientfd, argv[3]);
 
     while (recv(clientfd, buf, BUF_SIZE, 0) > 0) {
         fputs(buf, stdout);
