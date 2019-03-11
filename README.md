@@ -1,6 +1,6 @@
 # OS_SERVER
 
-1: Are group consisted of Yehuda Goldfeder, Tom Milman and Nate Saada.The breakup was:
+1: Our group consisted of Yehuda Goldfeder, Tom Milman and Nate Saada.The breakup was:
 Yehuda-Multithreading server and testing
 Nate- statistics
 Tom - Multi threaded client
