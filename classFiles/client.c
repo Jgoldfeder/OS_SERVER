@@ -240,6 +240,8 @@ void *workerFIFOFunc (void *tInf) {
             int argNum = j % 2;
 
             connect_and_send_request(tInfo->argc, (char **) tInfo->argv, argNum, tInfo->id);
+            connect_and_send_request(tInfo->argc, (char **) tInfo->argv, argNum, tInfo->id);
+
         }
         else
             connect_and_send_request(tInfo->argc, (char **) tInfo->argv, 0, tInfo->id);
@@ -271,10 +273,12 @@ int connect_and_send_request (int argc, char **argv, int fileNum, int policy) {
     if (policy >= 0) {
 //        printf("%d done fifo: %d\n", policy, fifoTurn);
 
-        if (fifoTurn == numberOfThreads-1)
-            fifoTurn = 0;
-        else
-            fifoTurn++;
+        if (fileNum == 1) {
+            if (fifoTurn == numberOfThreads-1)
+                fifoTurn = 0;
+            else
+                fifoTurn++;
+        }
 
 //        printf("%d\n", fifoTurn);
 
