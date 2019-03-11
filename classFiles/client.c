@@ -16,7 +16,6 @@
 
 /* Function headers */
 int connect_and_send_request (int argc, char **argv, int fileNum, int policy);
-int create_threads (int numThreads);
 void *workerCONCURFunc (void *tInf);
 void *workerFIFOFunc (void *tInf);
 
@@ -160,9 +159,9 @@ int main(int argc, char **argv) {
         }
 
     if (policy == FIFO) {
-        for (i = 0; i < numThreads; i++) {
-            fifoTurn = 0;
+        fifoTurn = 0;
 
+        for (i = 0; i < numThreads; i++) {
             //sets struct params
             tInfo[i].id = i;
             tInfo[i].argv = argv;
@@ -219,14 +218,14 @@ void *workerFIFOFunc (void *tInf) {
 
         pthread_mutex_lock( &fifoMutex);
         while (tInfo->id != fifoTurn) {
-            printf("%d, fifoTurn = %d\n", tInfo->id, fifoTurn);
+//            printf("%d, fifoTurn = %d\n", tInfo->id, fifoTurn);
 //            pthread_mutex_unlock( &fifoMutex);
             pthread_cond_signal(&condVerb);
             pthread_cond_wait( &condVerb, &fifoMutex);
 
 //            printf("%d after cond\n", tInfo->id);
 //            pthread_mutex_lock( &fifoMutex);
-            printf("%d is here\n", tInfo->id);
+//            printf("%d is here\n", tInfo->id);
 
         }
 //        pthread_mutex_lock( &fifoMutex);
@@ -237,12 +236,13 @@ void *workerFIFOFunc (void *tInf) {
             //generating random number for a file picker
 //            srand(time(0) + tInfo->id);
 //            int argNum = rand() % 2;
-            int argNum = j % 2;
+//            int argNum = j % 2;
 
-            connect_and_send_request(tInfo->argc, (char **) tInfo->argv, argNum, tInfo->id);
+            connect_and_send_request(tInfo->argc, (char **) tInfo->argv, 0, tInfo->id);
+            connect_and_send_request(tInfo->argc, (char **) tInfo->argv, 1, tInfo->id);
         }
         else
-            connect_and_send_request(tInfo->argc, (char **) tInfo->argv, 0, -1);
+            connect_and_send_request(tInfo->argc, (char **) tInfo->argv, 0, tInfo->id);
         /* END WORK*/
 
 
@@ -267,16 +267,13 @@ int connect_and_send_request (int argc, char **argv, int fileNum, int policy) {
 
     // Send GET request > stdout
     if (policy >= 0) {
-        printf("%d done fifo: %d\n", policy, fifoTurn);
+//        printf("%d done fifo: %d\n", policy, fifoTurn);
 
         if (fifoTurn == numberOfThreads-1)
             fifoTurn = 0;
         else
             fifoTurn++;
-        printf("%d\n", fifoTurn);
-
-        pthread_cond_signal(&condVerb);
-        pthread_mutex_unlock( &fifoMutex );
+//        printf("%d\n", fifoTurn);
 
         if (argc == 6)
             GET(clientfd, argv[5]);
@@ -284,16 +281,17 @@ int connect_and_send_request (int argc, char **argv, int fileNum, int policy) {
             GET(clientfd, argv[5 + fileNum]);
         }
 
-        return 0;
+        pthread_cond_signal(&condVerb);
+        pthread_mutex_unlock( &fifoMutex );
     }
-
-    if (argc == 6)
-        GET(clientfd, argv[5]);
-    else if (argc == 7) {
-        GET(clientfd, argv[5 + fileNum]);
+    else {
+        if (argc == 6)
+            GET(clientfd, argv[5]);
+        else if (argc == 7) {
+            GET(clientfd, argv[5 + fileNum]);
+        } else
+            GET(clientfd, argv[3]);
     }
-    else
-        GET(clientfd, argv[3]);
 
     while (recv(clientfd, buf, BUF_SIZE, 0) > 0) {
         fputs(buf, stdout);
@@ -303,9 +301,3 @@ int connect_and_send_request (int argc, char **argv, int fileNum, int policy) {
     close(clientfd);
     return 0;
 }
-
-int create_threads (int numThreads) {
-    return 0;
-}
-
-
