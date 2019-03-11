@@ -195,9 +195,10 @@ void *workerCONCURFunc (void *tInf) {
             //generating random number for a file picker
 //            srand(time(0) + tInfo->id);
 //            int argNum = rand() % 2;
-            int argNum = j % 2;
+//            int argNum = j % 2;
 
-            connect_and_send_request(tInfo->argc, (char **) tInfo->argv, argNum, -1);
+            connect_and_send_request(tInfo->argc, (char **) tInfo->argv, 0, tInfo->id);
+            connect_and_send_request(tInfo->argc, (char **) tInfo->argv, 1, tInfo->id);
         }
         else
             connect_and_send_request(tInfo->argc, (char **) tInfo->argv, 0, -1);
