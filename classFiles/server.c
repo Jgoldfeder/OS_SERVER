@@ -198,6 +198,7 @@ void web(entry* e, int id, int html, int pic)
 
 	(void)sprintf(buffer,"number of request that arrived before this one: %d\r\n", e->hit);
 	dummy = write(fd,buffer,strlen(buffer));
+	logger(LOG,"hit",0,e->hit);
 
    	(void)sprintf(buffer,"request time arrival relative to server: %ld ms\n", e->time_arrival);
 	dummy = write(fd,buffer,strlen(buffer));
@@ -216,7 +217,7 @@ void web(entry* e, int id, int html, int pic)
 
 	(void)sprintf(buffer,"Number of requests given priority over this request: %d\r\n", e->stat_req_age);
 	dummy = write(fd,buffer,strlen(buffer));
-
+logger(LOG,"stat_req_age",0,e->stat_req_age);
 
 int ret;
     /* send file in 8KB block - last block may be smaller */
@@ -312,11 +313,9 @@ int main(int argc, char **argv)
 				  logger(ERROR,"system call","accept",0);
 
 			entry* e = getEntry(socketfd,hit, server_time);
-			//MIGHT WANNA MODIFY ENTRY WHERE IT HAS THE TIME,
-			//Is this where the master thread waits to add the request
 			sem_wait(&empty);
-      			pthread_mutex_lock(&mutex);
-			logger(LOG,"adding to buffer",argv[1],getpid());
+      pthread_mutex_lock(&mutex);
+			logger(LOG,"adding to buffer",argv[1],hit);
 
       add(b,e);
       pthread_mutex_unlock(&mutex);

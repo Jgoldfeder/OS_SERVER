@@ -22,7 +22,7 @@ buffer* createBuffer(int capacity,int policy){
     return b;
 }
 
-unsigned long get_time() { //this is copied and pasted in server.c --> should prob create a library for this
+unsigned long get_time() {
 	struct timeval tv;
 	gettimeofday(&tv, NULL);
 	unsigned long ret = tv.tv_usec;
@@ -65,8 +65,9 @@ int add(buffer* b, entry* e){
     //insert into queue
     int i;
     for(i=0;i<b->size;i++){
-      b->buff[i]->stat_req_age++;
       if(b->buff[i]->priority > e->priority) break;
+      b->buff[i]->stat_req_age++;
+
     }
     for(int j =b->size;j>i;j--){
       b->buff[j] = b->buff[j-1];

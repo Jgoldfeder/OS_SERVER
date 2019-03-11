@@ -36,14 +36,14 @@ void createPool(int size,buffer* b, long server_time){
     }
 
     sem_init(&full, 0, 0);
-    sem_init(&empty, 0, size);
+    sem_init(&empty, 0, b->cap);
 }
 
 
 void* workerThread(void* v){
     logger(LOG,"thread starting....",0,getpid());
- 
-// can save struct info as local vars and free vars. 
+
+// can save struct info as local vars and free vars.
     thread_info* t_info = (thread_info*) v;
 
     int html_count = 0;
@@ -53,13 +53,13 @@ void* workerThread(void* v){
         sem_wait(&full);
         pthread_mutex_lock(&mutex);
         logger(LOG,"reading from buffer",0,getpid());
-       
+
 	entry* info = get(t_info->b, t_info->server_t);
 	//info contains the hit number which is the reqquest count. Can deduce the number of request that arrived before this one.
         pthread_mutex_unlock(&mutex);
         sem_post(&empty);
-        logger(LOG,"processing request ",0,getpid());
-	
+        logger(LOG,"processing request ",0,t_info->b->size);
+
 	if (info->html > 0){
 	   html_count++;
 	}
