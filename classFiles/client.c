@@ -152,8 +152,8 @@ int main(int argc, char **argv) {
         }
 
     else if (policy == FIFO) {
+        fifoTurn = 0;
         for (i = 0; i < numThreads; i++) {
-            fifoTurn = 0;
 
             //sets struct params
             tInfo[i].id = i;
@@ -213,7 +213,7 @@ void *workerFIFOFunc (void *tInf) {
         }
 
         while (tInfo->id != fifoTurn) {
-            printf("%d, fifoTurn = %d\n", tInfo->id, fifoTurn);
+//            printf("%d, fifoTurn = %d\n", tInfo->id, fifoTurn);
             ret = pthread_cond_signal(&condVerb);
 
             if (ret != 0) {
@@ -228,7 +228,7 @@ void *workerFIFOFunc (void *tInf) {
                 exit(1);
             }
 
-            printf("%d is here\n", tInfo->id);
+//            printf("%d is here\n", tInfo->id);
 
         }
 
@@ -269,14 +269,14 @@ int connect_and_send_request (int argc, char **argv, int fileNum, int policy) {
 
     // Send GET request > stdout
     if (policy >= 0) {
-        printf("%d done fifo: %d\n", policy, fifoTurn);
+//        printf("%d done fifo: %d\n", policy, fifoTurn);
 
         if (fifoTurn == numberOfThreads-1)
             fifoTurn = 0;
         else
             fifoTurn++;
 
-        printf("%d\n", fifoTurn);
+//        printf("%d\n", fifoTurn);
 
         ret = pthread_cond_signal(&condVerb);
 
@@ -292,11 +292,11 @@ int connect_and_send_request (int argc, char **argv, int fileNum, int policy) {
             exit(1);
         }
 
-//        if (argc == 6)
-//            GET(clientfd, argv[5]);
-//        else {
-//            GET(clientfd, argv[5 + fileNum]);
-//        }
+        if (argc == 6)
+            GET(clientfd, argv[5]);
+        else {
+            GET(clientfd, argv[5 + fileNum]);
+        }
     }
     else {
         if (argc == 6)
