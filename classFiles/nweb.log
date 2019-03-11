@@ -1,11 +1,5 @@
- INFO: nweb starting:7008:2254
- INFO: waiting...:7008:2254
- INFO: thread starting....:(null):2254
- INFO: thread waiting ...:(null):2254
- INFO: thread starting....:(null):2254
- INFO: thread waiting ...:(null):2254
- INFO: adding to buffer:7008:0
- INFO: waiting...:7008:2254 INFO: reading from buffer:(null):2254
+ INFO: adding to buffer:8010:0
+ INFO: waiting...:8010:4061 INFO: reading from buffer:(null):4061
  INFO: processing request :(null):0
  INFO: WEB:(null):0
  INFO: request:GET /index.html HTTP/1.0****:0
@@ -18,11 +12,10 @@ Content-Type: text/html
 
 :0
  INFO: hit:(null):0
- INFO: stat_req_age:(null):0
 
- INFO: adding to buffer:7008:1
- INFO: waiting...:7008:2254
- INFO: reading from buffer:(null):2254
+ INFO: stat_req_age:(null):0
+ INFO: adding to buffer:8010:1
+ INFO: waiting...:8010:4061 INFO: reading from buffer:(null):4061
  INFO: processing request :(null):0
  INFO: WEB:(null):1
  INFO: request:GET /index.html HTTP/1.0****:1
@@ -36,65 +29,206 @@ Content-Type: text/html
 :1
  INFO: hit:(null):1
  INFO: stat_req_age:(null):0
- INFO: adding to buffer:7008:2
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:3
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:4
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:5
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:6
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:7
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:8
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:9
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:10
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:11
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:12
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:13
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:14
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:15
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:16
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:17
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:18
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:19
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:20
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:21
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:22
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:23
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:24
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:25
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:26
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:27
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:28
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:29
- INFO: waiting...:7008:2254
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):27
+
+ INFO: adding to buffer:8010:2
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:3
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:4
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:5
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:6
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:7
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:8
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:9
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:10
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:11
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:12
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:13
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:14
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:15
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:16
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:17
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:18
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:19
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:20
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:21
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:22
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:23
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:24
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:25
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:26
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:27
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:28
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:29
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:30
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:31
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:32
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:33
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:34
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:35
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:36
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:37
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:38
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:39
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:40
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:41
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:42
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:43
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:44
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:45
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:46
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:47
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:48
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:49
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:50
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:51
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:52
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:53
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:54
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:55
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:56
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:57
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:58
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:59
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:60
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:61
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:62
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:63
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:64
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:65
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:66
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:67
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:68
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:69
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:70
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:71
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:72
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:73
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:74
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:75
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:76
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:77
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:78
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:79
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:80
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:81
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:82
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:83
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:84
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:85
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:86
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:87
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:88
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:89
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:90
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:91
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:92
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:93
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:94
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:95
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:96
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:97
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:98
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:99
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):97
  INFO: WEB:(null):2
  INFO: request:GET /index.html HTTP/1.0****:2
  INFO: SEND:index.html:2
@@ -107,9 +241,11 @@ Content-Type: text/html
 :2
  INFO: hit:(null):2
  INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):26
+ INFO: adding to buffer:8010:100
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):97
  INFO: WEB:(null):3
  INFO: request:GET /index.html HTTP/1.0****:3
  INFO: SEND:index.html:3
@@ -122,9 +258,11 @@ Content-Type: text/html
 :3
  INFO: hit:(null):3
  INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):25
+ INFO: adding to buffer:8010:101
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):97
  INFO: WEB:(null):4
  INFO: request:GET /index.html HTTP/1.0****:4
  INFO: SEND:index.html:4
@@ -137,9 +275,11 @@ Content-Type: text/html
 :4
  INFO: hit:(null):4
  INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):24
+ INFO: adding to buffer:8010:102
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):97
  INFO: WEB:(null):5
  INFO: request:GET /index.html HTTP/1.0****:5
  INFO: SEND:index.html:5
@@ -152,9 +292,11 @@ Content-Type: text/html
 :5
  INFO: hit:(null):5
  INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):23
+ INFO: adding to buffer:8010:103
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):97
  INFO: WEB:(null):6
  INFO: request:GET /index.html HTTP/1.0****:6
  INFO: SEND:index.html:6
@@ -167,9 +309,11 @@ Content-Type: text/html
 :6
  INFO: hit:(null):6
  INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):22
+ INFO: adding to buffer:8010:104
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):97
  INFO: WEB:(null):7
  INFO: request:GET /index.html HTTP/1.0****:7
  INFO: SEND:index.html:7
@@ -182,9 +326,11 @@ Content-Type: text/html
 :7
  INFO: hit:(null):7
  INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):21
+ INFO: adding to buffer:8010:105
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):97
  INFO: WEB:(null):8
  INFO: request:GET /index.html HTTP/1.0****:8
  INFO: SEND:index.html:8
@@ -197,9 +343,11 @@ Content-Type: text/html
 :8
  INFO: hit:(null):8
  INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):20
+ INFO: adding to buffer:8010:106
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):97
  INFO: WEB:(null):9
  INFO: request:GET /index.html HTTP/1.0****:9
  INFO: SEND:index.html:9
@@ -212,9 +360,11 @@ Content-Type: text/html
 :9
  INFO: hit:(null):9
  INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):19
+ INFO: adding to buffer:8010:107
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):97
  INFO: WEB:(null):10
  INFO: request:GET /index.html HTTP/1.0****:10
  INFO: SEND:index.html:10
@@ -227,9 +377,11 @@ Content-Type: text/html
 :10
  INFO: hit:(null):10
  INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):18
+ INFO: adding to buffer:8010:108
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):97
  INFO: WEB:(null):11
  INFO: request:GET /index.html HTTP/1.0****:11
  INFO: SEND:index.html:11
@@ -242,9 +394,11 @@ Content-Type: text/html
 :11
  INFO: hit:(null):11
  INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):17
+ INFO: adding to buffer:8010:109
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):97
  INFO: WEB:(null):12
  INFO: request:GET /index.html HTTP/1.0****:12
  INFO: SEND:index.html:12
@@ -257,9 +411,11 @@ Content-Type: text/html
 :12
  INFO: hit:(null):12
  INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):16
+ INFO: adding to buffer:8010:110
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):97
  INFO: WEB:(null):13
  INFO: request:GET /index.html HTTP/1.0****:13
  INFO: SEND:index.html:13
@@ -272,9 +428,11 @@ Content-Type: text/html
 :13
  INFO: hit:(null):13
  INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):15
+ INFO: adding to buffer:8010:111
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):97
  INFO: WEB:(null):14
  INFO: request:GET /index.html HTTP/1.0****:14
  INFO: SEND:index.html:14
@@ -287,9 +445,11 @@ Content-Type: text/html
 :14
  INFO: hit:(null):14
  INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):14
+ INFO: adding to buffer:8010:112
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):97
  INFO: WEB:(null):15
  INFO: request:GET /index.html HTTP/1.0****:15
  INFO: SEND:index.html:15
@@ -302,9 +462,11 @@ Content-Type: text/html
 :15
  INFO: hit:(null):15
  INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):13
+ INFO: adding to buffer:8010:113
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):97
  INFO: WEB:(null):16
  INFO: request:GET /index.html HTTP/1.0****:16
  INFO: SEND:index.html:16
@@ -317,9 +479,9 @@ Content-Type: text/html
 :16
  INFO: hit:(null):16
  INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):12
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):96
  INFO: WEB:(null):17
  INFO: request:GET /index.html HTTP/1.0****:17
  INFO: SEND:index.html:17
@@ -332,9 +494,13 @@ Content-Type: text/html
 :17
  INFO: hit:(null):17
  INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):11
+ INFO: adding to buffer:8010:114
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:115
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):97
  INFO: WEB:(null):18
  INFO: request:GET /index.html HTTP/1.0****:18
  INFO: SEND:index.html:18
@@ -345,11 +511,9 @@ Connection: close
 Content-Type: text/html
 
 :18
- INFO: hit:(null):18
- INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):10
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):96
  INFO: WEB:(null):19
  INFO: request:GET /index.html HTTP/1.0****:19
  INFO: SEND:index.html:19
@@ -360,11 +524,19 @@ Connection: close
 Content-Type: text/html
 
 :19
+ INFO: hit:(null):18
  INFO: hit:(null):19
+ INFO: adding to buffer:8010:116
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:117
+ INFO: waiting...:8010:4061
  INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):9
+ INFO: stat_req_age:(null):0
+ INFO: adding to buffer:8010:118
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
  INFO: WEB:(null):20
  INFO: request:GET /index.html HTTP/1.0****:20
  INFO: SEND:index.html:20
@@ -375,11 +547,9 @@ Connection: close
 Content-Type: text/html
 
 :20
- INFO: hit:(null):20
- INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):8
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):97
  INFO: WEB:(null):21
  INFO: request:GET /index.html HTTP/1.0****:21
  INFO: SEND:index.html:21
@@ -390,11 +560,19 @@ Connection: close
 Content-Type: text/html
 
 :21
+ INFO: adding to buffer:8010:119
+ INFO: waiting...:8010:4061
+ INFO: hit:(null):20
  INFO: hit:(null):21
  INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):7
+ INFO: stat_req_age:(null):0
+ INFO: adding to buffer:8010:120
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:121
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):99
  INFO: WEB:(null):22
  INFO: request:GET /index.html HTTP/1.0****:22
  INFO: SEND:index.html:22
@@ -405,11 +583,9 @@ Connection: close
 Content-Type: text/html
 
 :22
- INFO: hit:(null):22
- INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):6
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
  INFO: WEB:(null):23
  INFO: request:GET /index.html HTTP/1.0****:23
  INFO: SEND:index.html:23
@@ -420,11 +596,17 @@ Connection: close
 Content-Type: text/html
 
 :23
+ INFO: hit:(null):22
  INFO: hit:(null):23
  INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):5
+ INFO: stat_req_age:(null):0
+ INFO: adding to buffer:8010:122
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:123
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):99
  INFO: WEB:(null):24
  INFO: request:GET /index.html HTTP/1.0****:24
  INFO: SEND:index.html:24
@@ -435,11 +617,9 @@ Connection: close
 Content-Type: text/html
 
 :24
- INFO: hit:(null):24
- INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):4
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
  INFO: WEB:(null):25
  INFO: request:GET /index.html HTTP/1.0****:25
  INFO: SEND:index.html:25
@@ -451,10 +631,16 @@ Content-Type: text/html
 
 :25
  INFO: hit:(null):25
+ INFO: hit:(null):24
  INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):3
+ INFO: stat_req_age:(null):0
+ INFO: adding to buffer:8010:124
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:125
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):99
  INFO: WEB:(null):26
  INFO: request:GET /index.html HTTP/1.0****:26
  INFO: SEND:index.html:26
@@ -465,11 +651,9 @@ Connection: close
 Content-Type: text/html
 
 :26
- INFO: hit:(null):26
- INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):2
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
  INFO: WEB:(null):27
  INFO: request:GET /index.html HTTP/1.0****:27
  INFO: SEND:index.html:27
@@ -480,11 +664,17 @@ Connection: close
 Content-Type: text/html
 
 :27
+ INFO: hit:(null):26
  INFO: hit:(null):27
  INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):1
+ INFO: stat_req_age:(null):0
+ INFO: adding to buffer:8010:126
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:127
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):99
  INFO: WEB:(null):28
  INFO: request:GET /index.html HTTP/1.0****:28
  INFO: SEND:index.html:28
@@ -495,11 +685,9 @@ Connection: close
 Content-Type: text/html
 
 :28
- INFO: hit:(null):28
- INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
  INFO: WEB:(null):29
  INFO: request:GET /index.html HTTP/1.0****:29
  INFO: SEND:index.html:29
@@ -511,580 +699,524 @@ Content-Type: text/html
 
 :29
  INFO: hit:(null):29
+ INFO: hit:(null):28
  INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: adding to buffer:7008:30
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:31
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:32
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:33
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:34
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:35
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:36
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:37
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:38
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:39
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:40
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:41
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:42
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:43
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:44
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:45
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:46
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:47
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:48
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:49
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:50
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:51
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:52
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:53
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:54
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:55
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:56
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:57
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:58
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:59
- INFO: waiting...:7008:2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):29
+ INFO: stat_req_age:(null):0
+ INFO: adding to buffer:8010:128
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:129
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):99
  INFO: WEB:(null):30
- INFO: request:GET /nigel.jpg HTTP/1.0****:30
- INFO: SEND:nigel.jpg:30
+ INFO: request:GET /index.html HTTP/1.0****:30
+ INFO: SEND:index.html:30
  INFO: Header:HTTP/1.1 200 OK
 Server: nweb/23.0 
-Content-Length: 10184
+Content-Length: 217
 Connection: close
-Content-Type: image/jpg
+Content-Type: text/html
 
 :30
- INFO: hit:(null):30
- INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):28
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
  INFO: WEB:(null):31
- INFO: request:GET /nigel.jpg HTTP/1.0****:31
- INFO: SEND:nigel.jpg:31
+ INFO: request:GET /index.html HTTP/1.0****:31
+ INFO: SEND:index.html:31
  INFO: Header:HTTP/1.1 200 OK
 Server: nweb/23.0 
-Content-Length: 10184
+Content-Length: 217
 Connection: close
-Content-Type: image/jpg
+Content-Type: text/html
 
 :31
+ INFO: hit:(null):30
+ INFO: stat_req_age:(null):0
  INFO: hit:(null):31
  INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):27
+ INFO: adding to buffer:8010:130
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
  INFO: WEB:(null):32
- INFO: request:GET /nigel.jpg HTTP/1.0****:32
- INFO: SEND:nigel.jpg:32
+ INFO: request:GET /index.html HTTP/1.0****:32
+ INFO: SEND:index.html:32
  INFO: Header:HTTP/1.1 200 OK
 Server: nweb/23.0 
-Content-Length: 10184
+Content-Length: 217
 Connection: close
-Content-Type: image/jpg
+Content-Type: text/html
 
 :32
- INFO: hit:(null):32
- INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):26
+ INFO: adding to buffer:8010:131
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
  INFO: WEB:(null):33
- INFO: request:GET /nigel.jpg HTTP/1.0****:33
- INFO: SEND:nigel.jpg:33
+ INFO: request:GET /index.html HTTP/1.0****:33
+ INFO: SEND:index.html:33
  INFO: Header:HTTP/1.1 200 OK
 Server: nweb/23.0 
-Content-Length: 10184
+Content-Length: 217
 Connection: close
-Content-Type: image/jpg
+Content-Type: text/html
 
 :33
+ INFO: hit:(null):32
  INFO: hit:(null):33
  INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):25
+ INFO: stat_req_age:(null):0
+ INFO: adding to buffer:8010:132
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
  INFO: WEB:(null):34
- INFO: request:GET /nigel.jpg HTTP/1.0****:34
- INFO: SEND:nigel.jpg:34
+ INFO: request:GET /index.html HTTP/1.0****:34
+ INFO: SEND:index.html:34
  INFO: Header:HTTP/1.1 200 OK
 Server: nweb/23.0 
-Content-Length: 10184
+Content-Length: 217
 Connection: close
-Content-Type: image/jpg
+Content-Type: text/html
 
 :34
- INFO: hit:(null):34
- INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):24
+ INFO: adding to buffer:8010:133
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
  INFO: WEB:(null):35
- INFO: request:GET /nigel.jpg HTTP/1.0****:35
- INFO: SEND:nigel.jpg:35
+ INFO: request:GET /index.html HTTP/1.0****:35
+ INFO: SEND:index.html:35
  INFO: Header:HTTP/1.1 200 OK
 Server: nweb/23.0 
-Content-Length: 10184
+Content-Length: 217
 Connection: close
-Content-Type: image/jpg
+Content-Type: text/html
 
 :35
+ INFO: hit:(null):34
+ INFO: stat_req_age:(null):0
  INFO: hit:(null):35
  INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):23
+ INFO: adding to buffer:8010:134
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
  INFO: WEB:(null):36
- INFO: request:GET /nigel.jpg HTTP/1.0****:36
- INFO: SEND:nigel.jpg:36
+ INFO: request:GET /index.html HTTP/1.0****:36
+ INFO: SEND:index.html:36
  INFO: Header:HTTP/1.1 200 OK
 Server: nweb/23.0 
-Content-Length: 10184
+Content-Length: 217
 Connection: close
-Content-Type: image/jpg
+Content-Type: text/html
 
 :36
  INFO: hit:(null):36
- INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):22
+ INFO: adding to buffer:8010:135
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
  INFO: WEB:(null):37
- INFO: request:GET /nigel.jpg HTTP/1.0****:37
- INFO: SEND:nigel.jpg:37
+ INFO: request:GET /index.html HTTP/1.0****:37
+ INFO: SEND:index.html:37
  INFO: Header:HTTP/1.1 200 OK
 Server: nweb/23.0 
-Content-Length: 10184
+Content-Length: 217
 Connection: close
-Content-Type: image/jpg
+Content-Type: text/html
 
 :37
  INFO: hit:(null):37
  INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):21
+ INFO: stat_req_age:(null):0
+ INFO: adding to buffer:8010:136
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:137
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):99
  INFO: WEB:(null):38
- INFO: request:GET /nigel.jpg HTTP/1.0****:38
- INFO: SEND:nigel.jpg:38
+ INFO: request:GET /index.html HTTP/1.0****:38
+ INFO: SEND:index.html:38
  INFO: Header:HTTP/1.1 200 OK
 Server: nweb/23.0 
-Content-Length: 10184
+Content-Length: 217
 Connection: close
-Content-Type: image/jpg
+Content-Type: text/html
 
 :38
- INFO: hit:(null):38
- INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):20
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
  INFO: WEB:(null):39
- INFO: request:GET /nigel.jpg HTTP/1.0****:39
- INFO: SEND:nigel.jpg:39
+ INFO: request:GET /index.html HTTP/1.0****:39
+ INFO: SEND:index.html:39
  INFO: Header:HTTP/1.1 200 OK
 Server: nweb/23.0 
-Content-Length: 10184
+Content-Length: 217
 Connection: close
-Content-Type: image/jpg
+Content-Type: text/html
 
 :39
  INFO: hit:(null):39
+ INFO: hit:(null):38
  INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):19
+ INFO: stat_req_age:(null):0
+ INFO: adding to buffer:8010:138
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:139
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):99
  INFO: WEB:(null):40
- INFO: request:GET /nigel.jpg HTTP/1.0****:40
- INFO: SEND:nigel.jpg:40
+ INFO: request:GET /index.html HTTP/1.0****:40
+ INFO: SEND:index.html:40
  INFO: Header:HTTP/1.1 200 OK
 Server: nweb/23.0 
-Content-Length: 10184
+Content-Length: 217
 Connection: close
-Content-Type: image/jpg
+Content-Type: text/html
 
 :40
- INFO: hit:(null):40
- INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):18
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
  INFO: WEB:(null):41
- INFO: request:GET /nigel.jpg HTTP/1.0****:41
- INFO: SEND:nigel.jpg:41
+ INFO: request:GET /index.html HTTP/1.0****:41
+ INFO: SEND:index.html:41
  INFO: Header:HTTP/1.1 200 OK
 Server: nweb/23.0 
-Content-Length: 10184
+Content-Length: 217
 Connection: close
-Content-Type: image/jpg
+Content-Type: text/html
 
 :41
+ INFO: hit:(null):40
  INFO: hit:(null):41
  INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):17
+ INFO: stat_req_age:(null):0
+ INFO: adding to buffer:8010:140
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
  INFO: WEB:(null):42
- INFO: request:GET /nigel.jpg HTTP/1.0****:42
- INFO: SEND:nigel.jpg:42
+ INFO: request:GET /index.html HTTP/1.0****:42
+ INFO: SEND:index.html:42
  INFO: Header:HTTP/1.1 200 OK
 Server: nweb/23.0 
-Content-Length: 10184
+Content-Length: 217
 Connection: close
-Content-Type: image/jpg
+Content-Type: text/html
 
 :42
  INFO: hit:(null):42
- INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):16
+ INFO: adding to buffer:8010:141
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
  INFO: WEB:(null):43
- INFO: request:GET /nigel.jpg HTTP/1.0****:43
- INFO: SEND:nigel.jpg:43
+ INFO: request:GET /index.html HTTP/1.0****:43
+ INFO: SEND:index.html:43
  INFO: Header:HTTP/1.1 200 OK
 Server: nweb/23.0 
-Content-Length: 10184
+Content-Length: 217
 Connection: close
-Content-Type: image/jpg
+Content-Type: text/html
 
 :43
+ INFO: stat_req_age:(null):0
  INFO: hit:(null):43
  INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):15
+ INFO: adding to buffer:8010:142
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
  INFO: WEB:(null):44
- INFO: request:GET /nigel.jpg HTTP/1.0****:44
- INFO: SEND:nigel.jpg:44
+ INFO: request:GET /index.html HTTP/1.0****:44
+ INFO: SEND:index.html:44
  INFO: Header:HTTP/1.1 200 OK
 Server: nweb/23.0 
-Content-Length: 10184
+Content-Length: 217
 Connection: close
-Content-Type: image/jpg
+Content-Type: text/html
 
 :44
- INFO: hit:(null):44
- INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):14
+ INFO: adding to buffer:8010:143
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
  INFO: WEB:(null):45
- INFO: request:GET /nigel.jpg HTTP/1.0****:45
- INFO: SEND:nigel.jpg:45
+ INFO: request:GET /index.html HTTP/1.0****:45
+ INFO: SEND:index.html:45
  INFO: Header:HTTP/1.1 200 OK
 Server: nweb/23.0 
-Content-Length: 10184
+Content-Length: 217
 Connection: close
-Content-Type: image/jpg
+Content-Type: text/html
 
 :45
- INFO: hit:(null):45
+ INFO: hit:(null):44
+ INFO: stat_req_age:(null):0 INFO: hit:(null):45
+
  INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):13
+ INFO: adding to buffer:8010:144
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
  INFO: WEB:(null):46
- INFO: request:GET /nigel.jpg HTTP/1.0****:46
- INFO: SEND:nigel.jpg:46
+ INFO: request:GET /index.html HTTP/1.0****:46
+ INFO: SEND:index.html:46
  INFO: Header:HTTP/1.1 200 OK
 Server: nweb/23.0 
-Content-Length: 10184
+Content-Length: 217
 Connection: close
-Content-Type: image/jpg
+Content-Type: text/html
 
 :46
  INFO: hit:(null):46
  INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):12
+ INFO: adding to buffer:8010:145
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
  INFO: WEB:(null):47
- INFO: request:GET /nigel.jpg HTTP/1.0****:47
- INFO: SEND:nigel.jpg:47
+ INFO: request:GET /index.html HTTP/1.0****:47
+ INFO: SEND:index.html:47
  INFO: Header:HTTP/1.1 200 OK
 Server: nweb/23.0 
-Content-Length: 10184
+Content-Length: 217
 Connection: close
-Content-Type: image/jpg
+Content-Type: text/html
 
 :47
  INFO: hit:(null):47
  INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):11
+ INFO: adding to buffer:8010:146
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
  INFO: WEB:(null):48
- INFO: request:GET /nigel.jpg HTTP/1.0****:48
- INFO: SEND:nigel.jpg:48
+ INFO: request:GET /index.html HTTP/1.0****:48
+ INFO: SEND:index.html:48
  INFO: Header:HTTP/1.1 200 OK
 Server: nweb/23.0 
-Content-Length: 10184
+Content-Length: 217
 Connection: close
-Content-Type: image/jpg
+Content-Type: text/html
 
 :48
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):10
+ INFO: hit:(null):48
+ INFO: stat_req_age:(null):0
+ INFO: adding to buffer:8010:147
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
  INFO: WEB:(null):49
- INFO: request:GET /nigel.jpg HTTP/1.0****:49
- INFO: SEND:nigel.jpg:49
+ INFO: request:GET /index.html HTTP/1.0****:49
+ INFO: SEND:index.html:49
  INFO: Header:HTTP/1.1 200 OK
 Server: nweb/23.0 
-Content-Length: 10184
+Content-Length: 217
 Connection: close
-Content-Type: image/jpg
+Content-Type: text/html
 
 :49
- INFO: hit:(null):48
  INFO: hit:(null):49
  INFO: stat_req_age:(null):0
- INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):9
+ INFO: adding to buffer:8010:148
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
  INFO: WEB:(null):50
- INFO: request:GET /nigel.jpg HTTP/1.0****:50
- INFO: SEND:nigel.jpg:50
+ INFO: request:GET /index.html HTTP/1.0****:50
+ INFO: SEND:index.html:50
  INFO: Header:HTTP/1.1 200 OK
 Server: nweb/23.0 
-Content-Length: 10184
+Content-Length: 217
 Connection: close
-Content-Type: image/jpg
+Content-Type: text/html
 
 :50
  INFO: hit:(null):50
- INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):8
+ INFO: adding to buffer:8010:149
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
  INFO: WEB:(null):51
- INFO: request:GET /nigel.jpg HTTP/1.0****:51
- INFO: SEND:nigel.jpg:51
+ INFO: request:GET /index.html HTTP/1.0****:51
+ INFO: SEND:index.html:51
  INFO: Header:HTTP/1.1 200 OK
 Server: nweb/23.0 
-Content-Length: 10184
+Content-Length: 217
 Connection: close
-Content-Type: image/jpg
+Content-Type: text/html
 
 :51
  INFO: hit:(null):51
  INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):7
+ INFO: stat_req_age:(null):0
+ INFO: adding to buffer:8010:150
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
  INFO: WEB:(null):52
- INFO: request:GET /nigel.jpg HTTP/1.0****:52
- INFO: SEND:nigel.jpg:52
+ INFO: request:GET /index.html HTTP/1.0****:52
+ INFO: SEND:index.html:52
  INFO: Header:HTTP/1.1 200 OK
 Server: nweb/23.0 
-Content-Length: 10184
+Content-Length: 217
 Connection: close
-Content-Type: image/jpg
+Content-Type: text/html
 
 :52
- INFO: hit:(null):52
- INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):6
+ INFO: adding to buffer:8010:151
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
  INFO: WEB:(null):53
- INFO: request:GET /nigel.jpg HTTP/1.0****:53
- INFO: SEND:nigel.jpg:53
+ INFO: request:GET /index.html HTTP/1.0****:53
+ INFO: SEND:index.html:53
  INFO: Header:HTTP/1.1 200 OK
 Server: nweb/23.0 
-Content-Length: 10184
+Content-Length: 217
 Connection: close
-Content-Type: image/jpg
+Content-Type: text/html
 
 :53
  INFO: hit:(null):53
+ INFO: hit:(null):52
  INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):5
+ INFO: stat_req_age:(null):0
+ INFO: adding to buffer:8010:152
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:153
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):99
  INFO: WEB:(null):54
- INFO: request:GET /nigel.jpg HTTP/1.0****:54
- INFO: SEND:nigel.jpg:54
+ INFO: request:GET /index.html HTTP/1.0****:54
+ INFO: SEND:index.html:54
  INFO: Header:HTTP/1.1 200 OK
 Server: nweb/23.0 
-Content-Length: 10184
+Content-Length: 217
 Connection: close
-Content-Type: image/jpg
+Content-Type: text/html
 
 :54
- INFO: hit:(null):54
- INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):4
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
  INFO: WEB:(null):55
- INFO: request:GET /nigel.jpg HTTP/1.0****:55
- INFO: SEND:nigel.jpg:55
+ INFO: request:GET /index.html HTTP/1.0****:55
+ INFO: SEND:index.html:55
  INFO: Header:HTTP/1.1 200 OK
 Server: nweb/23.0 
-Content-Length: 10184
+Content-Length: 217
 Connection: close
-Content-Type: image/jpg
+Content-Type: text/html
 
 :55
+ INFO: hit:(null):54
+ INFO: stat_req_age:(null):0
  INFO: hit:(null):55
  INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):3
+ INFO: adding to buffer:8010:154
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
  INFO: WEB:(null):56
- INFO: request:GET /nigel.jpg HTTP/1.0****:56
- INFO: SEND:nigel.jpg:56
+ INFO: request:GET /index.html HTTP/1.0****:56
+ INFO: SEND:index.html:56
  INFO: Header:HTTP/1.1 200 OK
 Server: nweb/23.0 
-Content-Length: 10184
+Content-Length: 217
 Connection: close
-Content-Type: image/jpg
+Content-Type: text/html
 
 :56
- INFO: hit:(null):56
- INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):2
+ INFO: adding to buffer:8010:155
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
  INFO: WEB:(null):57
- INFO: request:GET /nigel.jpg HTTP/1.0****:57
- INFO: SEND:nigel.jpg:57
+ INFO: request:GET /index.html HTTP/1.0****:57
+ INFO: SEND:index.html:57
  INFO: Header:HTTP/1.1 200 OK
 Server: nweb/23.0 
-Content-Length: 10184
+Content-Length: 217
 Connection: close
-Content-Type: image/jpg
+Content-Type: text/html
 
 :57
+ INFO: hit:(null):56
  INFO: hit:(null):57
  INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):1
+ INFO: stat_req_age:(null):0
+ INFO: adding to buffer:8010:156
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
  INFO: WEB:(null):58
- INFO: request:GET /nigel.jpg HTTP/1.0****:58
- INFO: SEND:nigel.jpg:58
+ INFO: request:GET /index.html HTTP/1.0****:58
+ INFO: SEND:index.html:58
  INFO: Header:HTTP/1.1 200 OK
 Server: nweb/23.0 
-Content-Length: 10184
+Content-Length: 217
 Connection: close
-Content-Type: image/jpg
+Content-Type: text/html
 
 :58
  INFO: hit:(null):58
- INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):0
+ INFO: adding to buffer:8010:157
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
  INFO: WEB:(null):59
- INFO: request:GET /nigel.jpg HTTP/1.0****:59
- INFO: SEND:nigel.jpg:59
+ INFO: request:GET /index.html HTTP/1.0****:59
+ INFO: SEND:index.html:59
  INFO: Header:HTTP/1.1 200 OK
 Server: nweb/23.0 
-Content-Length: 10184
+Content-Length: 217
 Connection: close
-Content-Type: image/jpg
+Content-Type: text/html
 
 :59
+ INFO: stat_req_age:(null):0
  INFO: hit:(null):59
  INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: adding to buffer:7008:60
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:61
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:62
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:63
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:64
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:65
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:66
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:67
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:68
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:69
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:70
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:71
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:72
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:73
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:74
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:75
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:76
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:77
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:78
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:79
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:80
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:81
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:82
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:83
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:84
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:85
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:86
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:87
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:88
- INFO: waiting...:7008:2254
- INFO: adding to buffer:7008:89
- INFO: waiting...:7008:2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):29
+ INFO: adding to buffer:8010:158
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
  INFO: WEB:(null):60
  INFO: request:GET /index.html HTTP/1.0****:60
  INFO: SEND:index.html:60
@@ -1095,9 +1227,11 @@ Connection: close
 Content-Type: text/html
 
 :60
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):28
+ INFO: adding to buffer:8010:159
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
  INFO: WEB:(null):61
  INFO: request:GET /index.html HTTP/1.0****:61
  INFO: SEND:index.html:61
@@ -1109,12 +1243,14 @@ Content-Type: text/html
 
 :61
  INFO: hit:(null):60
- INFO: stat_req_age:(null):0
  INFO: hit:(null):61
  INFO: stat_req_age:(null):0
- INFO: thread waiting ...:(null):2254
- INFO: reading from buffer:(null):2254
- INFO: processing request :(null):27
+ INFO: stat_req_age:(null):0
+ INFO: adding to buffer:8010:160
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
  INFO: WEB:(null):62
  INFO: request:GET /index.html HTTP/1.0****:62
  INFO: SEND:index.html:62
@@ -1125,3 +1261,1911 @@ Connection: close
 Content-Type: text/html
 
 :62
+ INFO: adding to buffer:8010:161
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
+ INFO: WEB:(null):63
+ INFO: request:GET /index.html HTTP/1.0****:63
+ INFO: SEND:index.html:63
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:63
+ INFO: hit:(null):62
+ INFO: hit:(null):63
+ INFO: stat_req_age:(null):0
+ INFO: stat_req_age:(null):0
+ INFO: adding to buffer:8010:162
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
+ INFO: WEB:(null):64
+ INFO: request:GET /index.html HTTP/1.0****:64
+ INFO: SEND:index.html:64
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:64
+ INFO: adding to buffer:8010:163
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
+ INFO: WEB:(null):65
+ INFO: request:GET /index.html HTTP/1.0****:65
+ INFO: SEND:index.html:65
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:65
+ INFO: hit:(null):64
+ INFO: hit:(null):65
+ INFO: stat_req_age:(null):0
+ INFO: stat_req_age:(null):0
+ INFO: adding to buffer:8010:164
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:165
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):99
+ INFO: WEB:(null):66
+ INFO: request:GET /index.html HTTP/1.0****:66
+ INFO: SEND:index.html:66
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:66
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
+ INFO: WEB:(null):67
+ INFO: request:GET /index.html HTTP/1.0****:67
+ INFO: SEND:index.html:67
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:67
+ INFO: hit:(null):66
+ INFO: hit:(null):67
+ INFO: stat_req_age:(null):0
+ INFO: stat_req_age:(null):0
+ INFO: adding to buffer:8010:166
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:167
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):99
+ INFO: WEB:(null):68
+ INFO: request:GET /index.html HTTP/1.0****:68
+ INFO: SEND:index.html:68
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:68
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
+ INFO: WEB:(null):69
+ INFO: request:GET /index.html HTTP/1.0****:69
+ INFO: SEND:index.html:69
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:69
+ INFO: hit:(null):68
+ INFO: hit:(null):69
+ INFO: stat_req_age:(null):0
+ INFO: stat_req_age:(null):0
+ INFO: adding to buffer:8010:168
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
+ INFO: WEB:(null):70
+ INFO: request:GET /index.html HTTP/1.0****:70
+ INFO: SEND:index.html:70
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:70
+ INFO: hit:(null):70
+ INFO: stat_req_age:(null):0
+ INFO: adding to buffer:8010:169
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
+ INFO: WEB:(null):71
+ INFO: request:GET /index.html HTTP/1.0****:71
+ INFO: SEND:index.html:71
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:71
+ INFO: hit:(null):71
+ INFO: stat_req_age:(null):0
+ INFO: adding to buffer:8010:170
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
+ INFO: WEB:(null):72
+ INFO: request:GET /index.html HTTP/1.0****:72
+ INFO: SEND:index.html:72
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:72
+ INFO: adding to buffer:8010:171
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
+ INFO: WEB:(null):73
+ INFO: request:GET /index.html HTTP/1.0****:73
+ INFO: SEND:index.html:73
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:73
+ INFO: hit:(null):72
+ INFO: hit:(null):73
+ INFO: stat_req_age:(null):0
+ INFO: stat_req_age:(null):0
+ INFO: adding to buffer:8010:172
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
+ INFO: WEB:(null):74
+ INFO: request:GET /index.html HTTP/1.0****:74
+ INFO: SEND:index.html:74
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:74
+ INFO: adding to buffer:8010:173
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
+ INFO: WEB:(null):75
+ INFO: request:GET /index.html HTTP/1.0****:75
+ INFO: SEND:index.html:75
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:75
+ INFO: hit:(null):74
+ INFO: hit:(null):75
+ INFO: stat_req_age:(null):0
+ INFO: stat_req_age:(null):0
+ INFO: adding to buffer:8010:174
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
+ INFO: WEB:(null):76
+ INFO: request:GET /index.html HTTP/1.0****:76
+ INFO: SEND:index.html:76
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:76
+ INFO: adding to buffer:8010:175
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
+ INFO: WEB:(null):77
+ INFO: request:GET /index.html HTTP/1.0****:77
+ INFO: SEND:index.html:77
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:77
+ INFO: hit:(null):76
+ INFO: hit:(null):77
+ INFO: stat_req_age:(null):0
+ INFO: stat_req_age:(null):0
+ INFO: adding to buffer:8010:176
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:177
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):99
+ INFO: WEB:(null):78
+ INFO: request:GET /index.html HTTP/1.0****:78
+ INFO: SEND:index.html:78
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:78
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
+ INFO: WEB:(null):79
+ INFO: request:GET /index.html HTTP/1.0****:79
+ INFO: SEND:index.html:79
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:79
+ INFO: hit:(null):78
+ INFO: hit:(null):79
+ INFO: stat_req_age:(null):0
+ INFO: stat_req_age:(null):0
+ INFO: adding to buffer:8010:178
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:179
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):99
+ INFO: WEB:(null):80
+ INFO: request:GET /index.html HTTP/1.0****:80
+ INFO: SEND:index.html:80
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:80
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
+ INFO: WEB:(null):81
+ INFO: request:GET /index.html HTTP/1.0****:81
+ INFO: SEND:index.html:81
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:81
+ INFO: hit:(null):80
+ INFO: hit:(null):81
+ INFO: stat_req_age:(null):0
+ INFO: stat_req_age:(null):0
+ INFO: adding to buffer:8010:180
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
+ INFO: WEB:(null):82
+ INFO: request:GET /index.html HTTP/1.0****:82
+ INFO: SEND:index.html:82
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:82
+ INFO: adding to buffer:8010:181
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
+ INFO: WEB:(null):83
+ INFO: request:GET /index.html HTTP/1.0****:83
+ INFO: SEND:index.html:83
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:83
+ INFO: hit:(null):82
+ INFO: hit:(null):83
+ INFO: stat_req_age:(null):0
+ INFO: stat_req_age:(null):0
+ INFO: adding to buffer:8010:182
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
+ INFO: WEB:(null):84
+ INFO: request:GET /index.html HTTP/1.0****:84
+ INFO: SEND:index.html:84
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:84
+ INFO: adding to buffer:8010:183
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
+ INFO: WEB:(null):85
+ INFO: request:GET /index.html HTTP/1.0****:85
+ INFO: SEND:index.html:85
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:85
+ INFO: hit:(null):84
+ INFO: hit:(null):85
+ INFO: stat_req_age:(null):0
+ INFO: stat_req_age:(null):0
+ INFO: adding to buffer:8010:184
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:185
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):99
+ INFO: WEB:(null):86
+ INFO: request:GET /index.html HTTP/1.0****:86
+ INFO: SEND:index.html:86
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:86
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
+ INFO: WEB:(null):87
+ INFO: request:GET /index.html HTTP/1.0****:87
+ INFO: SEND:index.html:87
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:87
+ INFO: hit:(null):87
+ INFO: hit:(null):86
+ INFO: stat_req_age:(null):0
+ INFO: stat_req_age:(null):0
+ INFO: adding to buffer:8010:186
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
+ INFO: WEB:(null):88
+ INFO: request:GET /index.html HTTP/1.0****:88
+ INFO: SEND:index.html:88
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:88
+ INFO: hit:(null):88
+ INFO: stat_req_age:(null):0
+ INFO: adding to buffer:8010:187
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
+ INFO: WEB:(null):89
+ INFO: request:GET /index.html HTTP/1.0****:89
+ INFO: SEND:index.html:89
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:89
+ INFO: hit:(null):89
+ INFO: stat_req_age:(null):0
+ INFO: adding to buffer:8010:188
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
+ INFO: WEB:(null):90
+ INFO: request:GET /index.html HTTP/1.0****:90
+ INFO: SEND:index.html:90
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:90
+ INFO: adding to buffer:8010:189
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
+ INFO: WEB:(null):91
+ INFO: request:GET /index.html HTTP/1.0****:91
+ INFO: SEND:index.html:91
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:91
+ INFO: hit:(null):91
+ INFO: hit:(null):90
+ INFO: stat_req_age:(null):0
+ INFO: stat_req_age:(null):0
+ INFO: adding to buffer:8010:190
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:191
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):99
+ INFO: WEB:(null):92
+ INFO: request:GET /index.html HTTP/1.0****:92
+ INFO: SEND:index.html:92
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:92
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
+ INFO: WEB:(null):93
+ INFO: request:GET /index.html HTTP/1.0****:93
+ INFO: SEND:index.html:93
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:93
+ INFO: hit:(null):92
+ INFO: hit:(null):93
+ INFO: stat_req_age:(null):0
+ INFO: stat_req_age:(null):0
+ INFO: adding to buffer:8010:192
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:193
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):99
+ INFO: WEB:(null):94
+ INFO: request:GET /index.html HTTP/1.0****:94
+ INFO: SEND:index.html:94
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:94
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
+ INFO: WEB:(null):95
+ INFO: request:GET /index.html HTTP/1.0****:95
+ INFO: SEND:index.html:95
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:95
+ INFO: hit:(null):95
+ INFO: hit:(null):94
+ INFO: stat_req_age:(null):0
+ INFO: stat_req_age:(null):0
+ INFO: adding to buffer:8010:194
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:195
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):99
+ INFO: WEB:(null):96
+ INFO: request:GET /index.html HTTP/1.0****:96
+ INFO: SEND:index.html:96
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:96
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
+ INFO: WEB:(null):97
+ INFO: request:GET /index.html HTTP/1.0****:97
+ INFO: SEND:index.html:97
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:97
+ INFO: hit:(null):96
+ INFO: hit:(null):97
+ INFO: stat_req_age:(null):0
+ INFO: stat_req_age:(null):0
+ INFO: adding to buffer:8010:196
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:197
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):99
+ INFO: WEB:(null):98
+ INFO: request:GET /index.html HTTP/1.0****:98
+ INFO: SEND:index.html:98
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:98
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
+ INFO: WEB:(null):99
+ INFO: request:GET /index.html HTTP/1.0****:99
+ INFO: SEND:index.html:99
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 217
+Connection: close
+Content-Type: text/html
+
+:99
+ INFO: hit:(null):98
+ INFO: hit:(null):99
+ INFO: stat_req_age:(null):0
+ INFO: stat_req_age:(null):0
+ INFO: adding to buffer:8010:198
+ INFO: waiting...:8010:4061
+ INFO: adding to buffer:8010:199
+ INFO: waiting...:8010:4061
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):99
+ INFO: WEB:(null):100
+ INFO: request:GET /nigel.jpg HTTP/1.0****:100
+ INFO: SEND:nigel.jpg:100
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:100
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):98
+ INFO: WEB:(null):101
+ INFO: request:GET /nigel.jpg HTTP/1.0****:101
+ INFO: SEND:nigel.jpg:101
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:101
+ INFO: hit:(null):100
+ INFO: hit:(null):101
+ INFO: stat_req_age:(null):0
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):97
+ INFO: WEB:(null):102
+ INFO: request:GET /nigel.jpg HTTP/1.0****:102
+ INFO: SEND:nigel.jpg:102
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:102
+ INFO: hit:(null):102
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):96
+ INFO: WEB:(null):103
+ INFO: request:GET /nigel.jpg HTTP/1.0****:103
+ INFO: SEND:nigel.jpg:103
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:103
+ INFO: hit:(null):103
+ INFO: stat_req_age:(null):0
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):95
+ INFO: WEB:(null):104
+ INFO: request:GET /nigel.jpg HTTP/1.0****:104
+ INFO: SEND:nigel.jpg:104
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:104
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):94
+ INFO: WEB:(null):105
+ INFO: request:GET /nigel.jpg HTTP/1.0****:105
+ INFO: SEND:nigel.jpg:105
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:105
+ INFO: hit:(null):104
+ INFO: hit:(null):105
+ INFO: stat_req_age:(null):0
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):93
+ INFO: WEB:(null):106
+ INFO: request:GET /nigel.jpg HTTP/1.0****:106
+ INFO: SEND:nigel.jpg:106
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:106
+ INFO: hit:(null):106
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):92
+ INFO: WEB:(null):107
+ INFO: request:GET /nigel.jpg HTTP/1.0****:107
+ INFO: SEND:nigel.jpg:107
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:107
+ INFO: hit:(null):107
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):91
+ INFO: WEB:(null):108
+ INFO: request:GET /nigel.jpg HTTP/1.0****:108
+ INFO: SEND:nigel.jpg:108
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:108
+ INFO: hit:(null):108
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):90
+ INFO: WEB:(null):109
+ INFO: request:GET /nigel.jpg HTTP/1.0****:109
+ INFO: SEND:nigel.jpg:109
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:109
+ INFO: hit:(null):109
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):89
+ INFO: WEB:(null):110
+ INFO: request:GET /nigel.jpg HTTP/1.0****:110
+ INFO: SEND:nigel.jpg:110
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:110
+ INFO: hit:(null):110
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):88
+ INFO: WEB:(null):111
+ INFO: request:GET /nigel.jpg HTTP/1.0****:111
+ INFO: SEND:nigel.jpg:111
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:111
+ INFO: hit:(null):111
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):87
+ INFO: WEB:(null):112
+ INFO: request:GET /nigel.jpg HTTP/1.0****:112
+ INFO: SEND:nigel.jpg:112
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:112
+ INFO: hit:(null):112
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):86
+ INFO: WEB:(null):113
+ INFO: request:GET /nigel.jpg HTTP/1.0****:113
+ INFO: SEND:nigel.jpg:113
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:113
+ INFO: hit:(null):113
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):85
+ INFO: WEB:(null):114
+ INFO: request:GET /nigel.jpg HTTP/1.0****:114
+ INFO: SEND:nigel.jpg:114
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:114
+ INFO: hit:(null):114
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):84
+ INFO: WEB:(null):115
+ INFO: request:GET /nigel.jpg HTTP/1.0****:115
+ INFO: SEND:nigel.jpg:115
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:115
+ INFO: hit:(null):115
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):83
+ INFO: WEB:(null):116
+ INFO: request:GET /nigel.jpg HTTP/1.0****:116
+ INFO: SEND:nigel.jpg:116
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:116
+ INFO: hit:(null):116
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):82
+ INFO: WEB:(null):117
+ INFO: request:GET /nigel.jpg HTTP/1.0****:117
+ INFO: SEND:nigel.jpg:117
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:117
+ INFO: hit:(null):117
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):81
+ INFO: WEB:(null):118
+ INFO: request:GET /nigel.jpg HTTP/1.0****:118
+ INFO: SEND:nigel.jpg:118
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:118
+ INFO: hit:(null):118
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):80
+ INFO: WEB:(null):119
+ INFO: request:GET /nigel.jpg HTTP/1.0****:119
+ INFO: SEND:nigel.jpg:119
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:119
+ INFO: hit:(null):119
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):79
+ INFO: WEB:(null):120
+ INFO: request:GET /nigel.jpg HTTP/1.0****:120
+ INFO: SEND:nigel.jpg:120
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:120
+ INFO: hit:(null):120
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):78
+ INFO: WEB:(null):121
+ INFO: request:GET /nigel.jpg HTTP/1.0****:121
+ INFO: SEND:nigel.jpg:121
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:121
+ INFO: hit:(null):121
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):77
+ INFO: WEB:(null):122
+ INFO: request:GET /nigel.jpg HTTP/1.0****:122
+ INFO: SEND:nigel.jpg:122
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:122
+ INFO: hit:(null):122
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):76
+ INFO: WEB:(null):123
+ INFO: request:GET /nigel.jpg HTTP/1.0****:123
+ INFO: SEND:nigel.jpg:123
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:123
+ INFO: hit:(null):123
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):75
+ INFO: WEB:(null):124
+ INFO: request:GET /nigel.jpg HTTP/1.0****:124
+ INFO: SEND:nigel.jpg:124
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:124
+ INFO: hit:(null):124
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):74
+ INFO: WEB:(null):125
+ INFO: request:GET /nigel.jpg HTTP/1.0****:125
+ INFO: SEND:nigel.jpg:125
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:125
+ INFO: hit:(null):125
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):73
+ INFO: WEB:(null):126
+ INFO: request:GET /nigel.jpg HTTP/1.0****:126
+ INFO: SEND:nigel.jpg:126
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:126
+ INFO: hit:(null):126
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):72
+ INFO: WEB:(null):127
+ INFO: request:GET /nigel.jpg HTTP/1.0****:127
+ INFO: SEND:nigel.jpg:127
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:127
+ INFO: hit:(null):127
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):71
+ INFO: WEB:(null):128
+ INFO: request:GET /nigel.jpg HTTP/1.0****:128
+ INFO: SEND:nigel.jpg:128
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:128
+ INFO: hit:(null):128
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):70
+ INFO: WEB:(null):129
+ INFO: request:GET /nigel.jpg HTTP/1.0****:129
+ INFO: SEND:nigel.jpg:129
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:129
+ INFO: hit:(null):129
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):69
+ INFO: WEB:(null):130
+ INFO: request:GET /nigel.jpg HTTP/1.0****:130
+ INFO: SEND:nigel.jpg:130
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:130
+ INFO: hit:(null):130
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):68
+ INFO: WEB:(null):131
+ INFO: request:GET /nigel.jpg HTTP/1.0****:131
+ INFO: SEND:nigel.jpg:131
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:131
+ INFO: hit:(null):131
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):67
+ INFO: WEB:(null):132
+ INFO: request:GET /nigel.jpg HTTP/1.0****:132
+ INFO: SEND:nigel.jpg:132
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:132
+ INFO: hit:(null):132
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):66
+ INFO: WEB:(null):133
+ INFO: request:GET /nigel.jpg HTTP/1.0****:133
+ INFO: SEND:nigel.jpg:133
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:133
+ INFO: hit:(null):133
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):65
+ INFO: WEB:(null):134
+ INFO: request:GET /nigel.jpg HTTP/1.0****:134
+ INFO: SEND:nigel.jpg:134
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:134
+ INFO: hit:(null):134
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):64
+ INFO: WEB:(null):135
+ INFO: request:GET /nigel.jpg HTTP/1.0****:135
+ INFO: SEND:nigel.jpg:135
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:135
+ INFO: hit:(null):135
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):63
+ INFO: WEB:(null):136
+ INFO: request:GET /nigel.jpg HTTP/1.0****:136
+ INFO: SEND:nigel.jpg:136
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:136
+ INFO: hit:(null):136
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):62
+ INFO: WEB:(null):137
+ INFO: request:GET /nigel.jpg HTTP/1.0****:137
+ INFO: SEND:nigel.jpg:137
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:137
+ INFO: hit:(null):137
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):61
+ INFO: WEB:(null):138
+ INFO: request:GET /nigel.jpg HTTP/1.0****:138
+ INFO: SEND:nigel.jpg:138
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:138
+ INFO: hit:(null):138
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):60
+ INFO: WEB:(null):139
+ INFO: request:GET /nigel.jpg HTTP/1.0****:139
+ INFO: SEND:nigel.jpg:139
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:139
+ INFO: hit:(null):139
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):59
+ INFO: WEB:(null):140
+ INFO: request:GET /nigel.jpg HTTP/1.0****:140
+ INFO: SEND:nigel.jpg:140
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:140
+ INFO: hit:(null):140
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):58
+ INFO: WEB:(null):141
+ INFO: request:GET /nigel.jpg HTTP/1.0****:141
+ INFO: SEND:nigel.jpg:141
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:141
+ INFO: hit:(null):141
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):57
+ INFO: WEB:(null):142
+ INFO: request:GET /nigel.jpg HTTP/1.0****:142
+ INFO: SEND:nigel.jpg:142
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:142
+ INFO: hit:(null):142
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):56
+ INFO: WEB:(null):143
+ INFO: request:GET /nigel.jpg HTTP/1.0****:143
+ INFO: SEND:nigel.jpg:143
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:143
+ INFO: hit:(null):143
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):55
+ INFO: WEB:(null):144
+ INFO: request:GET /nigel.jpg HTTP/1.0****:144
+ INFO: SEND:nigel.jpg:144
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:144
+ INFO: hit:(null):144
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):54
+ INFO: WEB:(null):145
+ INFO: request:GET /nigel.jpg HTTP/1.0****:145
+ INFO: SEND:nigel.jpg:145
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:145
+ INFO: hit:(null):145
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):53
+ INFO: WEB:(null):146
+ INFO: request:GET /nigel.jpg HTTP/1.0****:146
+ INFO: SEND:nigel.jpg:146
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:146
+ INFO: hit:(null):146
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):52
+ INFO: WEB:(null):147
+ INFO: request:GET /nigel.jpg HTTP/1.0****:147
+ INFO: SEND:nigel.jpg:147
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:147
+ INFO: hit:(null):147
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):51
+ INFO: WEB:(null):148
+ INFO: request:GET /nigel.jpg HTTP/1.0****:148
+ INFO: SEND:nigel.jpg:148
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:148
+ INFO: hit:(null):148
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):50
+ INFO: WEB:(null):149
+ INFO: request:GET /nigel.jpg HTTP/1.0****:149
+ INFO: SEND:nigel.jpg:149
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:149
+ INFO: hit:(null):149
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):49
+ INFO: WEB:(null):150
+ INFO: request:GET /nigel.jpg HTTP/1.0****:150
+ INFO: SEND:nigel.jpg:150
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:150
+ INFO: hit:(null):150
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):48
+ INFO: WEB:(null):151
+ INFO: request:GET /nigel.jpg HTTP/1.0****:151
+ INFO: SEND:nigel.jpg:151
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:151
+ INFO: hit:(null):151
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):47
+ INFO: WEB:(null):152
+ INFO: request:GET /nigel.jpg HTTP/1.0****:152
+ INFO: SEND:nigel.jpg:152
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:152
+ INFO: hit:(null):152
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):46
+ INFO: WEB:(null):153
+ INFO: request:GET /nigel.jpg HTTP/1.0****:153
+ INFO: SEND:nigel.jpg:153
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:153
+ INFO: hit:(null):153
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):45
+ INFO: WEB:(null):154
+ INFO: request:GET /nigel.jpg HTTP/1.0****:154
+ INFO: SEND:nigel.jpg:154
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:154
+ INFO: hit:(null):154
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):44
+ INFO: WEB:(null):155
+ INFO: request:GET /nigel.jpg HTTP/1.0****:155
+ INFO: SEND:nigel.jpg:155
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:155
+ INFO: hit:(null):155
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):43
+ INFO: WEB:(null):156
+ INFO: request:GET /nigel.jpg HTTP/1.0****:156
+ INFO: SEND:nigel.jpg:156
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:156
+ INFO: hit:(null):156
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):42
+ INFO: WEB:(null):157
+ INFO: request:GET /nigel.jpg HTTP/1.0****:157
+ INFO: SEND:nigel.jpg:157
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:157
+ INFO: hit:(null):157
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):41
+ INFO: WEB:(null):158
+ INFO: request:GET /nigel.jpg HTTP/1.0****:158
+ INFO: SEND:nigel.jpg:158
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:158
+ INFO: hit:(null):158
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):40
+ INFO: WEB:(null):159
+ INFO: request:GET /nigel.jpg HTTP/1.0****:159
+ INFO: SEND:nigel.jpg:159
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:159
+ INFO: hit:(null):159
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):39
+ INFO: WEB:(null):160
+ INFO: request:GET /nigel.jpg HTTP/1.0****:160
+ INFO: SEND:nigel.jpg:160
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:160
+ INFO: hit:(null):160
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):38
+ INFO: WEB:(null):161
+ INFO: request:GET /nigel.jpg HTTP/1.0****:161
+ INFO: SEND:nigel.jpg:161
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:161
+ INFO: hit:(null):161
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):37
+ INFO: WEB:(null):162
+ INFO: request:GET /nigel.jpg HTTP/1.0****:162
+ INFO: SEND:nigel.jpg:162
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:162
+ INFO: hit:(null):162
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):36
+ INFO: WEB:(null):163
+ INFO: request:GET /nigel.jpg HTTP/1.0****:163
+ INFO: SEND:nigel.jpg:163
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:163
+ INFO: hit:(null):163
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):35
+ INFO: WEB:(null):164
+ INFO: request:GET /nigel.jpg HTTP/1.0****:164
+ INFO: SEND:nigel.jpg:164
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:164
+ INFO: hit:(null):164
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):34
+ INFO: WEB:(null):165
+ INFO: request:GET /nigel.jpg HTTP/1.0****:165
+ INFO: SEND:nigel.jpg:165
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:165
+ INFO: hit:(null):165
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):33
+ INFO: WEB:(null):166
+ INFO: request:GET /nigel.jpg HTTP/1.0****:166
+ INFO: SEND:nigel.jpg:166
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:166
+ INFO: hit:(null):166
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):32
+ INFO: WEB:(null):167
+ INFO: request:GET /nigel.jpg HTTP/1.0****:167
+ INFO: SEND:nigel.jpg:167
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:167
+ INFO: hit:(null):167
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):31
+ INFO: WEB:(null):168
+ INFO: request:GET /nigel.jpg HTTP/1.0****:168
+ INFO: SEND:nigel.jpg:168
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:168
+ INFO: hit:(null):168
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):30
+ INFO: WEB:(null):169
+ INFO: request:GET /nigel.jpg HTTP/1.0****:169
+ INFO: SEND:nigel.jpg:169
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:169
+ INFO: hit:(null):169
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):29
+ INFO: WEB:(null):170
+ INFO: request:GET /nigel.jpg HTTP/1.0****:170
+ INFO: SEND:nigel.jpg:170
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:170
+ INFO: hit:(null):170
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):28
+ INFO: WEB:(null):171
+ INFO: request:GET /nigel.jpg HTTP/1.0****:171
+ INFO: SEND:nigel.jpg:171
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:171
+ INFO: hit:(null):171
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):27
+ INFO: WEB:(null):172
+ INFO: request:GET /nigel.jpg HTTP/1.0****:172
+ INFO: SEND:nigel.jpg:172
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:172
+ INFO: hit:(null):172
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):26
+ INFO: WEB:(null):173
+ INFO: request:GET /nigel.jpg HTTP/1.0****:173
+ INFO: SEND:nigel.jpg:173
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:173
+ INFO: hit:(null):173
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):25
+ INFO: WEB:(null):174
+ INFO: request:GET /nigel.jpg HTTP/1.0****:174
+ INFO: SEND:nigel.jpg:174
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:174
+ INFO: hit:(null):174
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):24
+ INFO: WEB:(null):175
+ INFO: request:GET /nigel.jpg HTTP/1.0****:175
+ INFO: SEND:nigel.jpg:175
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:175
+ INFO: hit:(null):175
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):23
+ INFO: WEB:(null):176
+ INFO: request:GET /nigel.jpg HTTP/1.0****:176
+ INFO: SEND:nigel.jpg:176
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:176
+ INFO: hit:(null):176
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):22
+ INFO: WEB:(null):177
+ INFO: request:GET /nigel.jpg HTTP/1.0****:177
+ INFO: SEND:nigel.jpg:177
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:177
+ INFO: hit:(null):177
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):21
+ INFO: WEB:(null):178
+ INFO: request:GET /nigel.jpg HTTP/1.0****:178
+ INFO: SEND:nigel.jpg:178
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:178
+ INFO: hit:(null):178
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):20
+ INFO: WEB:(null):179
+ INFO: request:GET /nigel.jpg HTTP/1.0****:179
+ INFO: SEND:nigel.jpg:179
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:179
+ INFO: hit:(null):179
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):19
+ INFO: WEB:(null):180
+ INFO: request:GET /nigel.jpg HTTP/1.0****:180
+ INFO: SEND:nigel.jpg:180
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:180
+ INFO: hit:(null):180
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):18
+ INFO: WEB:(null):181
+ INFO: request:GET /nigel.jpg HTTP/1.0****:181
+ INFO: SEND:nigel.jpg:181
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:181
+ INFO: hit:(null):181
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):17
+ INFO: WEB:(null):182
+ INFO: request:GET /nigel.jpg HTTP/1.0****:182
+ INFO: SEND:nigel.jpg:182
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:182
+ INFO: hit:(null):182
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):16
+ INFO: WEB:(null):183
+ INFO: request:GET /nigel.jpg HTTP/1.0****:183
+ INFO: SEND:nigel.jpg:183
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:183
+ INFO: hit:(null):183
+ INFO: stat_req_age:(null):0
+ INFO: thread waiting ...:(null):4061
+ INFO: reading from buffer:(null):4061
+ INFO: processing request :(null):15
+ INFO: WEB:(null):184
+ INFO: request:GET /nigel.jpg HTTP/1.0****:184
+ INFO: SEND:nigel.jpg:184
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0 
+Content-Length: 10184
+Connection: close
+Content-Type: image/jpg
+
+:184
