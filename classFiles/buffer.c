@@ -5,6 +5,8 @@
 #include <sys/time.h>
 #include <pthread.h>
 
+#define ERROR      42
+
 int dispatch_count = 0;
 pthread_mutex_t dispatch_mutex= PTHREAD_MUTEX_INITIALIZER;
 
@@ -79,14 +81,27 @@ int add(buffer* b, entry* e){
 }
 
 entry* get(buffer* b, long server_time){
+    int retu;
+
     if(b->size==0) return NULL;
 
     entry* ret = b->buff[b->size-1];
     ret->dispatched_time = (get_time() - server_time);
 
-    pthread_mutex_lock(&dispatch_mutex);
+    retu = pthread_mutex_lock(&dispatch_mutex);
+
+    if (retu != 0) {
+//        logger(ERROR,"Could not lock mutex",0,getpid());
+        exit(1);
+    }
+
     ret->prior_dispatch_count = dispatch_count++;
-    pthread_mutex_unlock(&dispatch_mutex);
+    retu = pthread_mutex_unlock(&dispatch_mutex);
+
+    if (retu != 0) {
+//        logger(ERROR,"Could not unlock mutex",0,getpid());
+        exit(1);
+    }
 
     b->size--;
     return ret;

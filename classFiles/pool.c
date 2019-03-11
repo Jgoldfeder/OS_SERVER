@@ -21,26 +21,35 @@ typedef struct t{
 } thread_info;
 
 void createPool(int size,buffer* b, long server_time){
+    int ret;
+
     for(int i =0;i<size;i++){
         pthread_t* thread = malloc(sizeof(pthread_t));
 
-	thread_info* t_info = malloc(sizeof(thread_info));
-	t_info->b = b;
-	t_info->thread_id = i;
-	t_info->server_t = server_time;
+        thread_info* t_info = malloc(sizeof(thread_info));
+        t_info->b = b;
+        t_info->thread_id = i;
+        t_info->server_t = server_time;
         //int ret = pthread_create(thread,NULL,workerThread,b);
-	int ret = pthread_create(thread,NULL,workerThread,t_info);
+        ret = pthread_create(thread,NULL,workerThread,t_info);
         if(ret!=0){
-          logger(ERROR,"Could not create thread",0,getpid());
+            logger(ERROR,"Could not create thread",0,getpid());
+            exit(1);
         }
     }
 
-    sem_init(&full, 0, 0);
-    sem_init(&empty, 0, b->cap);
+    ret = sem_init(&full, 0, 0);
+    ret = sem_init(&empty, 0, b->cap);
+
+    if(ret!=0){
+        logger(ERROR,"Could not initiate semaphore",0,getpid());
+        exit(1);
+    }
 }
 
 
 void* workerThread(void* v){
+    int ret;
     logger(LOG,"thread starting....",0,getpid());
 
 // can save struct info as local vars and free vars.
@@ -50,22 +59,46 @@ void* workerThread(void* v){
     int pic_count = 0;
     while(1){
         logger(LOG,"thread waiting ...",0,getpid());
-        sem_wait(&full);
-        pthread_mutex_lock(&mutex);
+        ret = sem_wait(&full);
+
+        if(ret!=0){
+            logger(ERROR,"Could not sem_wait",0,getpid());
+            exit(1);
+        }
+
+        ret = pthread_mutex_lock(&mutex);
+
+        if(ret!=0){
+            logger(ERROR,"Could not lock mutex",0,getpid());
+            exit(1);
+        }
+
         logger(LOG,"reading from buffer",0,getpid());
 
-	entry* info = get(t_info->b, t_info->server_t);
-	//info contains the hit number which is the reqquest count. Can deduce the number of request that arrived before this one.
-        pthread_mutex_unlock(&mutex);
-        sem_post(&empty);
+        entry* info = get(t_info->b, t_info->server_t);
+        //info contains the hit number which is the reqquest count. Can deduce the number of request that arrived before this one.
+        ret = pthread_mutex_unlock(&mutex);
+
+        if (ret != 0) {
+            logger(ERROR,"Could not unlock mutex",0,getpid());
+            exit(1);
+        }
+
+        ret = sem_post(&empty);
+
+        if (ret != 0) {
+            logger(ERROR,"Could not sem_post",0,getpid());
+            exit(1);
+        }
+
         logger(LOG,"processing request ",0,t_info->b->size);
 
-	if (info->html > 0){
-	   html_count++;
-	}
-	else{
-	   pic_count++;
-	}
+        if (info->html > 0){
+            html_count++;
+        }
+        else{
+            pic_count++;
+        }
 
         web(info, t_info->thread_id, html_count, pic_count);
     }
