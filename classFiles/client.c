@@ -239,8 +239,8 @@ void *workerFIFOFunc (void *tInf) {
 //            int argNum = rand() % 2;
             int argNum = j % 2;
 
-            connect_and_send_request(tInfo->argc, (char **) tInfo->argv, argNum, tInfo->id);
-            connect_and_send_request(tInfo->argc, (char **) tInfo->argv, argNum, tInfo->id);
+            connect_and_send_request(tInfo->argc, (char **) tInfo->argv, 0, tInfo->id);
+            connect_and_send_request(tInfo->argc, (char **) tInfo->argv, 1, tInfo->id);
 
         }
         else
