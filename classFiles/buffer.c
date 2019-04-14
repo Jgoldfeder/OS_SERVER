@@ -14,8 +14,8 @@ pthread_mutex_t dispatch_mutex= PTHREAD_MUTEX_INITIALIZER;
 buffer* createBuffer(int capacity,int policy){
     entry** buff = malloc(sizeof(entry*)*capacity);
     int size = 0;
-    int top = 0;
-    int bottom = 0;
+    //int top = 0;
+    //int bottom = 0;
     buffer* b = malloc(sizeof(buffer));
     b->buff = buff;
     b->size = size;

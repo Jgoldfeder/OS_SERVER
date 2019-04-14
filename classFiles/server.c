@@ -116,7 +116,7 @@ void web(entry* e, int id, int html, int pic)
 	int thread_id = id;
 	int html_count = html;
 	int pic_count = pic;
-	int total_jobs = html_count + pic_count;
+	//int total_jobs = html_count + pic_count;
 
 	int hit = e->hit;
 	logger(LOG,"WEB",0,hit);
@@ -191,45 +191,39 @@ void web(entry* e, int id, int html, int pic)
 
 	// Send the statistical headers described in the paper, example below
 
-	(void)sprintf(buffer,"THREAD INFO: \n\n");
+	(void)sprintf(buffer,"X-stat-thread-id: %d\n", thread_id);
 	dummy = write(fd,buffer,strlen(buffer));
 
-	(void)sprintf(buffer,"thread ID: %d\r\n", thread_id);
+	(void)sprintf(buffer,"X-stat-thread-html: %d\n", html);
 	dummy = write(fd,buffer,strlen(buffer));
 
-	(void)sprintf(buffer,"thread HTML count: %d\r\n", html);
+	(void)sprintf(buffer,"X-stat-thread-image: %d\n", pic);
 	dummy = write(fd,buffer,strlen(buffer));
 
-	(void)sprintf(buffer,"thread JPG count: %d\r\n", pic);
-	dummy = write(fd,buffer,strlen(buffer));
-
-	(void)sprintf(buffer,"total request this thread has completed: %d\r\n\n", pic_count + html_count);
+	(void)sprintf(buffer,"X-stat-thread-count: %d\n", pic_count + html_count);
 	dummy = write(fd,buffer,strlen(buffer));
 
 
-	(void)sprintf(buffer,"REQUEST INFO: \n\n");
-	dummy = write(fd,buffer,strlen(buffer));
-
-	(void)sprintf(buffer,"number of request that arrived before this one: %d\r\n", e->hit);
+	(void)sprintf(buffer,"X-stat-req-arrival: %d\n", e->hit);
 	dummy = write(fd,buffer,strlen(buffer));
 	logger(LOG,"hit",0,e->hit);
 
-	(void)sprintf(buffer,"request time arrival relative to server: %ld ms\n", e->time_arrival);
+	(void)sprintf(buffer,"X-stat-req-arrival-time: %ld ms\n", e->time_arrival);
 	dummy = write(fd,buffer,strlen(buffer));
 
-	(void)sprintf(buffer,"request dispatched time relative to server: %ld ms\n", e->dispatched_time);
+	(void)sprintf(buffer,"X-stat-req-dispatch-time: %ld ms\n", e->dispatched_time);
 	dummy = write(fd,buffer,strlen(buffer));
 
-	(void)sprintf(buffer,"total request dispatched before this request: %d\n", e->prior_dispatch_count);
+	(void)sprintf(buffer,"X-stat-req-dispatch-count: %d\n", e->prior_dispatch_count);
 	dummy = write(fd,buffer,strlen(buffer));
 
-	(void)sprintf(buffer,"request time of completion relative to server: %ld ms\n", completed_time);
+	(void)sprintf(buffer,"X-stat-req-complete-time: %ld ms\n", completed_time);
 	dummy = write(fd,buffer,strlen(buffer));
 
-	(void)sprintf(buffer,"total requests completed before this request completed: %d\r\n", e->prior_completed_requests);
+	(void)sprintf(buffer,"X-stat-req-complete-count: %d\n", e->prior_completed_requests);
 	dummy = write(fd,buffer,strlen(buffer));
 
-	(void)sprintf(buffer,"Number of requests given priority over this request: %d\r\n", e->stat_req_age);
+	(void)sprintf(buffer,"X-stat-req-age: %d\n\n", e->stat_req_age);
 	dummy = write(fd,buffer,strlen(buffer));
 	logger(LOG,"stat_req_age",0,e->stat_req_age);
 
